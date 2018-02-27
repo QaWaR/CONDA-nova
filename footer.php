@@ -27,8 +27,8 @@
                 <div class="container">
                     <div class="content-wrapper py-2 d-flex flex-column flex-lg-row justify-content-lg-center justify-content-around align-items-center align-items-lg-baseline">
                         <p class="text-success h3 m-0 mx-2">Do you have any questions?</p>
-                        <p class="m-0 mx-2">Call us | <i class="fas fa-phone mr-1"></i>+431 33 69 069</p>
-                        <p class="m-0 mx-2">Write us | <i class="fas fa-envelope mr-1"></i>
+                        <p class="m-0 mx-2 text-white">Call us | <i class="fas fa-phone mr-1 text-white"></i>+431 33 69 069</p>
+                        <p class="m-0 mx-2 text-white">Write us | <i class="fas fa-envelope mr-1 text-white"></i>
     <a href="#" class="text-white">team@conda.at</a> </p>
                     </div>
                 </div>
@@ -38,9 +38,9 @@
                 <div class="info-wrapper py-5 d-flex flex-lg-row flex-sm-column flex-column justify-content-lg-around align-items-sm-center">
                     <div class="single-info-wrapper py-3 px-3 d-flex flex-column text-white border-right border-light">
                         <img src="images/logoconda.png" class="w-50 mb-2 align-self-center align-self-sm-center align-self-lg-start">
-                        <p class="m-0 text-center text-sm-center text-lg-left">CONDA Crowdinvesting</p>
-                        <p class="m-0 text-center text-sm-center text-lg-left"><i class="fas fa-map-marker-alt mr-1"></i>Donau-City-Strasse 6</p>
-                        <p class="m-0 text-center text-sm-center text-lg-left"><i class="fas fa-building mr-1"></i>1220 Wien</p>
+                        <p class="m-0 text-center text-sm-center text-lg-left text-white">CONDA Crowdinvesting</p>
+                        <p class="m-0 text-center text-sm-center text-lg-left text-white"><i class="fas fa-map-marker-alt mr-1 text-white"></i>Donau-City-Strasse 6</p>
+                        <p class="m-0 text-center text-sm-center text-lg-left text-white"><i class="fas fa-building mr-1 text-white"></i>1220 Wien</p>
                     </div>
                         <div class="single-info-wrapper py-3 px-3 d-flex flex-column text-whit border-right border-lighte">
                         <div class="input-group">
@@ -53,12 +53,12 @@
                         <div class="single-info-wrapper py-3 px-3 d-flex flex-column text-white border-right border-light">
                             <p class="h4 mb-4 text-center text-sm-center text-lg-left">Folgen sie uns auf</p>
                             <div class="social-media-wrapper d-flex flex-row">
-                                <i class="fab fa-facebook-f mx-3"></i>
-                                <i class="fab fa-twitter mx-3"></i>
-                                <i class="fab fa-linkedin mx-3"></i>
-                                <i class="fab fa-youtube mx-3"></i>
-                                <i class="fab fa-google-plus-g mx-3"></i>
-                                <i class="fab fa-xing mx-3"></i>
+                                <i class="fab fa-facebook-f mx-3 text-white"></i>
+                                <i class="fab fa-twitter mx-3 text-white"></i>
+                                <i class="fab fa-linkedin mx-3 text-white"></i>
+                                <i class="fab fa-youtube mx-3 text-white"></i>
+                                <i class="fab fa-google-plus-g mx-3 text-white"></i>
+                                <i class="fab fa-xing mx-3 text-white"></i>
                             </div>
                         </div>
                         <div class="single-info-wrapper py-3 px-3 d-flex flex-column text-white text-center text-sm-center text-lg-left">
