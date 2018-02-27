@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CONDA - Crowdinvesting</title>
-    
-    
+    <link rel="stylesheet" href="assets/fontawesome/web-fonts-with-css/css/fontawesome.min.cs">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
