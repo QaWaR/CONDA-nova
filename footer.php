@@ -1,16 +1,3 @@
-        
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>CONDA Crowdinvesting</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
         <footer>
             <div class="box bg-danger" style="height: 200px;"></div>
         <section class="questions bg-primary py-5 text-white">
