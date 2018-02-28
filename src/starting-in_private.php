@@ -1,6 +1,8 @@
 <?php include 'header.php';?>
 <main>
     <div class="container">
+        <h2 class="text-secondary mt-3">Campaigns</h2>
+        <hr>
         <div class="row py-5">
             <div class="col-12 col-sm-12 col-md-6 col-xl-4">
                 <a href="" class="card-clickable-link d-block mb-4">
@@ -66,8 +68,6 @@
                     </div>
                 </a>
             </div>
-            
-            
         </div>
     </div>
 </main>
