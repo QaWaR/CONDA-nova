@@ -78,7 +78,7 @@
 
             <script src="js/jquery.min.js"></script>
             <script src="js/popper.min.js"></script>
-            <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+            <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
             <script src="js/main.js"></script>
         </footer>
     </body>
