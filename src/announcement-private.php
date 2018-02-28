@@ -9,7 +9,7 @@
                     <div class="starting-in-single card">
                         <img src="images/armywings/armywings.jpg" class="card-img-top">
                         <div class="card-header bg-primary px-3 py-2 d-flex justify-content-between">
-                            <p class="time-left text-uppercase text-white font-weight-bold my-auto">Starting in <span class="h4"> 1 </span> month</p>
+                            <p class="time-left text-uppercase text-white font-weight-bold my-auto mr-3">Starting in <span class="h4"> 1 </span> month</p>
                             <img src="images/armywings/wingslogo.jpg" class="rounded-circle" style="width:50px; height:50px;">
                         </div>
                         <div class="card-body text-dark bg-light">
@@ -50,7 +50,7 @@
                     <div class="starting-in-single card">
                         <img src="images/darts/dartcover.jpg" class="card-img-top">
                         <div class="card-header bg-primary px-3 py-2 d-flex justify-content-between">
-                            <p class="investment-type text-uppercase text-white font-weight-bold my-auto">Private placement</p>
+                            <p class="investment-type text-uppercase text-white font-weight-bold my-auto mr-3">Private placement</p>
                             <img src="images/darts/logo/logo.jpg" class="rounded-circle" style="width:50px; height:50px;">
                         </div>
                         <div class="card-body text-dark bg-light">
