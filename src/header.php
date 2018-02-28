@@ -20,7 +20,7 @@
                         <img src="images/conda-logo.png" alt="">
                         <p class="mb-0 pl-3">CROWDINVESTING</p>
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
@@ -35,13 +35,29 @@
                 </nav>
             </div>
         </section>
-        <!--login nav-->
-        <section class="bg-light">
+        <!--login nav (logged out)-->
+        <section class="bg-light border-bottom border-grey">
             <div class="container py-2">
-                <div class="d-flex justify-content-end">
+                <div class="d-flex justify-content-end align-items-center">
                     <span class="mr-2">New investor?</span>
                     <a href="#" class="text-success mr-2">Register</a>
                     <button class="btn btn-success btn-sm rounded">Sign in</button>
+                </div>
+            </div>
+        </section>
+        <!--login nav (logged in)-->
+        <section class="bg-light border-bottom border-grey">
+            <div class="container py-2">
+                <div class="d-flex justify-content-end align-items-center">
+                    <i class="fas fa-user-circle mr-2 text-muted"></i>
+                    <a href="#" class="dropdown-toggle text-muted mr-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Username</a>
+                    <ul class="dropdown-menu dropdown-menu-right p-0">
+                        <li class="px-2 border-bottom border-grey py-2"><a href="#" class="text-secondary">Welcome</a></li>
+                        <li class="d-flex justify-content-between px-2 border-bottom border-grey py-2"><a href="#"><span class="text-success pr-4"><i class="fas fa-user-circle mr-2 text-success"></i>Personal account</span></a><span class="ml-auto pl-4"><a href="#"><i class="text-muted fas fa-shopping-bag mr-2"></i></a><a href="#"><i class="text-muted fas fa-cog mr-2"></i></a></span></li>
+                        <li class="d-flex justify-content-between px-2 border-bottom border-grey py-2"><a href="#"><span class="text-muted pr-4"><i class="fas fa-suitcase mr-2 text-muted"></i>Company account</span></a><span class="ml-auto pl-4"><a href="#"><i class="text-muted fas fa-shopping-bag mr-2"></i></a><a href="#"><i class="text-muted fas fa-cog mr-2"></i></a></span></li>
+                        <li class="px-2 py-2"><a href="#" class="text-secondary"><i class="fas fa-arrow-right mr-2"></i>Sign out</a></li>
+                    </ul>
+                    <span class="caret"></span>
                 </div>
             </div>
         </section>

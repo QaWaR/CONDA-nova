@@ -1,23 +1,23 @@
         <footer>
             <div class="box bg-danger" style="height: 200px;"></div>
-            <section class="footer-slider bg-light py-3">
+            <section class="footer-slider bg-light py-3 d-none d-sm-none d-md-block">
                 <div class="container">
                     <div class="slider py-5">
                         <div class="images-wrapper d-flex flex-row justify-content-between">
                             <div class="image-block d-flex flex-row justify-content-between">
-                                <img class="d-block" src="images/carousel/carousel0.png" alt="First slide">
+                                <img class="d-block" src="images/carousel-footer/carousel0.png" alt="First slide">
                             </div>
                             <div class="image-block">
-                                <img class="d-block" src="images/carousel/carousel1.png" alt="Second slide">
+                                <img class="d-block" src="images/carousel-footer/carousel1.png" alt="Second slide">
                             </div>
                             <div class="image-block">
-                                <img class="d-block" src="images/carousel/carousel2.png" alt="Third slide">
+                                <img class="d-block" src="images/carousel-footer/carousel2.png" alt="Third slide">
                             </div>
                             <div class="image-block">
-                                <img class="d-block" src="images/carousel/carousel3.png" alt="Third slide">
+                                <img class="d-block" src="images/carousel-footer/carousel3.png" alt="Third slide">
                             </div>
                             <div class="image-block">
-                                <img class="d-block" src="images/carousel/carousel4.png" alt="Third slide">
+                                <img class="d-block" src="images/carousel-footer/carousel4.png" alt="Third slide">
                             </div>
                         </div>
                     </div>
@@ -71,14 +71,9 @@
                 </div>
             </div>
             </section>
-
-
-
-
-
             <script src="js/jquery.min.js"></script>
             <script src="js/popper.min.js"></script>
-            <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+            <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
             <script src="js/main.js"></script>
         </footer>
     </body>
