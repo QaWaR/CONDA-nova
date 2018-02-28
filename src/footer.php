@@ -1,6 +1,6 @@
         <footer>
             <div class="box bg-danger" style="height: 200px;"></div>
-            <section class="footer-slider bg-light py-3">
+            <section class="footer-slider bg-light py-3 d-none d-sm-none d-md-block">
                 <div class="container">
                     <div class="slider py-5">
                         <div class="images-wrapper d-flex flex-row justify-content-between">
@@ -71,11 +71,6 @@
                 </div>
             </div>
             </section>
-
-
-
-
-
             <script src="js/jquery.min.js"></script>
             <script src="js/popper.min.js"></script>
             <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
