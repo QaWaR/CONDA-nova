@@ -35,13 +35,29 @@
                 </nav>
             </div>
         </section>
-        <!--login nav-->
+        <!--login nav (logged out)-->
         <section class="bg-light">
             <div class="container py-2">
                 <div class="d-flex justify-content-end">
                     <span class="mr-2">New investor?</span>
                     <a href="#" class="text-success mr-2">Register</a>
                     <button class="btn btn-success btn-sm rounded">Sign in</button>
+                </div>
+            </div>
+        </section>
+        <!--login nav (logged in)-->
+        <section class="bg-light">
+            <div class="container py-2">
+                <div class="d-flex justify-content-end">
+                    <i class="fas fa-user-circle mr-2 text-muted"></i>
+                    <a href="#" class="dropdown-toggle text-muted mr-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Username</a>
+                    <ul class="dropdown-menu">
+                        <li>Welcome</li>
+                        <li class="d-flex justify-content-between"><span>Personal Account</span><span></span></li>
+                        <li class="d-flex justify-content-between"></li>
+                        <li></li>
+                    </ul>
+                    <span class="caret"></span>
                 </div>
             </div>
         </section>
