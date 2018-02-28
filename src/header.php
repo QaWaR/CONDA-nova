@@ -40,7 +40,7 @@
             <div class="container py-2">
                 <div class="d-flex justify-content-end align-items-center">
                     <span class="mr-2">New investor?</span>
-                    <a href="#" class="text-success mr-2">Register</a>
+                    <a href="starting-in-4.php" class="text-success mr-2">Register</a>
                     <button class="btn btn-success btn-sm rounded">Sign in</button>
                 </div>
             </div>
