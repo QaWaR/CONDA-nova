@@ -38,6 +38,8 @@
                         <i class="fas fa-newspaper fa-fw fa-4x text-white"></i>
                     </div>
                     <p>Your investment Guide</p>
+
+                    
                 </div>
             </a>
             <a href="" class="d-block mx-3">
