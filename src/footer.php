@@ -1,5 +1,4 @@
         <footer>
-            <div class="box bg-danger" style="height: 200px;"></div>
             <section class="footer-slider bg-light py-3 d-none d-sm-none d-md-block">
                 <div class="container">
                     <div class="slider py-5">
