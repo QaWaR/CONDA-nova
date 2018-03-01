@@ -166,7 +166,7 @@
         <div class="container">
             <h1 class="text-center mx-3 mb-5">Wir halten Sie am Laufenden</h1>
             <p class="h4 mb-5 mx-4 text-center">Melden Sie sich gleich zum CONDA-Newsletter an und verpassen Sie keine Investitionschance.</p>
-            <div class="input-group mx-5">
+            <div class="input-group d-flex mx-auto w-75 mb-2">
                 <input type="email" class="form-control" placeholder="Ihre E-Mail">
                 <span class="input-group-btn">
                     <button class="btn btn-success text-uppercase p-3 rounded-0" type="button">Anmelden</button>
@@ -223,7 +223,7 @@
         </div>
     </section>
     <div class="container">
-        <section class="final-word mb-2 row">
+        <section class="final-word mb-4 row">
             <div class="col-12 col-md-6 py-2">
                 <h1 class="mb-4">Minimieren Sie Ihr Risiko</h1>
                 <p class="text-muted">Mit Ihrer Investition in ein Crowdinvesting-Projekt haben Sie die Chance auf hohe Renditen sowie auf einer profitablen Unternehmenswertbeteiligung.
@@ -236,8 +236,8 @@
             <div class="col-12 col-md-6">
                 <img src="images/ci/work.jpg" class="img-fluid">
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     
 
