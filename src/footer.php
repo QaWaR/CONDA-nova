@@ -1,25 +1,23 @@
         <footer>
-            <section class="footer-slider bg-light py-3 d-none d-sm-none d-md-block">
+            <section class="footer-slider bg-light py-5">
                 <div class="container">
-                    <div class="slider py-5">
-                        <div class="images-wrapper d-flex flex-row justify-content-between">
-                            <div class="image-block d-flex flex-row justify-content-between">
-                                <img class="d-block" src="images/carousel-footer/carousel0.png" alt="First slide">
+                        <div class="owl-carousel owl-theme py-4">
+                            <div class="item mx-5">
+                                <img src="images/carousel-footer/carousel0.png">
                             </div>
-                            <div class="image-block">
-                                <img class="d-block" src="images/carousel-footer/carousel1.png" alt="Second slide">
+                            <div class="item mx-5">
+                                <img src="images/carousel-footer/carousel1.png" >
                             </div>
-                            <div class="image-block">
-                                <img class="d-block" src="images/carousel-footer/carousel2.png" alt="Third slide">
+                            <div class="item mx-5">
+                                <img src="images/carousel-footer/carousel2.png">
                             </div>
-                            <div class="image-block">
-                                <img class="d-block" src="images/carousel-footer/carousel3.png" alt="Third slide">
+                            <div class="item mx-5">
+                                <img src="images/carousel-footer/carousel3.png">
                             </div>
-                            <div class="image-block">
-                                <img class="d-block" src="images/carousel-footer/carousel4.png" alt="Third slide">
+                            <div class="item mx-5">
+                                <img src="images/carousel-footer/carousel4.png">
                             </div>
                         </div>
-                    </div>
                 </div>
             </section>
             <section class="questions bg-primary py-5 text-white">
@@ -73,6 +71,7 @@
             <script src="js/jquery.min.js"></script>
             <script src="js/popper.min.js"></script>
             <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+            <script src="js/owl.carousel.min.js"></script>
             <script src="js/main.js"></script>
         </footer>
     </body>

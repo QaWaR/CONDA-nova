@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 <main>
-    <section class="carousel slide bg-lg-primary" data-ride="carousel" data-interval="0" id="cover-carousel"> <!--CAROUSEL COVER SLIDE -->
+    <section class="carousel slide bg-lg-primary mb-3" data-ride="carousel" data-interval="0" id="cover-carousel"> <!--CAROUSEL COVER SLIDE -->
         <div class="carousel-inner">
             <div class="carousel-item active bg-warning">
                 <div class="container">
@@ -60,11 +60,11 @@
 
     <section class="camapigns-news container"> <!--START CAMPAIGNS AND NEWS SECTION -->
         <div class="row mb-5">
-            <div class="col-8">
+            <div class="col-12 col-lg-8">
                 <h2 class="text-secondary mt-3">Campaigns</h2>
                 <hr>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <a href="" class="card-clickable-link d-block mb-4">
                             <div class="starting-in-single card">
                                 <img src="images/armywings/armywings.jpg" class="card-img-top">
@@ -229,7 +229,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <div class="card bg-light mb-4">
                             <div class="position-relative">
                                 <img class="card-img-top" src="images/campaigns/intechor.jpg">
@@ -391,9 +391,10 @@
                             </div>
                         </div>
                     </div>
+                    <button class="btn btn-success py-2 px-3 mx-auto">Load More</button>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-lg-4">
                 <h2 class="text-secondary mt-3">News</h2>
                 <hr>
                 <div class="news-single card p-2 mb-4">
@@ -529,9 +530,5 @@
             </div>
         </div>
     </section> <!-- END WHAT INVESTORS SAY CAROUSEL -->
-
-
-
-
 </main>
 <?php include 'footer.php';?>

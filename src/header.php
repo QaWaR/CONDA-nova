@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CONDA - Crowdinvesting</title>
-    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link href="https://fonts.googleapis.com/css?family=Jaldi:400,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="assets/fontawesome/css/css/fontawesome-all.css">
     <link rel="stylesheet" href="css/main.css">
