@@ -20,7 +20,7 @@
                     <hr class="mb-3">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-12 col-lg-6 rounded-circle border border-success d-flex flex-column justify-content-center align-items-center mb-3">
+                            <div class="col-12 col-sm-6 rounded-circle border border-success d-flex flex-column justify-content-center align-items-center mb-3">
                                 <p class="font-weight-bold m-0">
                                     311.000 €
                                 </p>
@@ -31,7 +31,7 @@
                                     565%
                                 </p>
                             </div>
-                            <div class="col-12 col-lg-6 text-center text-lg-left mb-3">
+                            <div class="col-12 col-sm-6 text-center text-sm-left mb-3">
                                 <p class="mb-0 font-weight-bold">55.000<sup>€</sup></p>
                                 <p class="text-muted small">Minimum investment</p>
                                 <p class="mb-0 font-weight-bold">550.000<sup>€</sup></p>
@@ -154,7 +154,7 @@
                     <hr class="mb-3">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-12 col-lg-6 rounded-circle border border-success d-flex flex-column justify-content-center align-items-center mb-3">
+                            <div class="col-12 col-sm-6 rounded-circle border border-success d-flex flex-column justify-content-center align-items-center mb-3">
                                 <p class="small font-weight-bold m-0 text-muted">
                                     AHT
                                 </p>
@@ -168,7 +168,7 @@
                                     0%
                                 </p>
                             </div>
-                            <div class="col-12 col-lg-6 text-center text-lg-left mb-3">
+                            <div class="col-12 col-sm-6 text-center text-lg-left mb-3">
                                 <p class="mb-0 text-muted small">HERO token</p>
                                 <p class="mb-0 font-weight-bold">10.000<sup>€</sup></p>
                                 <p class="text-muted small">Minimum investment</p>
