@@ -41,7 +41,7 @@
             <div class="container py-2">
                 <div class="d-flex justify-content-end align-items-center">
                     <span class="mr-2">New investor?</span>
-                    <a href="starting-in-4.php" class="text-success mr-2">Register</a>
+                    <a href="#" class="text-success mr-2">Register</a>
                     <button class="btn btn-success btn-sm rounded mr-2" data-toggle="modal" data-target="#loginModal" >Sign in</button>
                     <i class="fas fa-user-circle mr-2 text-muted"></i>
                     <a href="#" class="dropdown-toggle text-muted mr-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Username</a>
@@ -97,5 +97,5 @@
                     <span class="caret"></span>
                 </div>
             </div>
-        </section>
-    </header>-->
+        </section>-->
+    </header>
