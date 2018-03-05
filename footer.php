@@ -41,10 +41,10 @@
                         </div>
                         <div class="single-info-wrapper py-3 px-3 d-flex flex-column text-whit border-right border-lighte">
                             <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Email..">
-                                <span class="input-group-btn">
+                                <input type="text" class="form-control" placeholder="Email.." aria-label="Email.." aria-describedby="basic-addon2" >
+                                <div class="input-group-append">
                                     <button class="btn btn-success" type="button">Subscribe</button>
-                                </span>
+                                </div>
                             </div>  
                         </div>
                         <div class="single-info-wrapper py-3 px-3 d-flex flex-column text-white border-right border-light">
@@ -68,10 +68,10 @@
                     </div>
                 </div>
             </section>
-            <script src="js/jquery.min.js"></script>
+            <script src="assets/jquery/jquery.min.js"></script>
             <script src="js/popper.min.js"></script>
-            <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-            <script src="js/owl.carousel.min.js"></script>
+            <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+            <script src="assets/owl-carousel/js/owl.carousel.min.js"></script>
             <script src="js/main.js"></script>
         </footer>
     </body>
