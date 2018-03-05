@@ -27,10 +27,10 @@
 
                     <div class="collapse navbar-collapse" id="navbarMain">
                         <div class="navbar-nav ml-auto">
-                            <a href="campaigns-funding,unsuccessful,successful,ico.php" class="nav-item nav-link text-uppercase pr-2"><small class="d-block font-weight-light">projecte</small><b>entdecken</b></a>
-                            <a href="#" class="nav-item nav-link text-uppercase pr-2"><small class="d-block font-weight-light">so funktioniert</small><b>crowdinvesting</b></a>
+                            <a href="campaigns.php" class="nav-item nav-link text-uppercase pr-2"><small class="d-block font-weight-light">projecte</small><b>entdecken</b></a>
+                            <a href="crowdinvesting.php" class="nav-item nav-link text-uppercase pr-2"><small class="d-block font-weight-light">so funktioniert</small><b>crowdinvesting</b></a>
                             <a href="#" class="nav-item nav-link text-uppercase pr-2"><small class="d-block font-weight-light">projecte</small><b>einreichen</b></a>
-                            <a href="#" class="nav-item nav-link text-uppercase pr-2"><small class="d-block font-weight-light">uber</small><b>conda</b></a>
+                            <a href="aboutus.php" class="nav-item nav-link text-uppercase pr-2"><small class="d-block font-weight-light">uber</small><b>conda</b></a>
                         </div>
                     </div>
                 </nav>
@@ -42,7 +42,7 @@
                 <div class="d-flex justify-content-end align-items-center">
                     <span class="mr-2">New investor?</span>
                     <a href="starting-in-4.php" class="text-success mr-2">Register</a>
-                    <button class="btn btn-success btn-sm rounded mr-2">Sign in</button>
+                    <button class="btn btn-success btn-sm rounded mr-2" data-toggle="modal" data-target="#loginModal" >Sign in</button>
                     <i class="fas fa-user-circle mr-2 text-muted"></i>
                     <a href="#" class="dropdown-toggle text-muted mr-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Username</a>
                     <ul class="dropdown-menu dropdown-menu-right p-0">
@@ -55,6 +55,31 @@
                 </div>
             </div>
         </section>
+        
+        <div class="modal" id="loginModal">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign in</h5>
+                    <button class="btn close" data-dismiss="modal" >&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="usernam">Username</label>
+                            <input type="text" placeholder="Username" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" placeholder="password" class="form-control" >
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-dismiss="modal" >Close</button>
+                    <button class="btn btn-primary" data-dismiss="modal">Login</button>
+                </div>
+            </div>
+        </div>
         <!--login nav (logged in)
 
 

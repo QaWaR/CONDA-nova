@@ -1,4 +1,4 @@
-<?php include '../header.php';?>
+<?php include 'header.php';?>
 <main>
     <section class="cover py-5 mb-4 bg-info">
         <div class="container">
@@ -242,4 +242,4 @@
     
 
 </main>
-<?php include '../footer.php';?>
+<?php include 'footer.php';?>

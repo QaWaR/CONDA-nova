@@ -4,7 +4,7 @@
         <section class="our-mission py-2 mb-4">
             <div class="row">
                 <div class="col-12 col-lg-6">
-                    <h2 class="text-capitalize mb-3">Unsere mission</h2>
+                    <h1 class="text-capitalize mb-3">Unsere mission</h1>
                     <p class="h3 mb-3">Wir bringen Unternehmer und Investoren zusammen und schaffen gemeinsam die Basis für erfolgsversprechende Geschäftsideen.</p>
                     <p class="mb-3">Wir sind der Überzeugung, dass die Zukunft in den Händen junger und innovativer Unternehmer liegt. Darum haben wir es uns
                     zur Aufgabe gemacht, diese Unternehmer zu unterstützen, um gemeinsam den Grundstein für die Realisierung ihrer Visionen zu
@@ -17,7 +17,7 @@
             </div>
         </section>
         <section class="what-we-do mb-5">
-            <h2 class="mb-3">Unsere Grundsätze</h2>
+            <h1 class="mb-3">Unsere Grundsätze</h1>
             <h2 class="mb-3">CONDA ist mehr als eine Crowdinvesting-Plattform. CONDA ist das Bindeglied zwischen Unternehmern und Investoren, um gemeinsam
             Großes zu realisieren.</h2>
             <div class="bei-conda mb-4">
