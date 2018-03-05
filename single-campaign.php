@@ -1,0 +1,489 @@
+    <?php include "header.php"; ?>
+    <body>
+        <header>
+            <!--main nav-->
+            <section class="border-bottom border-grey">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light px-0">
+                        <a class="navbar-brand d-flex align-items-center justify-content-between alignt-items-center" href="index.php">
+                            <img src="images/conda-logo.png" alt="">
+                            <p class="mb-0 pl-3">CROWDINVESTING</p>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarMain">
+                            <div class="navbar-nav ml-auto">
+                                <a href="campaigns.php" class="nav-item nav-link text-uppercase pr-2"><small class="d-block font-weight-light">projecte</small><b>entdecken</b></a>
+                                <a href="#" class="nav-item nav-link text-uppercase pr-2"><small class="d-block font-weight-light">so funktioniert</small><b>crowdinvesting</b></a>
+                                <a href="single-campaign.php" class="nav-item nav-link text-uppercase pr-2"><small class="d-block font-weight-light">projecte</small><b>einreichen</b></a>
+                                <a href="about-conda.php" class="nav-item nav-link text-uppercase pr-2"><small class="d-block font-weight-light">uber</small><b>conda</b></a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+            <!--login nav (logged out)-->
+            <section class="bg-light border-bottom border-grey mb-5">
+                <div class="container py-2">
+                    <div class="d-flex justify-content-end align-items-center">
+                        <span class="mr-2">New investor?</span>
+                        <a href="starting-in-4.php" class="text-success mr-2">Register</a>
+                        <button class="btn btn-success btn-sm rounded mr-2">Sign in</button>
+                        <i class="fas fa-user-circle mr-2 text-muted"></i>
+                        <a href="#" class="dropdown-toggle text-muted mr-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Username</a>
+                        <ul class="dropdown-menu dropdown-menu-right p-0">
+                            <li class="px-2 border-bottom border-grey py-2"><a href="#" class="text-secondary">Welcome</a></li>
+                            <li class="d-flex justify-content-between px-2 border-bottom border-grey py-2"><a href="#"><span class="text-success pr-4"><i class="fas fa-user-circle mr-2 text-success"></i>Personal account</span></a><span class="ml-auto pl-4"><a href="#"><i class="text-muted fas fa-shopping-bag mr-2"></i></a><a href="#"><i class="text-muted fas fa-cog mr-2"></i></a></span></li>
+                            <li class="d-flex justify-content-between px-2 border-bottom border-grey py-2"><a href="#"><span class="text-muted pr-4"><i class="fas fa-suitcase mr-2 text-muted"></i>Company account</span></a><span class="ml-auto pl-4"><a href="#"><i class="text-muted fas fa-shopping-bag mr-2"></i></a><a href="#"><i class="text-muted fas fa-cog mr-2"></i></a></span></li>
+                            <li class="px-2 py-2"><a href="#" class="text-secondary"><i class="fas fa-arrow-right mr-2"></i>Sign out</a></li>
+                        </ul>
+                        <span class="caret"></span>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <!--single campaign heading-->
+            <section class="container">
+                <div class="d-flex align-items-center mb-5">
+                    <div>
+                        <img class="rounded-circle border border-primary" src="images/campaigns/rsz_anoodeling-logo80px.jpg" alt="">
+                    </div>
+                    <div class="pl-3">
+                        <h3 class="m-0">ANOODELING<h3>
+                        <div class="d-flex align-items-center">
+                            <div class="pr-3"><img class="flag" src="images/flags/aut.jpg" alt=""></div>
+                            <h4 class="m-0">Wien, Austria</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--single campaign cover-->
+            <section class="single-campain-cover bg-info">
+                <div class="container">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h1>Anoodeling</h1>
+                            <p>Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.</p>
+                        </div>
+                        <div class="container bg-white w-100">
+                            <div class="d-flex flex-wrap">
+                                <div class="col-12 col-sm-6 rounded-circle border border-success d-flex flex-column justify-content-center align-items-center mb-3">
+                                    <p class="font-weight-bold m-0">
+                                        0 €
+                                    </p>
+                                    <p class="small text-muted m-0">
+                                        0 Investors
+                                    </p>
+                                    <p class="m-0">
+                                        0%
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-6 text-center text-sm-left mb-3">
+                                    <p class="mb-0 font-weight-bold">500.000<sup>€</sup></p>
+                                    <p class="text-muted small">Minimum investment</p>
+                                    <p class="mb-0 font-weight-bold">2.000.000<sup>€</sup></p>
+                                    <p class="text-muted small">Maximum investment</p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-wrap justify-content-around pb-3">
+                                <div class="campaign-info-item d-flex flex-column flex-wrap justify-content-center align-items-center">
+                                    <i class="fas fa-users text-muted"></i>
+                                </div>
+                                <div class="campaign-info-item d-flex flex-column flex-wrap justify-content-center align-items-center">
+                                    <i class="far fa-calendar text-muted"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--single campaign pills nav-->
+            <section class="container">
+                <div class="nav nav-pills" id="pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active w-25 text-center bg-white border-bottom border-success text-primary py-3 mb-3 rounded-0" id="1" data-toggle="pill" href="#overview" role="tab" aria-controls="overview" aria-selected="true">Overview</a>
+                    <a class="nav-link w-25 text-center bg-white border-bottom border-success text-primary py-3 mb-3 rounded-0" id="2" data-toggle="pill" href="#details" role="tab" aria-controls="details" aria-selected="false">Details</a>
+                    <a class="nav-link w-25 text-center bg-white border-bottom border-success text-primary py-3 mb-3 rounded-0" id="3" data-toggle="pill" href="#documents" role="tab" aria-controls="documents" aria-selected="false">Document</a>
+                    <a class="nav-link w-25 text-center bg-white border-bottom border-success text-primary py-3 mb-3 rounded-0" id="4" data-toggle="pill" href="#blog" role="tab" aria-controls="blog" aria-selected="false">Blog<sup><span class="badge badge-pill badge-success">0</span></sup></a>
+                </div>
+            </section>
+            <!--single campaign pills content-->
+            <section class="container">
+                <div class="tab-content" id="pills-tabContent">
+                    <!--overview pill-->
+                    <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="1">
+                        <div class="container">
+                            <div class="row">
+                                <!--main-->
+                                <div class="col-12 col-lg-8 ">
+                                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/5SVN9x7Uv74" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <h1>Anoodeling</h1>
+                                    <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam urna orci, vestibulum id ante ut, varius molestie arcu. Etiam scelerisque erat accumsan libero egestas ornare. Mauris mattis neque at metus condimentum suscipit. Nullam cursus libero sed diam volutpat semper. Sed sit amet dolor porta, sagittis felis vitae, sagittis lorem. Sed porttitor porttitor dolor, vel fringilla eros maximus id. Nulla semper tempor dapibus. Ut ex ipsum, placerat ut tortor vitae, laoreet lobortis arcu.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam urna orci, vestibulum id ante ut, varius molestie arcu. Etiam scelerisque erat accumsan libero egestas ornare. Mauris mattis neque at metus condimentum suscipit. Nullam cursus libero sed diam volutpat semper. Sed sit amet dolor porta, sagittis felis vitae, sagittis lorem. Sed porttitor porttitor dolor, vel fringilla eros maximus id. Nulla semper tempor dapibus. Ut ex ipsum, placerat ut tortor vitae, laoreet lobortis arcu.</p>
+                                    <img class="w-100 mb-3" src="images/single-campaign/Story_image_01.jpg" alt="">
+                                    <ol>
+                                        <li>Sed porttitor porttitor dolor, vel fringilla eros maximus id</li>
+                                        <li>Sed porttitor porttitor dolor, vel fringilla eros maximus id</li>
+                                        <li>Sed porttitor porttitor dolor, vel fringilla eros maximus id</li>
+                                        <li>Sed porttitor porttitor dolor, vel fringilla eros maximus id</li>
+                                    </ol>
+                                    <p>Nullam urna orci, vestibulum id ante ut, varius molestie arcu. Etiam scelerisque erat accumsan libero egestas ornare. Mauris mattis neque at metus condimentum suscipit. Nullam cursus libero sed diam volutpat semper. Sed sit amet dolor porta, sagittis felis vitae, sagittis lorem. Sed porttitor porttitor dolor, vel fringilla eros maximus id. Nulla semper tempor dapibus. Ut ex ipsum, placerat ut tortor vitae, laoreet lobortis arcu.</p>
+                                    <h2 class="mb-3">Team members</h2>
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6 mb-3">
+                                                <div class="d-flex align-items-center">
+                                                    <!--avatar-->
+                                                    <div class="align-self-start">
+                                                        <img class="rounded-circle" src="images/single-campaign/default-avatar.png" alt="">
+                                                    </div>
+                                                    <div class="pl-2">
+                                                        <h5 class="m-0">Delorian Kubitski</h5>
+                                                        <p class="m-0">CEO</p>
+                                                        <a class="text-success" data-toggle="collapse" data-target="#accordion1" aria-expanded="true" aria-controls="accordion1">Biography</a>
+                                                        <div id="accordion1" class="collapse">
+                                                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6 mb-3">
+                                                <!--avatar-->
+                                                <div class="d-flex align-items-center">
+                                                    <div class="align-self-start">
+                                                        <img class="rounded-circle" src="images/single-campaign/default-avatar.png" alt="">
+                                                    </div>
+                                                    <div class="pl-2">
+                                                        <h5 class="m-0">Delorian Kubitski</h5>
+                                                        <p class="m-0">CEO</p>
+                                                        <a class="text-success" data-toggle="collapse" data-target="#accordion2" aria-expanded="true" aria-controls="accordion2">Biography</a>
+                                                        <div id="accordion2" class="collapse">
+                                                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6 mb-3">
+                                                <!--avatar-->
+                                                <div class="d-flex align-items-center">
+                                                    <div class="align-self-start">
+                                                        <img class="rounded-circle" src="images/single-campaign/default-avatar.png" alt="">
+                                                    </div>
+                                                    <div class="pl-2">
+                                                        <h5 class="m-0">Delorian Kubitski</h5>
+                                                        <p class="m-0">CEO</p>
+                                                        <a class="text-success" data-toggle="collapse" data-target="#accordion3" aria-expanded="true" aria-controls="accordion3">Biography</a>
+                                                        <div id="accordion3" class="collapse">
+                                                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6 mb-3">
+                                                <!--avatar-->
+                                                <div class="d-flex align-items-center">
+                                                    <div class="align-self-start">
+                                                        <img class="rounded-circle" src="images/single-campaign/default-avatar.png" alt="">
+                                                    </div>
+                                                    <div class="pl-2">
+                                                        <h5 class="m-0">Delorian Kubitski</h5>
+                                                        <p class="m-0">CEO</p>
+                                                        <a class="text-success" data-toggle="collapse" data-target="#accordion4" aria-expanded="true" aria-controls="accordion4">Biography</a>
+                                                        <div id="accordion4" class="collapse">
+                                                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6 mb-3">
+                                                <!--avatar-->
+                                                <div class="d-flex align-items-center">
+                                                    <div class="align-self-start">
+                                                        <img class="rounded-circle" src="images/single-campaign/default-avatar.png" alt="">
+                                                    </div>
+                                                    <div class="pl-2">
+                                                        <h5 class="m-0">Delorian Kubitski</h5>
+                                                        <p class="m-0">CEO</p>
+                                                        <a class="text-success" data-toggle="collapse" data-target="#accordion5" aria-expanded="true" aria-controls="accordion5">Biography</a>
+                                                        <div id="accordion5" class="collapse">
+                                                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6 mb-3">
+                                                <!--avatar-->
+                                                <div class="d-flex align-items-center">
+                                                    <div class="align-self-start">
+                                                        <img class="rounded-circle" src="images/single-campaign/default-avatar.png" alt="">
+                                                    </div>
+                                                    <div class="pl-2">
+                                                        <h5 class="m-0">Delorian Kubitski</h5>
+                                                        <p class="m-0">CEO</p>
+                                                        <a class="text-success" data-toggle="collapse" data-target="#accordion6" aria-expanded="true" aria-controls="accordion6">Biography</a>
+                                                        <div id="accordion6" class="collapse">
+                                                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6 mb-3">
+                                                <!--avatar-->
+                                                <div class="d-flex align-items-center">
+                                                    <div class="align-self-start">
+                                                        <img class="rounded-circle" src="images/single-campaign/default-avatar.png" alt="">
+                                                    </div>
+                                                    <div class="pl-2">
+                                                        <h5 class="m-0">Delorian Kubitski</h5>
+                                                        <p class="m-0">CEO</p>
+                                                        <a class="text-success" data-toggle="collapse" data-target="#accordion7" aria-expanded="true" aria-controls="accordion7">Biography</a>
+                                                        <div id="accordion7" class="collapse">
+                                                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6 mb-3">
+                                                <!--avatar-->
+                                                <div class="d-flex align-items-center">
+                                                    <div class="align-self-start">
+                                                        <img class="rounded-circle" src="images/single-campaign/default-avatar.png" alt="">
+                                                    </div>
+                                                    <div class="pl-2">
+                                                        <h5 class="m-0">Delorian Kubitski</h5>
+                                                        <p class="m-0">CEO</p>
+                                                        <a class="text-success" data-toggle="collapse" data-target="#accordion8" aria-expanded="true" aria-controls="accordion8">Biography</a>
+                                                        <div id="accordion8" class="collapse">
+                                                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--aside-->
+                                <div class="col-12 col-lg-4">
+                                    <h3 class="text-muted border-bottom">Additional info</h3>
+                                    <div class="border-bottom">
+                                        <a href="#" class="text-success">placerat ut tortor vitae, laoreet lobortis arcu: </a>
+                                        <span>JA, am Laufzeitende</span>
+                                        <a href="#" class="text-success">Ut ex ipsum:</a>
+                                        <span>
+                                            4,5%<br>
+                                            Minimaler Zeichnungsbetrag: EUR 7.000<br>
+                                            Maximaler Zeichnungsbetrag: EUR 20.000<br>
+                                            (<a class="text-success" href="#">Beträge auf Nachfrage möglich</a>)Vertragslaufzeit: 8 Jahre<br>
+                                        </span>
+                                        <a href="#" class="text-success">Beteiligungsform: </a>
+                                        <span>Nachrangdarlehen</span>
+                                    </div>
+                                    <div class="border-bottom">
+                                        <b class="text-muted">WARNHINWEIS: Class aptent taciti sociosqu ad litora torquent per conubia nostra.</b>
+                                        <p>Im Sinne der Risikostreuung sollten möglichst nur Geldbeträge investiert werden, die in näherer Zukunft auch liquide nicht benötigt bzw. zurückerwartet werden. Verantwortlich für sämtliche Inhalte und Angaben auf dieser Seite ist ausschließlich die Emittentin selbst, sie ist Anbieter dieser Vermögensanlage. Seitens des Betreibers der Internet-Dienstleistungsplattform wird keine Haftung für die Richtigkeit und Aktualität der Inhalte übernommen.</p>
+                                    </div>
+                                    <a href="#" class="text-success">Welches Risiko habe ich als Investor?</a>
+                                    <a href="#" class="text-success">Welches Rücktrittsrecht habe ich als Investor?</a>
+                                    <!--incentives-->
+                                    <div>
+                                        <h3 class="border-bottom">Incentives for your investment</h3>
+                                        <div class="border-bottom">
+                                            <h3 class="font-weight-bold text-muted">Bronze</h3>
+                                            <div class="d-flex">
+                                                <h1 class="text-muted">5.000<sup>€</sup></h1>
+                                                <h4 class="text-muted">Inestment</h4>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h3 class="border-bottom">Incentives for your investment</h3>
+                                        <div class="border-bottom">
+                                            <h3 class="font-weight-bold text-muted">Gold</h3>
+                                            <div class="d-flex">
+                                                <h1 class="text-muted">10.000<sup>€</sup></h1>
+                                                <h4 class="text-muted">Inestment</h4>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.</p>
+                                        </div>
+                                    </div>
+                                    <!--company details-->
+                                    <div>
+                                        <h3 class="border-bottom">Company details</h3>
+                                        <div><i class="fa-location"></i><span class="text-muted">Bruno-Kreisky-Platz 1, 1220 Wien, Wien, Austria</span></div>
+                                        <div><i class="fa-phone"></i><a href="#">+1086438517</a></div>
+                                        <div><i class="fa-message"></i><a href="#">office@anoodeling.com</a></div>
+                                        <div><i class="fa-pin"></i><a href="#">www.anoodeling.com</a></div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--details pill-->
+                    <div class="tab-pane fade" id="details" role="tabpanel" aria-labelledby="2">
+                        <div class="container">
+                            <div class="row">
+                                <!--main-->
+                                <div class="col-12 col-lg-8">
+                                    <h1>Anoodeling</h1>
+                                    <p class="text-muted">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam urna orci, vestibulum id ante ut, varius molestie arcu. Etiam scelerisque erat accumsan libero egestas ornare. Mauris mattis neque at metus condimentum suscipit. Nullam cursus libero sed diam volutpat semper. Sed sit amet dolor porta, sagittis felis vitae, sagittis lorem. Sed porttitor porttitor dolor, vel fringilla eros maximus id. Nulla semper tempor dapibus. Ut ex ipsum, placerat ut tortor vitae, laoreet lobortis arcu.</p>
+                                    <img src="images/single-campaign/Story_image_02.jpg" alt="" id="anoodeling">
+                                    <table class="w-100">
+                                        <tr>
+                                            <th class="text-muted">Primary</th>
+                                            <th class="text-muted">Success</th>
+                                            <th class="text-muted">Results</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-muted">Agio</td>
+                                            <td class="text-muted">11%</td>
+                                            <td class="text-muted">john@example.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-muted">Disagio</td>
+                                            <td class="text-muted">5%</td>
+                                            <td class="text-muted">marry@example.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-muted">Instalment</td>
+                                            <td class="text-muted">10%</td>
+                                            <td class="text-muted">jane@example.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-muted">VermAnIG</td>
+                                            <td class="text-muted">5%</td>
+                                            <td class="text-muted">lara@example.com</td>
+                                        </tr>
+                                    </table>
+                                    <h1>Investieren</h1>
+                                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                                    <img src="images/single-campaign/Story_image_03.jpg" alt="" id="investieren">
+                                    <div>
+                                        <blockquote class="blockquote">
+                                            <i class="mb-3 text-success">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</i>
+                                        </blockquote>
+                                    </div>
+                                    <div>
+                                        <a href="#anoodeling" class="btn btn-dark rounded-circle"></a>
+                                        <a href="#investieren" class="btn btn-dark rounded-circle"></a>
+                                    </div>
+                                </div>
+                                <!--aside-->
+                                <div class="col-12 col-lg-4">
+                                    <h3 class="text-muted border-bottom">Additional info</h3>
+                                    <div class="border-bottom">
+                                        <a href="#" class="text-success">placerat ut tortor vitae, laoreet lobortis arcu: </a>
+                                        <span>JA, am Laufzeitende</span>
+                                        <a href="#" class="text-success">Ut ex ipsum:</a>
+                                        <span>
+                                            4,5%<br>
+                                            Minimaler Zeichnungsbetrag: EUR 7.000<br>
+                                            Maximaler Zeichnungsbetrag: EUR 20.000<br>
+                                            (<a class="text-success" href="#">Beträge auf Nachfrage möglich</a>)Vertragslaufzeit: 8 Jahre<br>
+                                        </span>
+                                        <a href="#" class="text-success">Beteiligungsform: </a>
+                                        <span>Nachrangdarlehen</span>
+                                    </div>
+                                    <div class="border-bottom">
+                                        <b class="text-muted">WARNHINWEIS: Class aptent taciti sociosqu ad litora torquent per conubia nostra.</b>
+                                        <p>Im Sinne der Risikostreuung sollten möglichst nur Geldbeträge investiert werden, die in näherer Zukunft auch liquide nicht benötigt bzw. zurückerwartet werden. Verantwortlich für sämtliche Inhalte und Angaben auf dieser Seite ist ausschließlich die Emittentin selbst, sie ist Anbieter dieser Vermögensanlage. Seitens des Betreibers der Internet-Dienstleistungsplattform wird keine Haftung für die Richtigkeit und Aktualität der Inhalte übernommen.</p>
+                                    </div>
+                                    <a href="#" class="text-success">Welches Risiko habe ich als Investor?</a>
+                                    <a href="#" class="text-success">Welches Rücktrittsrecht habe ich als Investor?</a>
+                                    <!--incentives-->
+                                    <div>
+                                        <h3 class="border-bottom">Incentives for your investment</h3>
+                                        <div class="border-bottom">
+                                            <h3 class="font-weight-bold text-muted">Bronze</h3>
+                                            <div class="d-flex">
+                                                <h1 class="text-muted">5.000<sup>€</sup></h1>
+                                                <h4 class="text-muted">Inestment</h4>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <h3 class="border-bottom">Incentives for your investment</h3>
+                                        <div class="border-bottom">
+                                            <h3 class="font-weight-bold text-muted">Gold</h3>
+                                            <div class="d-flex">
+                                                <h1 class="text-muted">10.000<sup>€</sup></h1>
+                                                <h4 class="text-muted">Inestment</h4>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.</p>
+                                        </div>
+                                    </div>
+                                    <!--company details-->
+                                    <div>
+                                        <h3 class="border-bottom">Company details</h3>
+                                        <div><i class="fa-location"></i><span class="text-muted">Bruno-Kreisky-Platz 1, 1220 Wien, Wien, Austria</span></div>
+                                        <div><i class="fa-phone"></i><a href="#">+1086438517</a></div>
+                                        <div><i class="fa-message"></i><a href="#">office@anoodeling.com</a></div>
+                                        <div><i class="fa-pin"></i><a href="#">www.anoodeling.com</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--documents pill-->
+                    <div class="tab-pane fade" id="documents" role="tabpanel" aria-labelledby="3">
+                        <div class="container">
+                            <div class="row">
+                                <!--main-->
+                                <div class="col-12 col-lg-8">
+                                    <h3 class="text-muted border-bottom">Documents</h3>
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6 border-bottom"><a href="#" class="text-success">ANOODELING_pdf.pdf</a></div>
+                                            <div class="col-12 col-lg-6 border-bottom"><a href="#" class="text-success">ANOODELING_vib_pdf.pdf</a></div>
+                                            <div class="col-12 col-lg-6 border-bottom"><a href="#" class="text-success">ANOODELING_consumer_information_pdf.pdf</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--aside-->
+                                <div class="col-12 col-lg-4">
+                                    <!--company details-->
+                                    <div>
+                                        <h3 class="border-bottom">Company details</h3>
+                                        <div><i class="fa-location"></i><span class="text-muted">Bruno-Kreisky-Platz 1, 1220 Wien, Wien, Austria</span></div>
+                                        <div><i class="fa-phone"></i><a href="#">+1086438517</a></div>
+                                        <div><i class="fa-message"></i><a href="#">office@anoodeling.com</a></div>
+                                        <div><i class="fa-pin"></i><a href="#">www.anoodeling.com</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--blog pill-->
+                    <div class="tab-pane fade" id="blog" role="tabpanel" aria-labelledby="4">
+                        <div class="container">
+                            <div class="row">
+                                <!--main-->
+                                <div class="col-12 col-lg-8">
+                                    <h3 class="border-bottom">Other posts</h3>
+                                    <h2 class="font-weight-bold text-center text-muted">There are no posts currently</h2>
+
+
+                                </div>
+                                <!--aside-->
+                                <div class="col-12 col-lg-4">
+                                    <!--company details-->
+                                    <div>
+                                        <h3 class="border-bottom">Company details</h3>
+                                        <div><i class="fa-location"></i><span class="text-muted">Bruno-Kreisky-Platz 1, 1220 Wien, Wien, Austria</span></div>
+                                        <div><i class="fa-phone"></i><a href="#">+1086438517</a></div>
+                                        <div><i class="fa-message"></i><a href="#">office@anoodeling.com</a></div>
+                                        <div><i class="fa-pin"></i><a href="#">www.anoodeling.com</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <?php include "footer.php"; ?>
+
