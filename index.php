@@ -111,6 +111,8 @@
                                 </div>
                             </div>
                         </a>
+                    </div>
+                    <div class="col-12 col-md-6">
                         <a href="" class="card-clickable-link d-block mb-4">
                             <div class="starting-in-single card">
                                 <img src="images/darts/dartcover.jpg" class="card-img-top">
@@ -138,6 +140,8 @@
                                 </div>
                             </div>
                         </a>
+                    </div>
+                    <div class="col-12 col-md-6">
                         <div class="card bg-light mb-4">
                             <div class="position-relative">
                                 <img class="card-img-top" src="images/campaigns/m-office.jpg">
@@ -228,7 +232,7 @@
                                 <a href="#" class="btn btn-success">VIEW DETAILS</a>
                             </div>
                         </div>
-                    </div>
+                    </div>   
                     <div class="col-12 col-md-6">
                         <div class="card bg-light mb-4">
                             <div class="position-relative">
@@ -295,6 +299,8 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-12 col-md-6">
                         <div class="card bg-light mb-4">
                             <div class="position-relative">
                                 <img class="card-img-top" src="images/campaigns/makit.jpg">
@@ -335,6 +341,8 @@
                                 <a href="#" class="btn btn-secondary">VIEW DETAILS</a>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-12 col-md-6">
                         <div class="card bg-light mb-4">
                             <div class="position-relative">
                                 <img class="card-img-top" src="images/campaigns/oceanic-travel.jpg">
