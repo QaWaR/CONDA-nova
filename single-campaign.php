@@ -20,10 +20,11 @@
                 <div class="container">
                     <div class="d-flex justify-content-between">
                         <div>
-                            <h1 class=>Anoodeling</h1>
-                            <p>Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.</p>
+                            <h1 class="company-name">Anoodeling</h1>
+                            <p class="company-basic-info">Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.</p>
                         </div>
                         <div class="container bg-white w-100">
+                            <h5 class="font-weight-light text-muted py-3">STARTET BALD</h5>
                             <div class="d-flex flex-wrap">
                                 <div class="col-12 col-sm-6 rounded-circle border border-success d-flex flex-column justify-content-center align-items-center mb-3">
                                     <p class="font-weight-bold m-0">
@@ -74,7 +75,7 @@
                                 <!--main-->
                                 <div class="col-12 col-lg-8 ">
                                     <iframe width="100%" height="auto" src="https://www.youtube.com/embed/5SVN9x7Uv74" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                                    <h1>Anoodeling</h1>
+                                    <h1 class="company-name">Anoodeling</h1>
                                     <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam urna orci, vestibulum id ante ut, varius molestie arcu. Etiam scelerisque erat accumsan libero egestas ornare. Mauris mattis neque at metus condimentum suscipit. Nullam cursus libero sed diam volutpat semper. Sed sit amet dolor porta, sagittis felis vitae, sagittis lorem. Sed porttitor porttitor dolor, vel fringilla eros maximus id. Nulla semper tempor dapibus. Ut ex ipsum, placerat ut tortor vitae, laoreet lobortis arcu.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam urna orci, vestibulum id ante ut, varius molestie arcu. Etiam scelerisque erat accumsan libero egestas ornare. Mauris mattis neque at metus condimentum suscipit. Nullam cursus libero sed diam volutpat semper. Sed sit amet dolor porta, sagittis felis vitae, sagittis lorem. Sed porttitor porttitor dolor, vel fringilla eros maximus id. Nulla semper tempor dapibus. Ut ex ipsum, placerat ut tortor vitae, laoreet lobortis arcu.</p>
                                     <img class="w-100 mb-3" src="images/single-campaign/Story_image_01.jpg" alt="">
                                     <ol>
@@ -219,7 +220,7 @@
                                     </div>
                                 </div>
                                 <!--aside-->
-                                <div class="col-12 col-lg-4">
+                                <aside class="col-12 col-lg-4 campaign-side">
                                     <h3 class="text-muted border-bottom">Additional info</h3>
                                     <div class="border-bottom">
                                         <a href="#" class="text-success">placerat ut tortor vitae, laoreet lobortis arcu: </a>
@@ -238,42 +239,42 @@
                                         <b class="text-muted">WARNHINWEIS: Class aptent taciti sociosqu ad litora torquent per conubia nostra.</b>
                                         <p>Im Sinne der Risikostreuung sollten möglichst nur Geldbeträge investiert werden, die in näherer Zukunft auch liquide nicht benötigt bzw. zurückerwartet werden. Verantwortlich für sämtliche Inhalte und Angaben auf dieser Seite ist ausschließlich die Emittentin selbst, sie ist Anbieter dieser Vermögensanlage. Seitens des Betreibers der Internet-Dienstleistungsplattform wird keine Haftung für die Richtigkeit und Aktualität der Inhalte übernommen.</p>
                                     </div>
-                                    <a href="#" class="text-success">Welches Risiko habe ich als Investor?</a>
-                                    <a href="#" class="text-success">Welches Rücktrittsrecht habe ich als Investor?</a>
+                                    <a href="#" class="text-success d-block">Welches Risiko habe ich als Investor?</a>
+                                    <a href="#" class="text-success d-block">Welches Rücktrittsrecht habe ich als Investor?</a>
                                     <!--incentives-->
-                                    <div>
-                                        <h3 class="border-bottom">Incentives for your investment</h3>
-                                        <div class="border-bottom">
-                                            <h3 class="font-weight-bold text-muted">Bronze</h3>
-                                            <div class="d-flex">
-                                                <h1 class="text-muted">5.000<sup>€</sup></h1>
-                                                <h4 class="text-muted">Inestment</h4>
+                                    <div class="incentives">
+                                        <div class="incentive">
+                                            <h3 class="border-bottom">Incentives for your investment</h3>
+                                            <div class="border-bottom">
+                                                <h3 class="font-weight-bold text-muted incentive-package">Bronze</h3>
+                                                <div class="d-flex">
+                                                    <h1 class="text-muted incentive-price">5.000<sup class="text-muted">€</sup></h1>
+                                                    <h4 class="text-muted">Investment</h4>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.</p>
                                             </div>
-                                            <p>Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.</p>
                                         </div>
-                                    </div>
-                                    <div>
-                                        <h3 class="border-bottom">Incentives for your investment</h3>
-                                        <div class="border-bottom">
-                                            <h3 class="font-weight-bold text-muted">Gold</h3>
-                                            <div class="d-flex">
-                                                <h1 class="text-muted">10.000<sup>€</sup></h1>
-                                                <h4 class="text-muted">Inestment</h4>
+                                        <div class="incentive">
+                                            <h3 class="border-bottom">Incentives for your investment</h3>
+                                            <div class="border-bottom">
+                                                <h3 class="font-weight-bold text-muted incentive-package">Gold</h3>
+                                                <div class="d-flex">
+                                                    <h1 class="text-muted incentive-price">10.000<sup class="text-muted">€</sup></h1>
+                                                    <h4 class="text-muted">Investment</h4>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.</p>
                                             </div>
-                                            <p>Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.</p>
                                         </div>
                                     </div>
                                     <!--company details-->
-                                    <div>
+                                    <div class="company-details">
                                         <h3 class="border-bottom">Company details</h3>
                                         <div><i class="fa-location"></i><span class="text-muted">Bruno-Kreisky-Platz 1, 1220 Wien, Wien, Austria</span></div>
                                         <div><i class="fa-phone"></i><a href="#">+1086438517</a></div>
                                         <div><i class="fa-message"></i><a href="#">office@anoodeling.com</a></div>
                                         <div><i class="fa-pin"></i><a href="#">www.anoodeling.com</a></div>
                                     </div>
-
-
-                                </div>
+                                </aside>
                             </div>
                         </div>
                     </div>
@@ -283,7 +284,7 @@
                             <div class="row">
                                 <!--main-->
                                 <div class="col-12 col-lg-8">
-                                    <h1>Anoodeling</h1>
+                                    <h1 class="company-name">Anoodeling</h1>
                                     <p class="text-muted">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam urna orci, vestibulum id ante ut, varius molestie arcu. Etiam scelerisque erat accumsan libero egestas ornare. Mauris mattis neque at metus condimentum suscipit. Nullam cursus libero sed diam volutpat semper. Sed sit amet dolor porta, sagittis felis vitae, sagittis lorem. Sed porttitor porttitor dolor, vel fringilla eros maximus id. Nulla semper tempor dapibus. Ut ex ipsum, placerat ut tortor vitae, laoreet lobortis arcu.</p>
                                     <img src="images/single-campaign/Story_image_02.jpg" alt="" id="anoodeling">
                                     <table class="w-100">
@@ -313,22 +314,22 @@
                                             <td class="text-muted">lara@example.com</td>
                                         </tr>
                                     </table>
-                                    <h1>Investieren</h1>
-                                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                                    <h1 class="heading">Investieren</h1>
+                                    <p class="text-muted content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
                                     <img src="images/single-campaign/Story_image_03.jpg" alt="" id="investieren">
                                     <div>
                                         <blockquote class="blockquote">
                                             <i class="mb-3 text-success">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</i>
                                         </blockquote>
                                     </div>
-                                    <div>
-                                        <a href="#anoodeling" class="btn btn-dark rounded-circle"></a>
-                                        <a href="#investieren" class="btn btn-dark rounded-circle"></a>
+                                    <div class="side-nav">
+                                        <a href="#anoodeling" class="btn btn-dark rounded-circle side-nav-item"></a>
+                                        <a href="#investieren" class="btn btn-dark rounded-circle side-nav-item"></a>
                                     </div>
                                 </div>
                                 <!--aside-->
-                                <div class="col-12 col-lg-4">
-                                    <h3 class="text-muted border-bottom">Additional info</h3>
+                                <aside class="col-12 col-lg-4 campaign-side">
+                                    <h3 class="text-muted border-bottom heading">Additional info</h3>
                                     <div class="border-bottom">
                                         <a href="#" class="text-success">placerat ut tortor vitae, laoreet lobortis arcu: </a>
                                         <span>JA, am Laufzeitende</span>
@@ -346,40 +347,42 @@
                                         <b class="text-muted">WARNHINWEIS: Class aptent taciti sociosqu ad litora torquent per conubia nostra.</b>
                                         <p>Im Sinne der Risikostreuung sollten möglichst nur Geldbeträge investiert werden, die in näherer Zukunft auch liquide nicht benötigt bzw. zurückerwartet werden. Verantwortlich für sämtliche Inhalte und Angaben auf dieser Seite ist ausschließlich die Emittentin selbst, sie ist Anbieter dieser Vermögensanlage. Seitens des Betreibers der Internet-Dienstleistungsplattform wird keine Haftung für die Richtigkeit und Aktualität der Inhalte übernommen.</p>
                                     </div>
-                                    <a href="#" class="text-success">Welches Risiko habe ich als Investor?</a>
-                                    <a href="#" class="text-success">Welches Rücktrittsrecht habe ich als Investor?</a>
+                                    <a href="#" class="text-success d-block">Welches Risiko habe ich als Investor?</a>
+                                    <a href="#" class="text-success d-block">Welches Rücktrittsrecht habe ich als Investor?</a>
                                     <!--incentives-->
-                                    <div>
-                                        <h3 class="border-bottom">Incentives for your investment</h3>
-                                        <div class="border-bottom">
-                                            <h3 class="font-weight-bold text-muted">Bronze</h3>
-                                            <div class="d-flex">
-                                                <h1 class="text-muted">5.000<sup>€</sup></h1>
-                                                <h4 class="text-muted">Inestment</h4>
+                                    <div class="incentives">
+                                        <div class="incentive">
+                                            <h3 class="border-bottom">Incentives for your investment</h3>
+                                            <div class="border-bottom">
+                                                <h3 class="font-weight-bold text-muted incentive-package">Bronze</h3>
+                                                <div class="d-flex">
+                                                    <h1 class="text-muted incentive-price">5.000<sup class="text-muted">€</sup></h1>
+                                                    <h4 class="text-muted">Investment</h4>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.</p>
                                             </div>
-                                            <p>Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.</p>
                                         </div>
-                                    </div>
-                                    <div>
-                                        <h3 class="border-bottom">Incentives for your investment</h3>
-                                        <div class="border-bottom">
-                                            <h3 class="font-weight-bold text-muted">Gold</h3>
-                                            <div class="d-flex">
-                                                <h1 class="text-muted">10.000<sup>€</sup></h1>
-                                                <h4 class="text-muted">Inestment</h4>
+                                        <div class="incentive">
+                                            <h3 class="border-bottom">Incentives for your investment</h3>
+                                            <div class="border-bottom">
+                                                <h3 class="font-weight-bold text-muted incentive-package">Gold</h3>
+                                                <div class="d-flex">
+                                                    <h1 class="text-muted incentive-price">10.000<sup class="text-muted">€</sup></h1>
+                                                    <h4 class="text-muted">Investment</h4>
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.</p>
                                             </div>
-                                            <p>Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.Lorem ipsum dolor sit amet, cetero nonumes consetetur est eu, sea graece lucilius incorrupte an, in euismod deleniti his. Vidit offendit phaedrum ea eos, sea paulo omittam eu, quis tollit ea sit. In cum nulla movet urbanitas, falli copiosae in quo. Usu utamur meliore ea, justo ancillae te mei. Vis aperiam euripidis eloquentiam te.</p>
                                         </div>
                                     </div>
                                     <!--company details-->
-                                    <div>
+                                    <div class="company-details">
                                         <h3 class="border-bottom">Company details</h3>
                                         <div><i class="fa-location"></i><span class="text-muted">Bruno-Kreisky-Platz 1, 1220 Wien, Wien, Austria</span></div>
                                         <div><i class="fa-phone"></i><a href="#">+1086438517</a></div>
                                         <div><i class="fa-message"></i><a href="#">office@anoodeling.com</a></div>
                                         <div><i class="fa-pin"></i><a href="#">www.anoodeling.com</a></div>
                                     </div>
-                                </div>
+                                </aside>
                             </div>
                         </div>
                     </div>
@@ -399,7 +402,7 @@
                                     </div>
                                 </div>
                                 <!--aside-->
-                                <div class="col-12 col-lg-4">
+                                <aside class="col-12 col-lg-4 campaign-side-short">
                                     <!--company details-->
                                     <div>
                                         <h3 class="border-bottom">Company details</h3>
@@ -408,7 +411,7 @@
                                         <div><i class="fa-message"></i><a href="#">office@anoodeling.com</a></div>
                                         <div><i class="fa-pin"></i><a href="#">www.anoodeling.com</a></div>
                                     </div>
-                                </div>
+                                </aside>
                             </div>
                         </div>
                     </div>
@@ -420,19 +423,17 @@
                                 <div class="col-12 col-lg-8">
                                     <h3 class="border-bottom">Other posts</h3>
                                     <h2 class="font-weight-bold text-center text-muted">There are no posts currently</h2>
-
-
                                 </div>
                                 <!--aside-->
-                                <div class="col-12 col-lg-4">
+                                <div class="col-12 col-lg-4 campaign-side-short">
                                     <!--company details-->
-                                    <div>
+                                    <aside>
                                         <h3 class="border-bottom">Company details</h3>
                                         <div><i class="fa-location"></i><span class="text-muted">Bruno-Kreisky-Platz 1, 1220 Wien, Wien, Austria</span></div>
                                         <div><i class="fa-phone"></i><a href="#">+1086438517</a></div>
                                         <div><i class="fa-message"></i><a href="#">office@anoodeling.com</a></div>
                                         <div><i class="fa-pin"></i><a href="#">www.anoodeling.com</a></div>
-                                    </div>
+                                    </aside>
                                 </div>
                             </div>
                         </div>
