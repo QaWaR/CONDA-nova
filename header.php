@@ -56,27 +56,33 @@
             </div>
         </section>
         
-        <div class="modal" id="loginModal">
+         <!-- LOGIN MODAL -->
+        <div class="modal fade text-dark" id="loginModal">
             <div class="modal-dialog">
-                <div class="modal-header">
-                    <h5 class="modal-title">Sign in</h5>
-                    <button class="btn close" data-dismiss="modal" >&times;</button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="usernam">Username</label>
-                            <input type="text" placeholder="Username" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" placeholder="password" class="form-control" >
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" data-dismiss="modal" >Close</button>
-                    <button class="btn btn-primary" data-dismiss="modal">Login</button>
+                <div class="modal-content">
+                    <img src="images/modals/logo.png" class="img-fluid p-4">
+                    <div class="modal-header">
+                       
+                        <h5 class="modal-title">Sign in</h5>
+                        
+                        <button class="btn close" data-dismiss="modal" >&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="usernam">Username or email</label>
+                                <input type="text" placeholder="Username or email.." class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" placeholder="Password.." class="form-control" >
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger px-4" data-dismiss="modal" >Close</button>
+                        <button class="btn btn-primary px-4" data-dismiss="modal">Login</button>
+                    </div>
                 </div>
             </div>
         </div>
