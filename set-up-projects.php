@@ -16,7 +16,7 @@
                     <p class="mb-3 text-muted">Mit der CONDA Crowdinvesting-Kampagne haben Sie die Möglichkeit Ihr Projekt zu finanzieren und dadurch Ihre Ideen zu realisieren. Darüber hinaus profitiert Ihr Unternehmen von der großen Aufmerksamkeit, die eine Kampagne schafft. Sie haben außerdem die Chance direkt mit Investoren und Kunden in Kontakt zutreten und wertvolles Community-Feedback einzuholen. Eine smarte Lösung für Ihre erfolgversprechende Ideen.</p>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <img src="images/ci/image0.jpg" class="img-fluid">
+                    <img src="images/set-up-projects/shake-hand-investor.jpg" class="img-fluid">
                 </div>
             </div>
         </section>
