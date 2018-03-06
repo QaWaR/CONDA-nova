@@ -14,7 +14,7 @@
 <body>
     <header>
         <!--main nav-->
-        <section class="border-bottom border-grey">
+        <section class="main-nav border-bottom border-grey">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light px-0">
                     <a class="navbar-brand d-flex align-items-center justify-content-between alignt-items-center" href="index.php">
@@ -37,11 +37,11 @@
             </div>
         </section>
         <!--login nav (logged out)-->
-        <section class="bg-light border-bottom border-grey mb-5">
+        <section class="login-nav bg-light border-bottom border-grey mb-5">
             <div class="container py-2">
                 <div class="d-flex justify-content-end align-items-center">
                     <span class="mr-2">New investor?</span>
-                    <a href="#" class="text-success mr-2">Register</a>
+                    <a href="#" class="text-success mr-2" data-toggle="modal" data-target="#loginModal">Register</a>
                     <button class="btn btn-success btn-sm rounded mr-2" data-toggle="modal" data-target="#loginModal" >Sign in</button>
                     <i class="fas fa-user-circle mr-2 text-muted"></i>
                     <a href="#" class="dropdown-toggle text-muted mr-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Username</a>
@@ -86,22 +86,4 @@
                 </div>
             </div>
         </div>
-        <!--login nav (logged in)
-
-
-        <section class="bg-light border-bottom border-grey">
-            <div class="container py-2">
-                <div class="d-flex justify-content-end align-items-center">
-                    <i class="fas fa-user-circle mr-2 text-muted"></i>
-                    <a href="#" class="dropdown-toggle text-muted mr-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Username</a>
-                    <ul class="dropdown-menu dropdown-menu-right p-0">
-                        <li class="px-2 border-bottom border-grey py-2"><a href="#" class="text-secondary">Welcome</a></li>
-                        <li class="d-flex justify-content-between px-2 border-bottom border-grey py-2"><a href="#"><span class="text-success pr-4"><i class="fas fa-user-circle mr-2 text-success"></i>Personal account</span></a><span class="ml-auto pl-4"><a href="#"><i class="text-muted fas fa-shopping-bag mr-2"></i></a><a href="#"><i class="text-muted fas fa-cog mr-2"></i></a></span></li>
-                        <li class="d-flex justify-content-between px-2 border-bottom border-grey py-2"><a href="#"><span class="text-muted pr-4"><i class="fas fa-suitcase mr-2 text-muted"></i>Company account</span></a><span class="ml-auto pl-4"><a href="#"><i class="text-muted fas fa-shopping-bag mr-2"></i></a><a href="#"><i class="text-muted fas fa-cog mr-2"></i></a></span></li>
-                        <li class="px-2 py-2"><a href="#" class="text-secondary"><i class="fas fa-arrow-right mr-2"></i>Sign out</a></li>
-                    </ul>
-                    <span class="caret"></span>
-                </div>
-            </div>
-        </section>-->
     </header>

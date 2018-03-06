@@ -4,7 +4,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active bg-warning">
                 <div class="container w-md-50">
-                    <img class="d-block w-100 d-lg-none pt-3" src="images/index-cover-carousel.jpg" alt="First slide">
+                    <img class="d-block w-100 d-lg-none pt-3" src="images/index-cover-carousel.jpg">
                     <h3 class="mb-3 pt-3">Mit CONDA Österreich investieren Sie grenzenlos, in Unternehmen mit Persönlichkeit.</h3>
                     <p class="mb-3">Ab 100 Euro unterstützen Sie Unternehmen durch Ihre Investition und profitieren langfristig von deren Erfolg.</p>
                     <button class="btn btn-danger btn-lg border border-danger w-lg-100 mb-3 rounded-0 px-4 py-3">
@@ -20,42 +20,39 @@
 
     <div class="cta container"> <!-- CALL-TO-ACTION SECTION-->
         <section class="cta-wrapper d-flex flex-wrap justify-content-around py-4">
-            <a href="" class="d-block mx-3">
+            <a href="#" class="d-block mx-3">
                 <div class="cta-single text-center">
-                    <div class="icon d-inline-block py-4 px-4 bg-primary rounded-circle mb-2">
+                    <div class="cta-icon d-inline-block py-4 px-4 bg-primary rounded-circle mb-2">
                         <i class="far fa-envelope fa-fw fa-4x text-white"></i>
                     </div>
                     <p>Newslettter Subscription</p>
                 </div>   
             </a>
-            <a href="" class="d-block mx-3">
+            <a href="#" class="d-block mx-3">
                 <div class="cta-single text-center">
-                    <div class="icon d-inline-block py-4 px-4 bg-primary rounded-circle mb-2">
+                    <div class="cta-icon d-inline-block py-4 px-4 bg-primary rounded-circle mb-2">
                         <i class="fas fa-newspaper fa-fw fa-4x text-white"></i>
                     </div>
                     <p>Your investment Guide</p>
-
-                    
                 </div>
             </a>
-            <a href="" class="d-block mx-3">
+            <a href="#" class="d-block mx-3">
                 <div class="cta-single text-center">
-                    <div class="icon d-inline-block py-4 px-4 bg-primary rounded-circle mb-2">
+                    <div class="cta-icon d-inline-block py-4 px-4 bg-primary rounded-circle mb-2">
                         <i class="fas fa-warehouse fa-fw fa-4x text-white"></i>
                     </div>
                     <p>Investieren In Immobilienprojekte</p>
                 </div>
             </a>
-            <a href="" class="d-block mx-3">
+            <a href="#" class="d-block mx-3">
                 <div class="cta-single text-center">
-                    <div class="icon d-inline-block py-4 px-4 bg-warning rounded-circle mb-2">
+                    <div class="cta-icon d-inline-block py-4 px-4 bg-warning rounded-circle mb-2">
                         <i class="fab fa-connectdevelop fa-fw fa-4x text-white"></i>
                     </div>
                     <p>Join our ICO!</p>
                 </div>
             </a>
         </section>
-
     </div> <!-- END CALL-TO-ACTION SECTION-->
 
     <section class="camapigns-news container"> <!--START CAMPAIGNS AND NEWS SECTION -->
@@ -64,6 +61,7 @@
                 <h2 class="text-secondary mt-3">Campaigns</h2>
                 <hr>
                 <div class="row">
+                    <!--single campain-->
                     <div class="col-12 col-md-6">
                         <a href="" class="card-clickable-link d-block mb-4">
                             <div class="starting-in-single card">
@@ -71,7 +69,7 @@
                                 <div class="card-header bg-primary px-3 py-2 d-flex justify-content-between">
                                     <p class="time-left text-uppercase text-white font-weight-bold my-auto mr-3">Starting in
                                         <span class="h4"> 1 </span> month</p>
-                                    <img src="images/armywings/wingslogo.jpg" class="rounded-circle" style="width:50px; height:50px;">
+                                    <img src="images/armywings/wingslogo.jpg" class="rounded-circle">
                                 </div>
                                 <div class="card-body text-dark bg-light">
                                     <h4 class="company-name card-title">
@@ -112,17 +110,18 @@
                             </div>
                         </a>
                     </div>
+                    <!--single campain-->
                     <div class="col-12 col-md-6">
                         <a href="" class="card-clickable-link d-block mb-4">
-                            <div class="starting-in-single card">
+                            <div class="single-campaign card">
                                 <img src="images/darts/dartcover.jpg" class="card-img-top">
-                                <div class="card-header bg-primary px-3 py-2 d-flex justify-content-between">
+                                <div class="card-header campaign-status bg-primary px-3 py-2 d-flex justify-content-between">
                                     <p class="investment-type text-uppercase text-white font-weight-bold my-auto mr-3">Private placement</p>
-                                    <img src="images/darts/logo/logo.jpg" class="rounded-circle" style="width:50px; height:50px;">
+                                    <img src="images/darts/logo/logo.jpg" class="rounded-circle">
                                 </div>
                                 <div class="card-body text-dark bg-light">
                                     <h4 class="company-name card-title">
-                                        <img src="images/armywings/aut.svg" class="img-fluid mr-1 mb-2" style="width:20px;"> Darts heroes(CI/VMn/LW/PP)</h4>
+                                        <img src="images/armywings/aut.svg" class="img-fluid mr-1 mb-2 flag" style="width:20px;"> Darts heroes(CI/VMn/LW/PP)</h4>
                                     <p class="short-summary card-text mt-3">Fusce iaculis viverra enim, nec placerat purus finibus vel. Orci varius natoque penatibus et magnis dis parturient
                                         montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Sed nec mollis tortor. Duis est dui, hendrerit
                                         eu finibus vel, lacinia vitae lorem. Praesent nec eros tristique, varius metus a, facilisis mauris. In a
@@ -141,6 +140,7 @@
                             </div>
                         </a>
                     </div>
+                    <!--single campain-->
                     <div class="col-12 col-md-6">
                         <div class="card bg-light mb-4">
                             <div class="position-relative">
@@ -232,19 +232,14 @@
                                 <a href="#" class="btn btn-success">VIEW DETAILS</a>
                             </div>
                         </div>
-                    </div>   
+                    </div>
+                    <!--single campain-->
                     <div class="col-12 col-md-6">
-                        <div class="card bg-light mb-4">
+                        <div class="single-campaign card bg-light mb-4">
                             <div class="position-relative">
                                 <img class="card-img-top" src="images/campaigns/intechor.jpg">
-                                <div class="card-img-overlay">
-                                    <div class="bg-danger rounded d-inline-block px-2 py-1">
-                                        <i class="fas fa-heart text-white"></i>
-                                        <span class="px-2 text-white">We love this!</span>
-                                    </div>
-                                </div>
                             </div>
-                            <div class="card-body bg-primary d-flex justify-content-between align-items-center text-white">
+                            <div class="campaign-status card-header bg-primary d-flex justify-content-between align-items-center text-white">
                                 <p class="m-0 text-white text-uppercase">
                                     <span class="h4">1</span>month remaining</p>
                                 <img class="rounded-circle" src="images/campaigns/rsz-intechor-logo.jpg">
@@ -252,9 +247,9 @@
                             <div class="card-body">
                                 <div class="card-title d-flex justify-content-start align-items-center mb-3">
                                     <img class="pr-2 flag" src="images/flags/che.jpg">
-                                    <h5 class="pl-2 mb-0">Intechor Travel (CI)</h5>
+                                    <h5 class="company-name pl-2 mb-0">Intechor Travel (CI)</h5>
                                 </div>
-                                <p class="card-text text-primary">Etiam congue nisl et libero semper placerat. Integer tincidunt ac est id facilisis. Vestibulum suscipit dictum augue
+                                <p class="short-summary card-text text-primary">Etiam congue nisl et libero semper placerat. Integer tincidunt ac est id facilisis. Vestibulum suscipit dictum augue
                                     eu tempus. Donec dignissim luctus pulvinar. Integer at quam dapibus, scelerisque justo id, ultrices massa. Suspendisse
                                     lacinia dui a viverra aliquet. Suspendisse potenti. Nam nec dolor sodales, luctus massa ac, varius est. Aenean
                                     mattis, orci non ultrices porta, nulla nulla feugiat neque, vel interdum mi mi sed purus. Mauris iaculis lectus
@@ -406,7 +401,7 @@
                 <h2 class="text-secondary mt-3">News</h2>
                 <hr>
                 <div class="news-single card p-2 mb-4">
-                    <a href="" class="news-image d-block">
+                    <a href="#" class="news-image d-block">
                         <img src="images/news/house.jpg" class="card-img-top img-fluid">
                     </a>
                     <div class="card-body p-0 text-dark">

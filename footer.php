@@ -60,7 +60,7 @@
                         </div>
                         <div class="single-info-wrapper py-3 px-3 d-flex flex-column text-white text-center text-sm-center text-lg-left">
                             <a href="#" class="text-white">Risikohinweis</a>
-                            <a href="#" class="text-white">Blog</a>
+                            <a href="blog.php" class="text-white">Blog</a>
                             <a href="#" class="text-white">Presse</a>
                             <a href="#" class="text-white">Impressum</a>
                             <a href="#" class="text-white">Hilfe</a>
