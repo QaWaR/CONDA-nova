@@ -51,7 +51,6 @@
                         <li class="d-flex justify-content-between px-2 border-bottom border-grey py-2"><a href="#"><span class="text-muted pr-4"><i class="fas fa-suitcase mr-2 text-muted"></i>Company account</span></a><span class="ml-auto pl-4"><a href="#"><i class="text-muted fas fa-shopping-bag mr-2"></i></a><a href="#"><i class="text-muted fas fa-cog mr-2"></i></a></span></li>
                         <li class="px-2 py-2"><a href="#" class="text-secondary"><i class="fas fa-arrow-right mr-2"></i>Sign out</a></li>
                     </ul>
-                    <span class="caret"></span>
                 </div>
             </div>
         </section>
