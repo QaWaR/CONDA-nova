@@ -2,9 +2,9 @@
 <main>
     <section class="carousel slide bg-lg-primary mb-3" data-ride="carousel" data-interval="0" id="cover-carousel"> <!--CAROUSEL COVER SLIDE -->
         <div class="carousel-inner">
+            <img class="d-block w-100 d-lg-none pt-3" src="images/index-cover-carousel.jpg">
             <div class="carousel-item active bg-warning">
                 <div class="container w-md-50">
-                    <img class="d-block w-100 d-lg-none pt-3" src="images/index-cover-carousel.jpg">
                     <h3 class="mb-3 pt-3">Mit CONDA Österreich investieren Sie grenzenlos, in Unternehmen mit Persönlichkeit.</h3>
                     <p class="mb-3">Ab 100 Euro unterstützen Sie Unternehmen durch Ihre Investition und profitieren langfristig von deren Erfolg.</p>
                     <button class="btn btn-danger btn-lg border border-danger w-lg-100 mb-3 rounded-0 px-4 py-3">
@@ -61,19 +61,21 @@
                 <h2 class="text-secondary mt-3">Campaigns</h2>
                 <hr>
                 <div class="row">
-                    <!--single campain-->
+                    <!--SINGLE-CAMPAIGN-->
                     <div class="col-12 col-md-6">
                         <a href="" class="card-clickable-link d-block mb-4">
-                            <div class="starting-in-single card">
+                            <div class="single-campaign card">
                                 <img src="images/armywings/armywings.jpg" class="card-img-top">
                                 <div class="card-header bg-primary px-3 py-2 d-flex justify-content-between">
-                                    <p class="time-left text-uppercase text-white font-weight-bold my-auto mr-3">Starting in
+                                    <p class="campaign-status text-uppercase text-white font-weight-bold my-auto mr-3">Starting in
                                         <span class="h4"> 1 </span> month</p>
                                     <img src="images/armywings/wingslogo.jpg" class="rounded-circle">
                                 </div>
                                 <div class="card-body text-dark bg-light">
-                                    <h4 class="company-name card-title">
-                                        <img src="images/armywings/aut.svg" class="img-fluid mr-1 mb-2" style="width:20px;"> Army wings(CI/VMN/BC/ANd)</h4>
+                                     <div class="card-title d-flex justify-content-start align-items-center mb-3">
+                                        <img src="images/armywings/aut.svg" class="img-fluid mr-1 mb-2 flag" style="width:20px;">
+                                        <h4 class="company-name card-title">Army wings(CI/VMN/BC/ANd)</h4>
+                                    </div>
                                     <p class="short-summary card-text mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos a vitae recusandae amet itaque perferendis
                                         architecto non aliquam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit aspernatur
                                         possimus neque eveniet natus, illo debitis dolore dolorem sequi aperiam fuga? Voluptatum velit, repudiandae
@@ -110,18 +112,20 @@
                             </div>
                         </a>
                     </div>
-                    <!--single campain-->
+                    <!--SINGLE-CAMPAIGN-->
                     <div class="col-12 col-md-6">
                         <a href="" class="card-clickable-link d-block mb-4">
                             <div class="single-campaign card">
                                 <img src="images/darts/dartcover.jpg" class="card-img-top">
                                 <div class="card-header campaign-status bg-primary px-3 py-2 d-flex justify-content-between">
-                                    <p class="investment-type text-uppercase text-white font-weight-bold my-auto mr-3">Private placement</p>
+                                    <p class="campaign-status text-uppercase text-white font-weight-bold my-auto mr-3">Private placement</p>
                                     <img src="images/darts/logo/logo.jpg" class="rounded-circle">
                                 </div>
                                 <div class="card-body text-dark bg-light">
-                                    <h4 class="company-name card-title">
-                                        <img src="images/armywings/aut.svg" class="img-fluid mr-1 mb-2 flag" style="width:20px;"> Darts heroes(CI/VMn/LW/PP)</h4>
+                                    <div class="card-title d-flex justify-content-start align-items-center mb-3">
+                                        <img src="images/armywings/aut.svg" class="img-fluid mr-1 mb-2 flag" style="width:20px;">
+                                        <h4 class="company-name card-title">Darts heroes(CI/VMn/LW/PP)</h4>                                
+                                    </div>
                                     <p class="short-summary card-text mt-3">Fusce iaculis viverra enim, nec placerat purus finibus vel. Orci varius natoque penatibus et magnis dis parturient
                                         montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Sed nec mollis tortor. Duis est dui, hendrerit
                                         eu finibus vel, lacinia vitae lorem. Praesent nec eros tristique, varius metus a, facilisis mauris. In a
@@ -140,9 +144,9 @@
                             </div>
                         </a>
                     </div>
-                    <!--single campain-->
+                    <!--SINGLE-CAMPAIGN-->
                     <div class="col-12 col-md-6">
-                        <div class="card bg-light mb-4">
+                        <div class="single-campaign card bg-light mb-4">
                             <div class="position-relative">
                                 <img class="card-img-top" src="images/campaigns/m-office.jpg">
                                 <div class="card-img-overlay">
@@ -153,16 +157,16 @@
                                 </div>
                             </div>
                             <div class="card-body bg-primary d-flex justify-content-between align-items-center text-white">
-                                <p class="m-0 text-white text-uppercase">
+                                <p class="campaign-status m-0 text-white text-uppercase">
                                     <span class="h4">3</span> month remaining</p>
                                 <img class="rounded-circle" src="images/campaigns/rsz_m-office-logo.jpg">
                             </div>
                             <div class="card-body">
                                 <div class="card-title d-flex justify-content-start align-items-center mb-3">
                                     <img class="pr-2 flag" src="images/flags/aut.jpg">
-                                    <h5 class="pl-2 mb-0">M Office ICO</h5>
+                                    <h5 class="company-name pl-2 mb-0">M Office ICO</h5>
                                 </div>
-                                <p class="card-text text-primary">Phasellus vehicula risus nec lacus facilisis, eu condimentum turpis tincidunt. Ut ullamcorper est ut bibendum volutpat.
+                                <p class="short-summary card-text text-primary">Phasellus vehicula risus nec lacus facilisis, eu condimentum turpis tincidunt. Ut ullamcorper est ut bibendum volutpat.
                                     Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin ut consectetur
                                     felis. Aenean facilisis metus non fermentum ultricies. Donec in aliquam lacus, eu porttitor tortor. Maecenas
                                     facilisis pharetra elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
@@ -233,12 +237,10 @@
                             </div>
                         </div>
                     </div>
-                    <!--single campain-->
+                    <!--SINGLE-CAMPAIGN-->
                     <div class="col-12 col-md-6">
                         <div class="single-campaign card bg-light mb-4">
-                            <div class="position-relative">
-                                <img class="card-img-top" src="images/campaigns/intechor.jpg">
-                            </div>
+                            <img class="card-img-top" src="images/campaigns/intechor.jpg">
                             <div class="campaign-status card-header bg-primary d-flex justify-content-between align-items-center text-white">
                                 <p class="m-0 text-white text-uppercase">
                                     <span class="h4">1</span>month remaining</p>
@@ -295,25 +297,24 @@
                             </div>
                         </div>
                     </div>
+                    <!--SINGLE-CAMPAIGN-->
                     <div class="col-12 col-md-6">
-                        <div class="card bg-light mb-4">
-                            <div class="position-relative">
-                                <img class="card-img-top" src="images/campaigns/makit.jpg">
-                                <div class="card-img-overlay">
-                                    <div class="bg-danger rounded d-inline-block px-2 py-1">
-                                        <i class="fas fa-heart text-white"></i>
-                                        <span class="px-2 text-white">We love this!</span>
-                                    </div>
+                        <div class="single-campaign card bg-light mb-4">
+                            <img class="card-img-top" src="images/campaigns/makit.jpg">
+                            <div class="card-img-overlay">
+                                <div class="bg-danger rounded d-inline-block px-2 py-1">
+                                    <i class="fas fa-heart text-white"></i>
+                                    <span class="px-2 text-white">We love this!</span>
                                 </div>
                             </div>
                             <div class="card-body bg-secondary d-flex justify-content-between align-items-center text-white">
-                                <p class="m-0 text-white text-uppercase">investment finished</p>
+                                <p class="campaign-status m-0 text-white text-uppercase">investment finished</p>
                                 <img class="rounded-circle" src="images/campaigns/rsz_makit-logo.jpg">
                             </div>
                             <div class="card-body mb-3">
                                 <div class="card-title d-flex justify-content-start align-items-center mb-3">
                                     <img class="pr-2 flag" src="images/flags/aut.jpg">
-                                    <h5 class="pl-2 mb-0">Makit - ein regionales Produkt</h5>
+                                    <h5 class="company-name pl-2 mb-0">Makit - ein regionales Produkt</h5>
                                 </div>
                                 <hr class="mb-3">
                                 <div class="d-flex justify-content-between align-items-center">
@@ -337,8 +338,9 @@
                             </div>
                         </div>
                     </div>
+                    <!--SINGLE-CAMPAIGN-->
                     <div class="col-12 col-md-6">
-                        <div class="card bg-light mb-4">
+                        <div class="single-campaign card bg-light mb-4">
                             <div class="position-relative">
                                 <img class="card-img-top" src="images/campaigns/oceanic-travel.jpg">
                                 <div class="card-img-overlay">
@@ -349,15 +351,15 @@
                                 </div>
                             </div>
                             <div class="card-body bg-secondary d-flex justify-content-between align-items-center text-white">
-                                <p class="m-0 text-white text-uppercase">successfully financed</p>
+                                <p class="campaign-status m-0 text-white text-uppercase">successfully financed</p>
                                 <img class="rounded-circle" src="images/campaigns/rsz_oceanic-travel-logo.jpg">
                             </div>
                             <div class="card-body mb-3">
                                 <div class="card-title d-flex justify-content-start align-items-center mb-3">
                                     <img class="pr-2 flag" src="images/flags/aut.jpg">
-                                    <h5 class="pl-2 mb-0">Oceanic Travel</h5>
+                                    <h5 class="company-name pl-2 mb-0">Oceanic Travel</h5>
                                 </div>
-                                <p>Roll on, deep and dark blue ocean, roll. Ten thousand fleets sweep over thee in vain. Man marks the earth with ruin,
+                                <p class="short-summary">Roll on, deep and dark blue ocean, roll. Ten thousand fleets sweep over thee in vain. Man marks the earth with ruin,
                                     but his control stops with the shore.</p>
                                 <hr class="mb-3">
                                 <div class="d-flex justify-content-between align-items-center">
