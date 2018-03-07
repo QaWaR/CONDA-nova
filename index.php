@@ -3,7 +3,7 @@
     <section class="carousel slide bg-lg-primary mb-3" data-ride="carousel" data-interval="0" id="cover-carousel"> <!--CAROUSEL COVER SLIDE -->
         <div class="carousel-inner">
             <img class="d-block w-100 d-lg-none pt-3" src="images/index-cover-carousel.jpg">
-            <div class="carousel-item active bg-warning">
+            <div class="carousel-item active bg-primary">
                 <div class="container w-md-50">
                     <h3 class="mb-3 pt-3">Mit CONDA Österreich investieren Sie grenzenlos, in Unternehmen mit Persönlichkeit.</h3>
                     <p class="mb-3">Ab 100 Euro unterstützen Sie Unternehmen durch Ihre Investition und profitieren langfristig von deren Erfolg.</p>
