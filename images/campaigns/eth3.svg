@@ -1,0 +1,33 @@
+<svg width="11" height="18" viewBox="0 0 11 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Etherium symbol;</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(2473 -14273)">
+<g id="Etherium symbol;">
+<g id="Vector 2">
+<use xlink:href="#path0_fill" transform="translate(-2473 14273)" fill="#D7DCDE"/>
+</g>
+<g id="Vector 2">
+<use xlink:href="#path1_fill" transform="matrix(-1 0 0 1 -2462 14273)" fill="#AAB6C3"/>
+</g>
+<g id="Vector 3">
+<use xlink:href="#path2_fill" transform="translate(-2472.8 14283.3)" fill="#D7DCDE"/>
+</g>
+<g id="Vector 3">
+<use xlink:href="#path3_fill" transform="matrix(-1 0 0 1 -2462 14283.5)" fill="#AAB6C3"/>
+</g>
+<g id="Vector 4">
+<use xlink:href="#path4_fill" transform="translate(-2473 14279.3)" fill="#AAB6C3"/>
+</g>
+<g id="Vector 4">
+<use xlink:href="#path4_fill" transform="matrix(-1 0 0 1 -2462 14279.3)" fill="#73879C"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 5.5 0L 0 8.7907L 5.5 12.3488L 5.5 0Z"/>
+<path id="path1_fill" d="M 5.5 0L 0 8.7907L 5.5 12.5581L 5.5 0Z"/>
+<path id="path2_fill" d="M 5.30357 3.13953L 0 0L 5.30357 7.74419L 5.30357 3.13953Z"/>
+<path id="path3_fill" d="M 5.5 2.93023L 0 0L 5.5 7.53488L 5.5 2.93023Z"/>
+<path id="path4_fill" d="M 5.5 0L 0 2.51163L 5.5 6.27907L 5.5 0Z"/>
+</defs>
+</svg>
