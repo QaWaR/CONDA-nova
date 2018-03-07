@@ -2,46 +2,48 @@
 <main>
     <section class="container mb-5">
         <div class="row">
-             <!--SINGLE-CAMPAIGN-->
+            <!--SINGLE-CAMPAIGN-->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-campaign card mb-4">
-                    <a href="single-campaign.php"><img src="images/armywings/armywings.jpg" class="card-img-top">
-                    <div class="card-header bg-primary px-3 py-2 d-flex justify-content-between">
-                        <p class="campaign-status text-uppercase text-white font-weight-bold my-auto mr-3">Starting in
-                            <span class="h4"> 1 </span> month</p>
-                        <img src="images/armywings/wingslogo.jpg" class="rounded-circle">
-                    </div>
-                    <div class="card-body text-dark bg-light">
-                            <div class="card-title d-flex justify-content-start align-items-center">
-                            <img src="images/flags/aut.svg" class="img-fluid mr-1 mb-2 flag">
-                            <h4 class="company-name card-title">Army wings(CI/VMN/BC/ANd)</h4>
-                        </div></a>
-                        <p class="short-summary card-text mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos a vitae recusandae amet itaque perferendis
-                            architecto non aliquam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit aspernatur
-                            possimus neque eveniet natus, illo debitis dolore dolorem sequi aperiam fuga? Voluptatum velit, repudiandae
-                            consequatur doloremque error culpa quasi itaque?</p>
-                        <hr>
-                        <div class="status-wrapper text-dark d-flex justify-content-around">
-                            <div class="status-scale rounded-circle border border-secondary p-4 pt-5 mr-3 text-center">
-                                <p class="total-amount font-weight-bold m-0">0$</p>
-                                <p class="numb-of-investors m-0 text-muted">0 Investors</p>
-                                <p class="completed">0%</p>
-                            </div>
-                            <div class="invested-amount align-self-center">
-                                <p class="text-muted">
-                                    <span class="min-amoun d-block h4 m-0 text-dark">75.000$</span> Minimum Investment</p>
-                                <p class="text-muted">
-                                    <span class="max-amount d-block h4 m-0 text-dark">700.000$</span> Maximum investment</p>
-                            </div>
+                    <a href="single-campaign.php">
+                        <img src="images/armywings/armywings.jpg" class="card-img-top">
+                        <div class="card-header bg-primary px-3 py-2 d-flex justify-content-between">
+                            <p class="campaign-status text-uppercase text-white font-weight-bold my-auto mr-3">Starting in
+                                <span class="h4"> 1 </span> month</p>
+                            <img src="images/armywings/wingslogo.jpg" class="rounded-circle">
                         </div>
+                        <div class="card-body text-dark bg-light">
+                            <div class="card-title d-flex justify-content-start align-items-center">
+                                <img src="images/flags/aut.jpg" class="img-fluid mr-3 flag">
+                                <h4 class="company-name card-title mb-0">Army wings(CI/VMN/BC/ANd)</h4>
+                            </div>
+                    </a>
+                    <p class="short-summary card-text mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos a vitae recusandae amet itaque perferendis
+                        architecto non aliquam maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit aspernatur possimus
+                        neque eveniet natus, illo debitis dolore dolorem sequi aperiam fuga? Voluptatum velit, repudiandae consequatur
+                        doloremque error culpa quasi itaque?</p>
+                    <hr>
+                    <div class="status-wrapper text-dark d-flex justify-content-around">
+                        <div class="status-scale rounded-circle border border-secondary p-4 pt-5 mr-3 text-center">
+                            <p class="total-amount font-weight-bold m-0">0$</p>
+                            <p class="numb-of-investors m-0 text-muted">0 Investors</p>
+                            <p class="completed">0%</p>
+                        </div>
+                        <div class="invested-amount align-self-center">
+                            <p class="text-muted">
+                                <span class="min-amoun d-block h4 m-0 text-dark">75.000$</span> Minimum Investment</p>
+                            <p class="text-muted">
+                                <span class="max-amount d-block h4 m-0 text-dark">700.000$</span> Maximum investment</p>
+                        </div>
+                    </div>
                     </div>
                     <div class="card-footer p-0">
                         <div class="tags-wrapper d-flex justify-content-around border-bottom border-muted">
                             <div class="single-tab px-2 py-2 d-flex flex-row">
-                                <i class="far fa-star text-muted fa-2x align-self-center"></i>
+                                <i class="far fa-star text-muted fa-2x align-self-center" data-toggle="tooltip" data-placement="top" title="Special project"></i>
                             </div>
                             <div class="single-tab px-2 py-2 text-center">
-                                <i class="fas fa-calendar-alt text-muted fa-1x mb-2"></i>
+                                <i class="fas fa-calendar-alt text-muted fa-1x mb-2" data-toggle="tooltip" data-placement="top" title="Contract term"></i>
                                 <span class="d-block text-muted font-weight-bold">2 years</span>
                             </div>
                         </div>
@@ -54,27 +56,29 @@
             <!--SINGLE-CAMPAIGN-->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-campaign card mb-4">
-                    <a href="single-campaign.php"><img src="images/darts/dartcover.jpg" class="card-img-top">
-                    <div class="card-header campaign-status bg-primary px-3 py-2 d-flex justify-content-between">
-                        <p class="campaign-status text-uppercase text-white font-weight-bold my-auto mr-3">Private placement</p>
-                        <img src="images/darts/logo/logo.jpg" class="rounded-circle">
-                    </div>
-                    <div class="card-body text-dark bg-light">
-                        <div class="card-title d-flex justify-content-start align-items-center mb-3">
-                            <img src="images/flags/aut.svg" class="img-fluid mr-1 mb-2 flag">
-                            <h4 class="company-name card-title">Darts heroes(CI/VMn/LW/PP)</h4>                                
-                        </div></a>
-                        <p class="short-summary card-text mt-3">Fusce iaculis viverra enim, nec placerat purus finibus vel. Orci varius natoque penatibus et magnis dis parturient
-                            montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Sed nec mollis tortor. Duis est dui, hendrerit
-                            eu finibus vel, lacinia vitae lorem. Praesent nec eros tristique, varius metus a, facilisis mauris. In a
-                            commodo dui, sit amet dapibus enim. Curabitur pretium egestas lectus, eget varius nibh iaculis quis. Fusce
-                            iaculis viverra enim, nec placerat purus finibus vel. Orci varius natoque penatibus et magnis dis parturient
-                            montes, nascetur ridiculus mus.</p>
-                        <hr>
-                        <div class="amount-required text-center py-4">
-                            <p class="amount-input h3 mb-0">450.000$</p>
-                            <p class="text-muted mb-0">Capital requirement</p>
+                    <a href="single-campaign.php">
+                        <img src="images/darts/dartcover.jpg" class="card-img-top">
+                        <div class="card-header campaign-status bg-primary px-3 py-2 d-flex justify-content-between">
+                            <p class="campaign-status text-uppercase text-white font-weight-bold my-auto mr-3">Private placement</p>
+                            <img src="images/darts/logo/logo.jpg" class="rounded-circle">
                         </div>
+                        <div class="card-body text-dark bg-light">
+                            <div class="card-title d-flex justify-content-start align-items-center mb-3">
+                                <img src="images/flags/aut.jpg" class="img-fluid mr-3 flag">
+                                <h4 class="company-name card-title mb-0">Darts heroes(CI/VMn/LW/PP)</h4>
+                            </div>
+                    </a>
+                    <p class="short-summary card-text mt-3">Fusce iaculis viverra enim, nec placerat purus finibus vel. Orci varius natoque penatibus et magnis dis parturient
+                        montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Sed nec mollis tortor. Duis est dui, hendrerit
+                        eu finibus vel, lacinia vitae lorem. Praesent nec eros tristique, varius metus a, facilisis mauris. In a commodo
+                        dui, sit amet dapibus enim. Curabitur pretium egestas lectus, eget varius nibh iaculis quis. Fusce iaculis viverra
+                        enim, nec placerat purus finibus vel. Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+                        ridiculus mus.</p>
+                    <hr>
+                    <div class="amount-required text-center py-4">
+                        <p class="amount-input h3 mb-0">450.000$</p>
+                        <p class="text-muted mb-0">Capital requirement</p>
+                    </div>
                     </div>
                     <div class="card-footer footer-button py-4 text-center">
                         <button class="btn btn-secondary text-uppercase py-2 px-4">View details</button>
@@ -85,7 +89,8 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-campaign card bg-light mb-4">
                     <div class="position-relative">
-                        <a href="single-campaign.php"><img class="card-img-top" src="images/campaigns/m-office.jpg">
+                        <a href="single-campaign.php">
+                            <img class="card-img-top" src="images/campaigns/m-office.jpg">
                     </div>
                     <div class="card-body bg-primary d-flex justify-content-between align-items-center text-white">
                         <p class="campaign-status m-0 text-white text-uppercase">
@@ -96,12 +101,13 @@
                         <div class="card-title d-flex justify-content-start align-items-center mb-3">
                             <img class="pr-2 flag" src="images/flags/aut.jpg">
                             <h5 class="company-name pl-2 mb-0">M Office ICO</h5>
-                        </div></a>
-                        <p class="short-summary card-text text-primary">Phasellus vehicula risus nec lacus facilisis, eu condimentum turpis tincidunt. Ut ullamcorper est ut bibendum volutpat.
-                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin ut consectetur
-                            felis. Aenean facilisis metus non fermentum ultricies. Donec in aliquam lacus, eu porttitor tortor. Maecenas
-                            facilisis pharetra elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                            mus.
+                        </div>
+                        </a>
+                        <p class="short-summary card-text text-primary">Phasellus vehicula risus nec lacus facilisis, eu condimentum turpis tincidunt. Ut ullamcorper est ut bibendum
+                            volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin
+                            ut consectetur felis. Aenean facilisis metus non fermentum ultricies. Donec in aliquam lacus, eu porttitor
+                            tortor. Maecenas facilisis pharetra elementum. Orci varius natoque penatibus et magnis dis parturient montes,
+                            nascetur ridiculus mus.
                         </p>
                         <hr class="mb-3">
                         <div class="container-fluid">
@@ -137,7 +143,7 @@
                     </div>
                     <div class="d-flex flex-wrap justify-content-around text-primary pb-3">
                         <div class="campaign-info-item d-flex flex-column flex-wrap justify-content-center align-items-center">
-                            <i class="far fa-star text-muted"></i>
+                            <i class="far fa-star text-muted" data-toggle="tooltip" data-placement="top" title="Special project"></i>
                         </div>
                         <div class="campaign-info-item d-flex flex-column flex-wrap justify-content-center align-items-center">
                             <p class="m-0 text-muted">Value in $</p>
@@ -151,7 +157,9 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-6 col-md-8">
-                                <p class="font-weight-bold d-inline-block m-0 d-flex justify-content-center">1 hero token = <img src="images/campaigns/eth3.svg" alt="" class="pl-4"></p>
+                                <p class="font-weight-bold d-inline-block m-0 d-flex justify-content-center">1 hero token =
+                                    <img src="images/campaigns/eth3.svg" alt="" class="pl-4">
+                                </p>
                                 <img src="" alt="">
                             </div>
                             <div class="col-6 col-md-4 d-flex justify-content-between">
@@ -172,7 +180,8 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-campaign card bg-light mb-4">
                     <div class="position-relative">
-                        <a href="single-campaign.php"><img class="card-img-top" src="images/campaigns/intechor.jpg">
+                        <a href="single-campaign.php">
+                            <img class="card-img-top" src="images/campaigns/intechor.jpg">
                     </div>
                     <div class="campaign-status card-header bg-primary d-flex justify-content-between align-items-center text-white">
                         <p class="m-0 text-white text-uppercase">
@@ -183,15 +192,16 @@
                         <div class="card-title d-flex justify-content-start align-items-center mb-3">
                             <img class="pr-2 flag" src="images/flags/che.jpg">
                             <h5 class="company-name pl-2 mb-0">Intechor Travel (CI)</h5>
-                        </div></a>
-                        <p class="short-summary card-text text-primary">Etiam congue nisl et libero semper placerat. Integer tincidunt ac est id facilisis. Vestibulum suscipit dictum augue
-                            eu tempus. Donec dignissim luctus pulvinar. Integer at quam dapibus, scelerisque justo id, ultrices massa. Suspendisse
-                            lacinia dui a viverra aliquet. Suspendisse potenti. Nam nec dolor sodales, luctus massa ac, varius est. Aenean
-                            mattis, orci non ultrices porta, nulla nulla feugiat neque, vel interdum mi mi sed purus. Mauris iaculis lectus
-                            dui, a dignissim odio ornare non. Aenean scelerisque magna a turpis efficitur blandit. Phasellus et ultricies
-                            diam. Sed vitae accumsan turpis. Cras euismod, diam nec dapibus dapibus, lectus lectus ultricies quam, id varius
-                            dolor mi vel lectus. Nam blandit dolor vitae quam fermentum vestibulum. Interdum et malesuada fames ac ante ipsum
-                            primis in faucibus.</p>
+                        </div>
+                        </a>
+                        <p class="short-summary card-text text-primary">Etiam congue nisl et libero semper placerat. Integer tincidunt ac est id facilisis. Vestibulum suscipit dictum
+                            augue eu tempus. Donec dignissim luctus pulvinar. Integer at quam dapibus, scelerisque justo id, ultrices
+                            massa. Suspendisse lacinia dui a viverra aliquet. Suspendisse potenti. Nam nec dolor sodales, luctus massa
+                            ac, varius est. Aenean mattis, orci non ultrices porta, nulla nulla feugiat neque, vel interdum mi mi sed
+                            purus. Mauris iaculis lectus dui, a dignissim odio ornare non. Aenean scelerisque magna a turpis efficitur
+                            blandit. Phasellus et ultricies diam. Sed vitae accumsan turpis. Cras euismod, diam nec dapibus dapibus,
+                            lectus lectus ultricies quam, id varius dolor mi vel lectus. Nam blandit dolor vitae quam fermentum vestibulum.
+                            Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
                         <hr class="mb-3">
                         <div class="container-fluid">
                             <div class="row">
@@ -221,10 +231,10 @@
                     </div>
                     <div class="d-flex flex-wrap justify-content-around text-primary pb-3">
                         <div class="campaign-info-item d-flex flex-column flex-wrap justify-content-center align-items-center">
-                            <i class="far fa-star"></i>
+                            <i class="far fa-star" data-toggle="tooltip" data-placement="top" title="Special project"></i>
                         </div>
                         <div class="campaign-info-item d-flex flex-column flex-wrap justify-content-center align-items-center">
-                            <i class="far fa-calendar"></i>
+                            <i class="far fa-calendar" data-toggle="tooltip" data-placement="top" title="Contract term"></i>
                             <p class="m-0">4 years</p>
                         </div>
                     </div>
@@ -234,12 +244,14 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-campaign card bg-light mb-4">
                     <div class="position-relative">
-                        <a href="single-campaign.php"><img class="card-img-top" src="images/campaigns/makit.jpg">
+                        <a href="single-campaign.php">
+                            <img class="card-img-top" src="images/campaigns/makit.jpg">
                     </div>
                     <div class="card-body bg-secondary d-flex justify-content-between align-items-center text-white">
                         <p class="campaign-status m-0 text-white text-uppercase">investment finished</p>
                         <img class="rounded-circle" src="images/campaigns/rsz_makit-logo.jpg">
-                    </div></a>
+                    </div>
+                    </a>
                     <div class="card-body mb-3">
                         <div class="card-title d-flex justify-content-start align-items-center mb-3">
                             <img class="pr-2 flag" src="images/flags/aut.jpg">
@@ -271,19 +283,21 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-campaign card bg-light mb-4">
                     <div class="position-relative">
-                        <a href="single-campaign.php"><img class="card-img-top" src="images/campaigns/oceanic-travel.jpg">
+                        <a href="single-campaign.php">
+                            <img class="card-img-top" src="images/campaigns/oceanic-travel.jpg">
                     </div>
                     <div class="card-body bg-secondary d-flex justify-content-between align-items-center text-white">
                         <p class="campaign-status m-0 text-white text-uppercase">successfully financed</p>
                         <img class="rounded-circle" src="images/campaigns/rsz_oceanic-travel-logo.jpg">
-                    </div></a>
+                    </div>
+                    </a>
                     <div class="card-body mb-3">
                         <div class="card-title d-flex justify-content-start align-items-center mb-3">
                             <img class="pr-2 flag" src="images/flags/aut.jpg">
                             <h5 class="company-name pl-2 mb-0">Oceanic Travel</h5>
                         </div>
-                        <p class="short-summary">Roll on, deep and dark blue ocean, roll. Ten thousand fleets sweep over thee in vain. Man marks the earth with ruin,
-                            but his control stops with the shore.</p>
+                        <p class="short-summary">Roll on, deep and dark blue ocean, roll. Ten thousand fleets sweep over thee in vain. Man marks the earth with
+                            ruin, but his control stops with the shore.</p>
                         <hr class="mb-3">
                         <div class="d-flex justify-content-between align-items-center">
                             <div>
@@ -302,14 +316,14 @@
                     </div>
                     <div class="d-flex flex-wrap justify-content-around text-primary pb-3">
                         <div class="campaign-info-item d-flex flex-column flex-wrap justify-content-center align-items-center">
-                            <i class="fas fa-users"></i>
+                            <i class="fas fa-users" data-toggle="tooltip" data-placement="top" title="KMU"></i>
                         </div>
                         <div class="campaign-info-item d-flex flex-column flex-wrap justify-content-center align-items-center">
-                            <i class="far fa-calendar"></i>
+                            <i class="far fa-calendar" data-toggle="tooltip" data-placement="top" title="Contract term"></i>
                             <p class="m-0">4 years</p>
                         </div>
                         <div class="campaign-info-item d-flex flex-column flex-wrap justify-content-center align-items-center">
-                            <i class="fas fa-chart-line"></i>
+                            <i class="fas fa-chart-line" data-toggle="tooltip" data-placement="top" title="Progress"></i>
                             <p class="m-0">4.5%</p>
                         </div>
                     </div>
@@ -323,18 +337,26 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="single-campaign card">
                     <div class="position-relative">
-                        <a href="single-campaign.php"><img src="images/campaigns/medix.jpg" class="card-img-top">
+                        <a href="single-campaign.php">
+                            <img src="images/campaigns/medix.jpg" class="card-img-top">
                     </div>
                     <div class="card-header bg-primary px-3 py-2 d-flex justify-content-between">
-                        <p class="campaign-status text-uppercase text-white font-weight-bold my-auto mr-3"><span class="h4"> 2 </span> months remaining</p>
+                        <p class="campaign-status text-uppercase text-white font-weight-bold my-auto mr-3">
+                            <span class="h4"> 2 </span> months remaining</p>
                         <img src="images/campaigns/medix-logo.jpg" class="rounded-circle">
-                    </div></a>
+                    </div>
+                    </a>
                     <div class="card-body text-dark bg-light">
-                            <div class="card-title d-flex justify-content-start align-items-center mb-3">
-                            <img src="images/flags/aut.svg" class="img-fluid flag">
-                            <h4 class="company-name card-title">Medix (CF)</h4></a>
+                        <div class="card-title d-flex justify-content-start align-items-center mb-3">
+                            <img src="images/flags/aut.jpg" class="img-fluid mr-3 flag">
+                            <h4 class="company-name card-title mb-0">Medix (CF)</h4>
                         </div>
-                        <p class="short-summary card-text mt-3">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+                        </a>
+                        <p class="short-summary card-text mt-3">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
+                            cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis
+                            dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet
+                            ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente
+                            delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
                         <hr>
                         <div class="status-wrapper text-dark d-flex justify-content-around">
                             <div class="status-scale rounded-circle border border-secondary p-4 pt-5 mr-3 text-center">
