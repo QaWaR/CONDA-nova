@@ -335,7 +335,7 @@
             </div>
             <!--SINGLE-CAMPAIGN-->
             <div class="col-12 col-md-6 col-lg-4">
-                <div class="single-campaign card">
+                <div class="single-campaign card mb-4">
                     <div class="position-relative">
                         <a href="single-campaign.php">
                             <img src="images/campaigns/medix.jpg" class="card-img-top">
