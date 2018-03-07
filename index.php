@@ -394,7 +394,7 @@
                     </div>
                     <!--SINGLE-CAMPAIGN-->
                     <div class="col-12 col-md-6">
-                        <div class="single-campaign card">
+                        <div class="single-campaign card mb-4">
                             <div class="position-relative">
                                 <a href="single-campaign.php">
                                     <img src="images/campaigns/medix.jpg" class="card-img-top">
@@ -438,8 +438,10 @@
                             </div>
                         </div>
                     </div>
-                </div>  
-                <button class="btn btn-success py-2 px-3 mx-auto">Load More</button>
+                    <div class="container-fluid">
+                        <button class="btn btn-success py-2 px-3 mx-auto col-12">Load More</button>
+                    </div>
+                </div>
             </div>
             
             <div class="col-12 col-lg-4">
