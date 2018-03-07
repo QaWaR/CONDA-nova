@@ -13,7 +13,7 @@
                     </div>
                     <div class="card-body text-dark bg-light">
                             <div class="card-title d-flex justify-content-start align-items-center">
-                            <img src="images/armywings/aut.svg" class="img-fluid mr-1 mb-2 flag">
+                            <img src="images/flags/aut.svg" class="img-fluid mr-1 mb-2 flag">
                             <h4 class="company-name card-title">Army wings(CI/VMN/BC/ANd)</h4>
                         </div></a>
                         <p class="short-summary card-text mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dignissimos a vitae recusandae amet itaque perferendis
@@ -61,7 +61,7 @@
                     </div>
                     <div class="card-body text-dark bg-light">
                         <div class="card-title d-flex justify-content-start align-items-center mb-3">
-                            <img src="images/armywings/aut.svg" class="img-fluid mr-1 mb-2 flag" style="width:20px;">
+                            <img src="images/flags/aut.svg" class="img-fluid mr-1 mb-2 flag">
                             <h4 class="company-name card-title">Darts heroes(CI/VMn/LW/PP)</h4>                                
                         </div></a>
                         <p class="short-summary card-text mt-3">Fusce iaculis viverra enim, nec placerat purus finibus vel. Orci varius natoque penatibus et magnis dis parturient
