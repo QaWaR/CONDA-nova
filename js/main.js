@@ -22,3 +22,7 @@ $('.owl-carousel').owlCarousel({
     }
   }
 });
+
+$(document).ready(function () {
+  $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+});
