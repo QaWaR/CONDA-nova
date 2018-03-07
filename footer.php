@@ -33,13 +33,13 @@
             <section class="info bg-info">
                 <div class="container">
                     <div class="info-wrapper py-5 d-flex flex-lg-row flex-sm-column flex-column justify-content-lg-around align-items-sm-center align-items-lg-start">
-                        <div class="single-info-wrapper py-3 px-3 d-flex flex-column text-white border-right border-light">
+                        <div class="single-info-wrapper py-3 px-3 d-flex flex-column text-white border-right border-light align-self-stretch">
                             <img src="images/logoconda.png" class="w-50 mb-2 align-self-center align-self-sm-center align-self-lg-start">
                             <p class="m-0 text-center text-sm-center text-lg-left text-white">CONDA Crowdinvesting</p>
                             <p class="m-0 text-center text-sm-center text-lg-left text-white"><i class="fas fa-map-marker-alt mr-1 text-white"></i>Donau-City-Strasse 6</p>
                             <p class="m-0 text-center text-sm-center text-lg-left text-white"><i class="fas fa-building mr-1 text-white"></i>1220 Wien</p>
                         </div>
-                        <div class="single-info-wrapper py-3 px-3 d-flex flex-column text-whit border-right border-lighte">
+                        <div class="single-info-wrapper py-3 px-3 d-flex flex-column text-whit border-right border-lighte align-self-stretch">
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Email.." aria-label="Email.." aria-describedby="basic-addon2" >
                                 <div class="input-group-append">
@@ -47,7 +47,7 @@
                                 </div>
                             </div>  
                         </div>
-                        <div class="single-info-wrapper py-3 px-3 d-flex flex-column text-white border-right border-light">
+                        <div class="single-info-wrapper py-3 px-3 d-flex flex-column text-white border-right border-light align-self-stretch">
                             <p class="h4 mb-4 text-center text-sm-center text-lg-left">Folgen sie uns auf</p>
                             <div class="social-media-wrapper d-flex flex-row justify-content-around">
                                 <i class="fab fa-facebook-f mx-3 text-white"></i>
@@ -58,7 +58,7 @@
                                 <i class="fab fa-xing mx-3 text-white"></i>
                             </div>
                         </div>
-                        <div class="single-info-wrapper py-3 px-3 d-flex flex-column text-white text-center text-sm-center text-lg-left">
+                        <div class="single-info-wrapper py-3 px-3 d-flex flex-column text-white text-center text-sm-center text-lg-left align-self-stretch">
                             <a href="#" class="text-white">Risikohinweis</a>
                             <a href="blog.php" class="text-white">Blog</a>
                             <a href="#" class="text-white">Presse</a>

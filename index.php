@@ -396,9 +396,49 @@
                             </div>
                         </div>
                     </div>
-                    <button class="btn btn-success py-2 px-3 mx-auto">Load More</button>
-                </div>
+                    <!--SINGLE-CAMPAIGN-->
+                    <div class="col-12 col-md-6">
+                        <a href="" class="card-clickable-link d-block mb-4">
+                            <div class="single-campaign card">
+                                <img src="images/medix/medix.jpg" class="card-img-top">
+                                <div class="card-header bg-primary px-3 py-2 d-flex justify-content-between">
+                                    <p class="campaign-status text-uppercase text-white font-weight-bold my-auto mr-3"><span class="h4"> 2 </span> months remaining</p>
+                                    <img src="images/medix/logo.jpg" class="rounded-circle">
+                                </div>
+                                <div class="card-body text-dark bg-light">
+                                     <div class="card-title d-flex justify-content-start align-items-center mb-3">
+                                        <img src="images/armywings/aut.svg" class="img-fluid mr-1 mb-2 flag" style="width:20px;">
+                                        <h4 class="company-name card-title">Medix (CF)</h4>
+                                    </div>
+                                    <p class="short-summary card-text mt-3">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+                                    <hr>
+                                    <div class="status-wrapper text-dark d-flex justify-content-around">
+                                        <div class="status-scale rounded-circle border border-secondary p-4 pt-5 mr-3 text-center">
+                                            <p class="total-amount font-weight-bold m-0">75.900 €</p>
+                                            <p class="numb-of-investors m-0 text-muted">142 Investors</p>
+                                            <p class="completed">217%</p>
+                                        </div>
+                                        <div class="invested-amount align-self-center">
+                                            <p class="text-muted">
+                                                <span class="min-amoun d-block h4 m-0 text-dark">35.000$</span> Minimum Investment</p>
+                                            <p class="text-muted">
+                                                <span class="max-amount d-block h4 m-0 text-dark">180.000$</span> Maximum investment</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer p-0">
+                                    
+                                    <div class="footer-button py-4 text-center">
+                                        <button class="btn btn-success text-uppercase py-2 px-4">View details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>  
+                <button class="btn btn-success py-2 px-3 mx-auto">Load More</button>
             </div>
+            
             <div class="col-12 col-lg-4">
                 <h2 class="text-secondary mt-3">News</h2>
                 <hr>
