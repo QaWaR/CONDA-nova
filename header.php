@@ -27,10 +27,10 @@
 
                     <div class="collapse navbar-collapse" id="navbarMain">
                         <div class="navbar-nav ml-auto">
-                            <a href="campaigns.php" class="nav-item nav-link text-uppercase pr-2"><small class="d-block font-weight-light">projecte</small><b>entdecken</b></a>
-                            <a href="crowdinvesting.php" class="nav-item nav-link text-uppercase pr-2"><small class="d-block font-weight-light">so funktioniert</small><b>crowdinvesting</b></a>
-                            <a href="set-up-projects.php" class="nav-item nav-link text-uppercase pr-2"><small class="d-block font-weight-light">projecte</small><b>einreichen</b></a>
-                            <a href="aboutus.php" class="nav-item nav-link text-uppercase pr-2"><small class="d-block font-weight-light">uber</small><b>conda</b></a>
+                            <a href="campaigns.php" class="nav-item nav-link text-uppercase pr-2"  data-toggle="tooltip" data-placement="bottom" title="Entdecken"><small class="d-block font-weight-light">projecte</small><b>entdecken</b></a>
+                            <a href="crowdinvesting.php" class="nav-item nav-link text-uppercase pr-2"  data-toggle="tooltip" data-placement="bottom" title="Crowdinvesting"><small class="d-block font-weight-light">so funktioniert</small><b>crowdinvesting</b></a>
+                            <a href="set-up-projects.php" class="nav-item nav-link text-uppercase pr-2"  data-toggle="tooltip" data-placement="bottom" title="Einreichen"><small class="d-block font-weight-light">projecte</small><b>einreichen</b></a>
+                            <a href="aboutus.php" class="nav-item nav-link text-uppercase pr-2"  data-toggle="tooltip" data-placement="bottom" title="Conda"><small class="d-block font-weight-light">uber</small><b>conda</b></a>
                         </div>
                     </div>
                 </nav>
