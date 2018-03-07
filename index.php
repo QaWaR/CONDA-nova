@@ -437,10 +437,10 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="container-fluid">
-                        <button class="btn btn-success py-2 px-3 mx-auto col-12">Load More</button>
-                    </div>
+                    </div> 
+                </div>
+                <div class="d-flex">
+                    <button class="btn btn-success py-2 px-3 mx-auto">Load More</button>
                 </div>
             </div>
             
