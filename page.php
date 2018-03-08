@@ -298,8 +298,6 @@
                                 <p class="text-capitalize text-muted m-0">SYNCON International Franchise Consultants waltraud.martius@syncon.at</p>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -313,20 +311,6 @@
         </div>
     </section>
     <section class="container">
-        <div class="ci-intro mb-5">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                    <h1 class="text-capitalize mb-4">Investieren Sie mit Crowdinvesting</h1>
-                    <p class="h3 mb-5">Beteiligen Sie sich an erfolgsversprechenden Projekten.</p>
-                    <p class="mb-3 text-muted">Auf CONDA haben Sie die Möglichkeit, bereits kleine Beträge in erfolgsversprechende Unternehmen mit hohem Wachstumspotential
-                    zu investieren. Dadurch ermöglichen Sie die Umsetzung innovativer Ideen und profitieren langfristig vom Erfolg des Unternehmens.
-                    </p>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <img src="images/ci/image0.jpg" class="img-fluid">
-                </div>
-            </div>
-        </div>
         <div class="principes mb-5">
             <h1 class="text-capitalize mb-4">Das Prinzip von Crowdinvesting</h1>
             <div class="bei-conda mb-4">
