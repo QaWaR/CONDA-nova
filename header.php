@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/owl-carousel/css/owl.theme.default.min.css">
     <link href="https://fonts.googleapis.com/css?family=Jaldi:400,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="assets/fontawesome/css/css/fontawesome-all.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>

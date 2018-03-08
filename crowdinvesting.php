@@ -7,7 +7,7 @@
             <button class="btn btn-danger py-3 px-2 rounded-0">Projekte entedecken</button>
         </div>
     </section>
-    <div class="container">
+    <section class="container">
         <section class="ci-intro mb-5">
             <div class="row">
                 <div class="col-12 col-lg-6">
@@ -161,7 +161,7 @@
             </div>
             <p class="my-3 text-muted">Sie haben noch Fragen? Sehen Sie sich bitte die Antworten auf die häufigste gestellten Fragen, unter Hilfe an.</p>
         </section>
-    </div>
+    </section>
     <section class="subscribe py-5 bg-light">
         <div class="container">
             <h1 class="text-center mx-3 mb-5">Wir halten Sie am Laufenden</h1>
@@ -222,7 +222,7 @@
             </div>
         </div>
     </section>
-    <div class="container">
+    <section class="container">
         <section class="final-word mb-4 row">
             <div class="col-12 col-md-6 py-2">
                 <h1 class="mb-4">Minimieren Sie Ihr Risiko</h1>
@@ -237,9 +237,6 @@
                 <img src="images/ci/work.jpg" class="img-fluid">
             </div>
         </section>
-    </div>
-
-    
-
+    </section>
 </main>
 <?php include 'footer.php';?>
