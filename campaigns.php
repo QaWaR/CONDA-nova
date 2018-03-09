@@ -27,7 +27,7 @@
                         <div class="campaign-invest-wrapper text-dark d-flex flex-column flex-sm-row justify-content-around"><!-- CAMPAIGN KNOB(SCALE) WITH CURRENT INVESTMENT STATUS AND BASIC INFO-->   
                             <div class="campaign-invest-scale rounded-circle border border-secondary p-3  mr-3 text-center"><!-- SCALE -->
                                 <p class="investment-total-amount font-weight-bold m-0 mt-3">220.500&euro;</p>
-                                <p class="investors-number  text-muted">22 Investors</p>
+                                <p class="investors-number text-muted">22 Investors</p>
                                 <p class="investment-completed">18%</p>
                             </div> <!--END-->  
                             <div class="investment-amounts align-self-center pt-3"><!-- BASIC INFO ABOUT INVESTMENTS -->
@@ -49,7 +49,7 @@
                                 <i class="fas fa-chart-line text-muted fa-1x mb-2 align-self-center" data-toggle="tooltip" data-placement="top" title="Base rate"></i>
                                 <span class="d-block text-muted font-weight-bold">4.5 %</span>
                             </div>
-                        </div> <!--END-->         
+                        </div> <!--END-->
                         <div class="footer-button py-4 text-center"><!--BUTTON FOR MORE INFO -->
                             <a class="btn btn-secondary text-uppercase my-1 py-2 px-4" href="#" role="button">View details</a>
                         </div> <!--END-->

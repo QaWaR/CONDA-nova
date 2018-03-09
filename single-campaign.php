@@ -2,16 +2,21 @@
         <main>
             <!--single campaign heading-->
             <section class="container">
-                <div class="d-flex align-items-center mb-5">
-                    <div>
-                        <img class="rounded-circle border border-primary w-100" src="images/campaigns/rsz_anoodeling-logo80px.jpg" alt="">
-                    </div>
-                    <div class="pl-3">
-                        <h3 class="m-0 company-name">ANOODELING<h3>
-                        <div class="d-flex align-items-center">
-                            <div class="pr-3"><img class="flag" src="images/flags/aut.jpg" alt=""></div>
-                            <h4 class="m-0">Wien, Austria</h4>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center my-5">
+                        <div>
+                            <img class="rounded-circle border border-primary w-100" src="images/campaigns/rsz_anoodeling_logo.jpg" alt="">
                         </div>
+                        <div class="pl-3 d-flex">
+                            <h3 class="m-0 company-name">ANOODELING<h3>
+                            <div class="d-flex align-items-center pl-2">
+                                <div class="pr-3"><img class="flag" src="images/flags/aut.jpg" alt=""></div>
+                                <h4 class="m-0">Wien, Austria</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-success btn-lg">INVESTIEREN</button> 
                     </div>
                 </div>
             </section>
@@ -25,25 +30,26 @@
                         </div>
                         <div class="container bg-white w-100">
                             <h5 class="font-weight-light text-muted py-3">STARTET BALD</h5>
-                            <div class="d-flex flex-wrap">
-                                <div class="col-12 col-sm-6 rounded-circle border border-success d-flex flex-column justify-content-center align-items-center mb-3">
-                                    <p class="font-weight-bold m-0">
-                                        0 €
-                                    </p>
-                                    <p class="small text-muted m-0">
-                                        0 Investors
-                                    </p>
-                                    <p class="m-0">
-                                        0%
-                                    </p>
-                                </div>
-                                <div class="col-12 col-sm-6 text-center text-sm-left mb-3">
-                                    <p class="mb-0 font-weight-bold">500.000<sup>€</sup></p>
-                                    <p class="text-muted small">Minimum investment</p>
-                                    <p class="mb-0 font-weight-bold">2.000.000<sup>€</sup></p>
-                                    <p class="text-muted small">Maximum investment</p>
-                                </div>
+                            <div class="campaign-invest-wrapper text-dark d-flex flex-column flex-sm-row justify-content-around"><!-- CAMPAIGN KNOB(SCALE) WITH CURRENT INVESTMENT STATUS AND BASIC INFO-->   
+                                <div class="campaign-invest-scale rounded-circle border border-secondary p-3  mr-3 text-center"><!-- SCALE -->
+                                    <p class="investment-total-amount font-weight-bold m-0 mt-3">220.500&euro;</p>
+                                    <p class="investors-number text-muted">22 Investors</p>
+                                    <p class="investment-completed">18%</p>
+                                </div> <!--END-->  
+                                <div class="investment-amounts align-self-center pt-3"><!-- BASIC INFO ABOUT INVESTMENTS -->
+                                    <p class="text-muted"><span class="investment-min d-block h4 m-0 text-dark">75.000<sup class="currency">&euro;</sup></span> Minimum Investment</p>
+                                    <p class="text-muted"><span class="investment-max d-block h4 m-0 text-dark">700.000<sup class="currency">&euro;</sup></span> Maximum investment</p>
+                                </div> <!--END-->
                             </div>
+                            <div class="campaign-invest-info py-2 my-4 d-flex flex-wrap justify-content-around border-top border-bottom border-muted"><!--ADDITIONAL INFORMATION DISPLAYED AS ICONS WITH TOOLTIPS-->
+                                <div class="info-cell mx-1 px-2 py-2 d-flex flex-row">
+                                    <i class="fas fa-users text-muted"></i>
+                                </div>
+                                <div class="info-cell mx-1 px-2 py-2 text-center">
+                                    <i class="far fa-calendar text-muted"></i>
+                                </div>
+                            </div> <!--END-->
+                            <!--
                             <div class="d-flex flex-wrap justify-content-around pb-3">
                                 <div class="campaign-info-item d-flex flex-column flex-wrap justify-content-center align-items-center">
                                     <i class="fas fa-users text-muted"></i>
@@ -51,7 +57,7 @@
                                 <div class="campaign-info-item d-flex flex-column flex-wrap justify-content-center align-items-center">
                                     <i class="far fa-calendar text-muted"></i>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div>
@@ -62,7 +68,7 @@
                     <a class="nav-link active w-25 text-center bg-white border-bottom border-success text-primary py-3 mb-3 rounded-0 font-weight-bold" id="1" data-toggle="pill" href="#overview" role="tab" aria-controls="overview" aria-selected="true">Overview</a>
                     <a class="nav-link w-25 text-center bg-white border-bottom border-success text-primary py-3 mb-3 rounded-0 font-weight-bold" id="2" data-toggle="pill" href="#details" role="tab" aria-controls="details" aria-selected="false">Details</a>
                     <a class="nav-link w-25 text-center bg-white border-bottom border-success text-primary py-3 mb-3 rounded-0 font-weight-bold" id="3" data-toggle="pill" href="#documents" role="tab" aria-controls="documents" aria-selected="false">Document</a>
-                    <a class="nav-link w-25 text-center bg-white border-bottom border-success text-primary py-3 mb-3 rounded-0 font-weight-bold" id="4" data-toggle="pill" href="#blog" role="tab" aria-controls="blog" aria-selected="false">Blog<sup class="pl-2"><span class="badge badge-pill badge-success rounded-circle px-2 py-1">0</span></sup></a>
+                    <a class="nav-link w-25 text-center bg-white border-bottom border-success text-primary py-3 mb-3 rounded-0 font-weight-bold" id="4" data-toggle="pill" href="#blog" role="tab" aria-controls="blog" aria-selected="false">Blog<sup class="pl-2"><span class="badge badge-pill badge-success rounded-circle px-2 py-1">3</span></sup></a>
                 </div>
             </section>
             <!--single campaign pills content-->
@@ -99,9 +105,9 @@
                                                     <div class="pl-2">
                                                         <h5 class="m-0">Delorian Kubitski</h5>
                                                         <p class="m-0">CEO</p>
-                                                        <a class="text-success" data-toggle="collapse" data-target="#accordion1" aria-expanded="true" aria-controls="accordion1">Biography</a>
+                                                        <a href="#" class="text-success" data-toggle="collapse" data-target="#accordion1" aria-expanded="true" aria-controls="accordion1">Biography</a>
                                                         <div id="accordion1" class="collapse">
-                                                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                                            <p>Aliquam erat volutpat. Aliquam libero ipsum, sollicitudin vel interdum eu, faucibus at velit. Integer consequat felis eu purus tempor, sed venenatis sapien aliquet. Nunc placerat eu ipsum a interdum. Vestibulum convallis purus mi, et porttitor erat vulputate eget. Aliquam non ante iaculis, fringilla metus id, ornare dolor. Nunc pretium leo a est tristique, id bibendum massa rutrum.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -113,11 +119,11 @@
                                                         <img class="rounded-circle" src="images/single-campaign/default-avatar.png" alt="">
                                                     </div>
                                                     <div class="pl-2">
-                                                        <h5 class="m-0">Delorian Kubitski</h5>
-                                                        <p class="m-0">CEO</p>
-                                                        <a class="text-success" data-toggle="collapse" data-target="#accordion2" aria-expanded="true" aria-controls="accordion2">Biography</a>
+                                                        <h5 class="m-0">Yohana Bach</h5>
+                                                        <p class="m-0">Investor</p>
+                                                        <a href="#" class="text-success" data-toggle="collapse" data-target="#accordion2" aria-expanded="true" aria-controls="accordion2">Biography</a>
                                                         <div id="accordion2" class="collapse">
-                                                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                                            <p>Aliquam erat volutpat. Aliquam libero ipsum, sollicitudin vel interdum eu, faucibus at velit. Integer consequat felis eu purus tempor, sed venenatis sapien aliquet. Nunc placerat eu ipsum a interdum. Vestibulum convallis purus mi, et porttitor erat vulputate eget. Aliquam non ante iaculis, fringilla metus id, ornare dolor. Nunc pretium leo a est tristique, id bibendum massa rutrum.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -129,11 +135,11 @@
                                                         <img class="rounded-circle" src="images/single-campaign/default-avatar.png" alt="">
                                                     </div>
                                                     <div class="pl-2">
-                                                        <h5 class="m-0">Delorian Kubitski</h5>
-                                                        <p class="m-0">CEO</p>
-                                                        <a class="text-success" data-toggle="collapse" data-target="#accordion3" aria-expanded="true" aria-controls="accordion3">Biography</a>
+                                                        <h5 class="m-0">Gerhard Lotus</h5>
+                                                        <p class="m-0">COO</p>
+                                                        <a href="#" class="text-success" data-toggle="collapse" data-target="#accordion3" aria-expanded="true" aria-controls="accordion3">Biography</a>
                                                         <div id="accordion3" class="collapse">
-                                                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                                            <p>Aliquam erat volutpat. Aliquam libero ipsum, sollicitudin vel interdum eu, faucibus at velit. Integer consequat felis eu purus tempor, sed venenatis sapien aliquet. Nunc placerat eu ipsum a interdum. Vestibulum convallis purus mi, et porttitor erat vulputate eget. Aliquam non ante iaculis, fringilla metus id, ornare dolor. Nunc pretium leo a est tristique, id bibendum massa rutrum.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -145,11 +151,11 @@
                                                         <img class="rounded-circle" src="images/single-campaign/default-avatar.png" alt="">
                                                     </div>
                                                     <div class="pl-2">
-                                                        <h5 class="m-0">Delorian Kubitski</h5>
-                                                        <p class="m-0">CEO</p>
-                                                        <a class="text-success" data-toggle="collapse" data-target="#accordion4" aria-expanded="true" aria-controls="accordion4">Biography</a>
+                                                        <h5 class="m-0">Edward Longstride</h5>
+                                                        <p class="m-0">Investor</p>
+                                                        <a href="#" class="text-success" data-toggle="collapse" data-target="#accordion4" aria-expanded="true" aria-controls="accordion4">Biography</a>
                                                         <div id="accordion4" class="collapse">
-                                                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                                            <p>Aliquam erat volutpat. Aliquam libero ipsum, sollicitudin vel interdum eu, faucibus at velit. Integer consequat felis eu purus tempor, sed venenatis sapien aliquet. Nunc placerat eu ipsum a interdum. Vestibulum convallis purus mi, et porttitor erat vulputate eget. Aliquam non ante iaculis, fringilla metus id, ornare dolor. Nunc pretium leo a est tristique, id bibendum massa rutrum.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -161,11 +167,11 @@
                                                         <img class="rounded-circle" src="images/single-campaign/default-avatar.png" alt="">
                                                     </div>
                                                     <div class="pl-2">
-                                                        <h5 class="m-0">Delorian Kubitski</h5>
-                                                        <p class="m-0">CEO</p>
-                                                        <a class="text-success" data-toggle="collapse" data-target="#accordion5" aria-expanded="true" aria-controls="accordion5">Biography</a>
+                                                        <h5 class="m-0">Fridrih Zetsche</h5>
+                                                        <p class="m-0">CIO</p>
+                                                        <a href="#" class="text-success" data-toggle="collapse" data-target="#accordion5" aria-expanded="true" aria-controls="accordion5">Biography</a>
                                                         <div id="accordion5" class="collapse">
-                                                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                                            <p>Aliquam erat volutpat. Aliquam libero ipsum, sollicitudin vel interdum eu, faucibus at velit. Integer consequat felis eu purus tempor, sed venenatis sapien aliquet. Nunc placerat eu ipsum a interdum. Vestibulum convallis purus mi, et porttitor erat vulputate eget. Aliquam non ante iaculis, fringilla metus id, ornare dolor. Nunc pretium leo a est tristique, id bibendum massa rutrum.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -177,11 +183,11 @@
                                                         <img class="rounded-circle" src="images/single-campaign/default-avatar.png" alt="">
                                                     </div>
                                                     <div class="pl-2">
-                                                        <h5 class="m-0">Delorian Kubitski</h5>
-                                                        <p class="m-0">CEO</p>
-                                                        <a class="text-success" data-toggle="collapse" data-target="#accordion6" aria-expanded="true" aria-controls="accordion6">Biography</a>
+                                                        <h5 class="m-0">Giacomo Lauda</h5>
+                                                        <p class="m-0">Investor</p>
+                                                        <a href="#" class="text-success" data-toggle="collapse" data-target="#accordion6" aria-expanded="true" aria-controls="accordion6">Biography</a>
                                                         <div id="accordion6" class="collapse">
-                                                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                                            <p>Aliquam erat volutpat. Aliquam libero ipsum, sollicitudin vel interdum eu, faucibus at velit. Integer consequat felis eu purus tempor, sed venenatis sapien aliquet. Nunc placerat eu ipsum a interdum. Vestibulum convallis purus mi, et porttitor erat vulputate eget. Aliquam non ante iaculis, fringilla metus id, ornare dolor. Nunc pretium leo a est tristique, id bibendum massa rutrum.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -193,11 +199,11 @@
                                                         <img class="rounded-circle" src="images/single-campaign/default-avatar.png" alt="">
                                                     </div>
                                                     <div class="pl-2">
-                                                        <h5 class="m-0">Delorian Kubitski</h5>
-                                                        <p class="m-0">CEO</p>
-                                                        <a class="text-success" data-toggle="collapse" data-target="#accordion7" aria-expanded="true" aria-controls="accordion7">Biography</a>
+                                                        <h5 class="m-0">Werner Daneken</h5>
+                                                        <p class="m-0">CMO</p>
+                                                        <a href="#" class="text-success" data-toggle="collapse" data-target="#accordion7" aria-expanded="true" aria-controls="accordion7">Biography</a>
                                                         <div id="accordion7" class="collapse">
-                                                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                                            <p>Aliquam erat volutpat. Aliquam libero ipsum, sollicitudin vel interdum eu, faucibus at velit. Integer consequat felis eu purus tempor, sed venenatis sapien aliquet. Nunc placerat eu ipsum a interdum. Vestibulum convallis purus mi, et porttitor erat vulputate eget. Aliquam non ante iaculis, fringilla metus id, ornare dolor. Nunc pretium leo a est tristique, id bibendum massa rutrum.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -209,11 +215,11 @@
                                                         <img class="rounded-circle" src="images/single-campaign/default-avatar.png" alt="">
                                                     </div>
                                                     <div class="pl-2">
-                                                        <h5 class="m-0">Delorian Kubitski</h5>
-                                                        <p class="m-0">CEO</p>
-                                                        <a class="text-success" data-toggle="collapse" data-target="#accordion8" aria-expanded="true" aria-controls="accordion8">Biography</a>
+                                                        <h5 class="m-0">Wolfgang Haig</h5>
+                                                        <p class="m-0">Investor</p>
+                                                        <a href="#" class="text-success" data-toggle="collapse" data-target="#accordion8" aria-expanded="true" aria-controls="accordion8">Biography</a>
                                                         <div id="accordion8" class="collapse">
-                                                            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+                                                            <p>Aliquam erat volutpat. Aliquam libero ipsum, sollicitudin vel interdum eu, faucibus at velit. Integer consequat felis eu purus tempor, sed venenatis sapien aliquet. Nunc placerat eu ipsum a interdum. Vestibulum convallis purus mi, et porttitor erat vulputate eget. Aliquam non ante iaculis, fringilla metus id, ornare dolor. Nunc pretium leo a est tristique, id bibendum massa rutrum.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -287,7 +293,9 @@
                                 <div class="col-12 col-lg-8 mb-3">
                                     <h1 class="company-name mb-3">Anoodeling</h1>
                                     <p class="text-muted">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam urna orci, vestibulum id ante ut, varius molestie arcu. Etiam scelerisque erat accumsan libero egestas ornare. Mauris mattis neque at metus condimentum suscipit. Nullam cursus libero sed diam volutpat semper. Sed sit amet dolor porta, sagittis felis vitae, sagittis lorem. Sed porttitor porttitor dolor, vel fringilla eros maximus id. Nulla semper tempor dapibus. Ut ex ipsum, placerat ut tortor vitae, laoreet lobortis arcu.</p>
-                                    <img src="images/single-campaign/Story_image_02.jpg" class="w-100 mb-3" alt="" id="anoodeling">
+                                    <div class="story-img">
+                                        <img src="images/single-campaign/Story_image_02.jpg" class="w-100 mb-3" alt="" id="anoodeling">
+                                    </div>
                                     <table class="w-100 mb-3">
                                         <tr>
                                             <th class="text-muted">Primary</th>
@@ -324,8 +332,8 @@
                                         </blockquote>
                                     </div>
                                     <div class="side-nav">
-                                        <a href="#anoodeling" class="btn btn-dark rounded-circle side-nav-item"></a>
-                                        <a href="#investieren" class="btn btn-dark rounded-circle side-nav-item"></a>
+                                        <a href="#anoodeling" class="btn btn-success rounded-circle side-nav-item"></a>
+                                        <a href="#investieren" class="btn btn-light rounded-circle side-nav-item"></a>
                                     </div>
                                 </div>
                                 <!--aside-->
@@ -437,7 +445,73 @@
                                 <!--main-->
                                 <div class="col-12 col-lg-8 mb-3">
                                     <h3 class="border-bottom mb-3 pb-3">Other posts</h3>
-                                    <h2 class="font-weight-bold text-center text-muted">There are no posts currently</h2>
+                                    <div class="container-fluid">
+                                        <div class="row pb-3">
+                                            <div class="col-12 col-sm-6">
+                                                <div class="news-single card p-2 mb-4">
+                                                    <div class="card-body p-0 text-dark">
+                                                        <a href="#">
+                                                            <h4 class="news-heading card-title mt-3 text-dark">Proin euismod nisl id nisl consectetur porttitor</h4>
+                                                        </a>
+                                                        <div class="date-author d-flex align-items-baseline">
+                                                            <i class="far fa-clock mr-1 text-muted"></i>
+                                                            <p class="card-subtitle text-muted">September 11, 2017 By
+                                                                <span><a href="#" class="text-success">adminuser </a></span> in<span><a href="#" class="text-success"> Uncategorized</a></span></p>
+                                                        </div>
+                                                        <p class="news-summary card-text text-dark mt-3">Pellentesque consequat fringilla nibh. Nunc quis ante ligula. Duis laoreet diam nisl, tincidunt ultricies velit interdum vitae. Nam et justo facilisis, semper erat sed, pulvinar ligula. Vivamus vel ipsum id nunc mattis rhoncus. In non varius mauris. Nunc efficitur imperdiet quam sit amet tincidunt. Curabitur et sapien elit. Donec sit amet interdum mi. Nam eu</p>
+                                                        <a href="#" class="d-inline-block text-success mb-3">Read more</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <div class="news-single card p-2 mb-4">
+                                                    <div class="card-body p-0 text-dark">
+                                                        <a href="#">
+                                                            <h4 class="news-heading card-title mt-3 text-dark">Suspendisse potenti</h4>
+                                                        </a>
+                                                        <div class="date-author d-flex align-items-baseline">
+                                                            <i class="far fa-clock mr-1 text-muted"></i>
+                                                            <p class="card-subtitle text-muted">September 11, 2017 By
+                                                                <span>
+                                                                    <a href="#" class="text-success">adminuser </a>
+                                                                </span> in
+                                                                <span>
+                                                                    <a href="#" class="text-success"> Uncategorized</a>
+                                                                </span>
+                                                            </p>
+                                                        </div>
+                                                        <p class="news-summary card-text text-dark mt-3">Nulla cursus congue est, non sagittis lacus congue non. Morbi pretium orci libero, eget mattis nisl porttitor vel. Ut tempus nec massa vel fermentum. Donec egestas vitae libero sit amet malesuada. Integer vel elit sit amet dolor sollicitudin volutpat eget eu neque. Proin vulputate accumsan lacus, non suscipit massa iaculis sed. Donec iaculis dui in</p>
+                                                        <a href="#" class="d-inline-block text-success mb-3">Read more</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <div class="news-single card p-2 mb-4">
+                                                    <a href="#" class="news-image d-block">
+                                                        <img src="images/news/house.jpg" class="card-img-top img-fluid">
+                                                    </a>
+                                                    <div class="card-body p-0 text-dark">
+                                                        <a href="#">
+                                                            <h4 class="news-heading card-title mt-3 text-dark">Nunc nec enim at ipsum aliquam rutrum nec et elit</h4>
+                                                        </a>
+                                                        <div class="date-author d-flex align-items-baseline">
+                                                            <i class="far fa-clock mr-1 text-muted"></i>
+                                                            <p class="card-subtitle text-muted">September 11, 2017 By
+                                                                <span>
+                                                                    <a href="#" class="text-success">adminuser </a>
+                                                                </span> in
+                                                                <span>
+                                                                    <a href="#" class="text-success"> Uncategorized</a>
+                                                                </span>
+                                                            </p>
+                                                        </div>
+                                                        <p class="news-summary card-text text-dark mt-3">Maecenas imperdiet arcu id urna fringilla suscipit. Nullam non luctus mauris. Aliquam at orci ut metus congue dapibus. Nullam non turpis in purus porttitor gravida ac nec ligula. Sed at nibh turpis. Etiam porttitor magna vitae augue ullamcorper, ultricies porta quam finibus. Proin diam metus, bibendum eu felis in, accumsan cursus dui. Fusce condimentum feugiat</p>
+                                                        <a href="#" class="d-inline-block text-success mb-3">Read more</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <!--aside-->
                                 <aside class="col-12 col-lg-4 campaign-side-short mb-3">
