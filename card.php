@@ -12,7 +12,7 @@
                         <img src="images/armywings/armywings.jpg" class="card-img-top campaign-image">
                         <div class="campaign-header card-header bg-primary px-3 py-2 d-flex justify-content-between">
                             <p class="campaign-status text-uppercase text-white font-weight-bold my-auto mr-3">Starting in<span class="h4"> 1 </span> month</p>
-                            <img src="images/armywings/wingslogo.jpg" class="rounded-circle campaign-logo">
+                            <img src="images/campaigns/rsz-intechor-logo.jpg" class="rounded-circle campaign-logo">
                         </div>
                     </a> <!--END-->                
                     <div class="campaign-content card-body text-dark bg-light"><!-- CAMPAIGN TITLE AND EXCERT(SUMMARY ABOUT COMPANY), WITH INVESTMENT STATUS-->       
@@ -65,8 +65,8 @@
                                 <span class="d-block text-muted font-weight-bold">2 years</span>
                             </div>
                             <div class="info-cell mx-1 px-2 py-2 text-center">
-                                <i class="fas fa-chart-line text-muted fa-2x align-self-center" data-toggle="tooltip" data-placement="top" title="Base rate"></i>
-                                <span class="d-block text-muted font-weight-bold">2 years</span>
+                                <i class="fas fa-chart-line text-muted mb-2 fa-1x align-self-center" data-toggle="tooltip" data-placement="top" title="Base rate"></i>
+                                <span class="d-block text-muted font-weight-bold">4.5 %</span>
                             </div>
                             <div class="info-cell mx-1 px-2 py-2 d-flex flex-row">
                                 <i class="fas fa-rocket text-muted fa-2x align-self-center" data-toggle="tooltip" data-placement="top" title="Startup"></i>
