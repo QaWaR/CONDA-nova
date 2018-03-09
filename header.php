@@ -29,16 +29,16 @@
                     <div class="collapse navbar-collapse" id="navbarMain">
                         <div class="navbar-nav ml-auto">
                             <a href="campaigns.php" class="nav-item nav-link text-uppercase pr-2"  data-toggle="tooltip" data-placement="bottom" title="Entdecken"><small class="d-block font-weight-light">projecte</small><b>entdecken</b></a>
-                            <a href="crowdinvesting.php" class="nav-item nav-link text-uppercase pr-2"  data-toggle="tooltip" data-placement="bottom" title="Crowdinvesting"><small class="d-block font-weight-light">so funktioniert</small><b>crowdinvesting</b></a>
-                            <a href="set-up-projects.php" class="nav-item nav-link text-uppercase pr-2"  data-toggle="tooltip" data-placement="bottom" title="Einreichen"><small class="d-block font-weight-light">projecte</small><b>einreichen</b></a>
-                            <a href="aboutus.php" class="nav-item nav-link text-uppercase pr-2"  data-toggle="tooltip" data-placement="bottom" title="Conda"><small class="d-block font-weight-light">uber</small><b>conda</b></a>
+                            <a href="page.php" class="nav-item nav-link text-uppercase pr-2"  data-toggle="tooltip" data-placement="bottom" title="Crowdinvesting"><small class="d-block font-weight-light">so funktioniert</small><b>crowdinvesting</b></a>
+                            <a href="page.php" class="nav-item nav-link text-uppercase pr-2"  data-toggle="tooltip" data-placement="bottom" title="Einreichen"><small class="d-block font-weight-light">projecte</small><b>einreichen</b></a>
+                            <a href="page.php" class="nav-item nav-link text-uppercase pr-2"  data-toggle="tooltip" data-placement="bottom" title="Conda"><small class="d-block font-weight-light">uber</small><b>conda</b></a>
                         </div>
                     </div>
                 </nav>
             </div>
         </section>
         <!--login nav (logged out)-->
-        <section class="login-nav bg-light border-bottom border-grey mb-5">
+        <section class="login-nav bg-light border-bottom border-grey">
             <div class="container py-2">
                 <div class="d-flex justify-content-end align-items-center">
                     <span class="mr-2">New investor?</span>
