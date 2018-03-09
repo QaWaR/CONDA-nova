@@ -64,7 +64,7 @@
                     <!--CAMPAIGN-->
                     <div class="col-12 col-md-6">
                         <div class="campaign card mb-4">  
-                            <a href="#"><!--CAMPAIGN IMAGE AND STATUS-->
+                            <a href="single-campaign.php"><!--CAMPAIGN IMAGE AND STATUS-->
                                 <img src="images/armywings/armywings.jpg" class="card-img-top campaign-image">
                                 <div class="campaign-header card-header bg-primary px-3 py-2 d-flex justify-content-between">
                                     <p class="campaign-status text-uppercase text-white font-weight-bold my-auto mr-3">Starting in<span class="h4"> 1 </span> month</p>
@@ -110,7 +110,7 @@
                                     </div>
                                 </div> <!--END-->         
                                 <div class="footer-button py-4 text-center"><!--BUTTON FOR MORE INFO -->
-                                    <a class="btn btn-secondary text-uppercase my-1 py-2 px-4" href="#" role="button">View details</a>
+                                    <a class="btn btn-secondary text-uppercase my-1 py-2 px-4" href="single-campaign.php" role="button">View details</a>
                                 </div> <!--END-->
                             </div>
                         </div>
@@ -118,7 +118,7 @@
                     <!--CAMPAIGN-->
                     <div class="col-12 col-md-6">
                         <div class="campaign card mb-4">  
-                            <a href="#"><!--CAMPAIGN IMAGE AND STATUS-->
+                            <a href="single-campaign.php"><!--CAMPAIGN IMAGE AND STATUS-->
                                 <img src="images/darts/dartcover.jpg" class="card-img-top campaign-image">
                                 <div class="campaign-header card-header bg-primary px-3 py-2 d-flex justify-content-between">
                                     <p class="campaign-status text-uppercase text-white font-weight-bold my-auto mr-3">Private placement</p>
@@ -145,7 +145,7 @@
                             </div>  
                             <div class="card-footer p-0"><!-- CAMPAIGN ADDITIONAL INFO, CELLS WITH ICONS AND BUTTON FOR MORE INFO -->       
                                 <div class="footer-button py-4 text-center"><!--BUTTON FOR MORE INFO -->
-                                    <a class="btn btn-secondary text-uppercase my-1 py-2 px-4" href="#" role="button">View details</a>
+                                    <a class="btn btn-secondary text-uppercase my-1 py-2 px-4" href="single-campaign.php" role="button">View details</a>
                                 </div> <!--END-->
                             </div>
                         </div>
@@ -153,7 +153,7 @@
                     <!--CAMPAIGN-->
                     <div class="col-12 col-md-6">
                         <div class="campaign card mb-4">  
-                            <a href="#"><!--CAMPAIGN IMAGE AND STATUS-->
+                            <a href="single-campaign.php"><!--CAMPAIGN IMAGE AND STATUS-->
                                 <img src="images/campaigns/m-office.jpg" class="card-img-top campaign-image">
                                 <div class="campaign-header card-header bg-primary px-3 py-2 d-flex justify-content-between">
                                     <p class="campaign-status text-uppercase text-white font-weight-bold my-auto mr-3"><span class="h4"> 3 </span> months remaining</p>
@@ -214,7 +214,7 @@
                                     </div>
                                 </div>
                                 <div class="footer-button py-4 text-center"><!--BUTTON FOR MORE INFO -->
-                                    <a class="btn btn-success text-uppercase my-1 py-2 px-4" href="#" role="button">View details</a>
+                                    <a class="btn btn-success text-uppercase my-1 py-2 px-4" href="single-campaign.php" role="button">View details</a>
                                 </div> <!--END-->
                             </div>
                         </div>
@@ -222,7 +222,7 @@
                     <!--CAMPAIGN-->
                     <div class="col-12 col-md-6">
                         <div class="campaign card mb-4">  
-                            <a href="#"><!--CAMPAIGN IMAGE AND STATUS-->
+                            <a href="single-campaign.php"><!--CAMPAIGN IMAGE AND STATUS-->
                                 <img src="images/campaigns/intechor.jpg" class="card-img-top campaign-image">
                                 <div class="campaign-header card-header bg-primary px-3 py-2 d-flex justify-content-between">
                                     <p class="campaign-status text-uppercase text-white font-weight-bold my-auto mr-3"><span class="h4"> 1 </span> month remaining</p>
@@ -260,7 +260,7 @@
                                     </div>
                                 </div> <!--END-->         
                                 <div class="footer-button py-4 text-center"><!--BUTTON FOR MORE INFO -->
-                                    <a class="btn btn-secondary text-uppercase my-1 py-2 px-4" href="#" role="button">View details</a>
+                                    <a class="btn btn-secondary text-uppercase my-1 py-2 px-4" href="single-campaign.php" role="button">View details</a>
                                 </div> <!--END-->
                             </div>
                         </div>
@@ -268,7 +268,7 @@
                     <!--CAMPAIGN-->
                     <div class="col-12 col-md-6">
                         <div class="campaign card mb-4">  
-                            <a href="#"><!--CAMPAIGN IMAGE AND STATUS-->
+                            <a href="single-campaign.php"><!--CAMPAIGN IMAGE AND STATUS-->
                                 <img src="images/campaigns/makit.jpg" class="card-img-top campaign-image">
                                 <div class="campaign-header card-header bg-secondary px-3 py-2 d-flex justify-content-between">
                                     <p class="campaign-status text-uppercase text-white font-weight-bold my-auto mr-3">Investment finished</p>
@@ -299,7 +299,7 @@
                                     </div>
                                 </div> <!--END-->
                                 <div class="footer-button py-4 text-center"><!--BUTTON FOR MORE INFO -->
-                                    <a class="btn btn-secondary text-uppercase my-1 py-2 px-4" href="#" role="button">View details</a>
+                                    <a class="btn btn-secondary text-uppercase my-1 py-2 px-4" href="single-campaign.php" role="button">View details</a>
                                 </div> <!--END-->
                             </div>
                         </div>
@@ -307,7 +307,7 @@
                     <!--CAMPAIGN-->
                     <div class="col-12 col-md-6">
                         <div class="campaign card mb-4">  
-                            <a href="#"><!--CAMPAIGN IMAGE AND STATUS-->
+                            <a href="single-campaign.php"><!--CAMPAIGN IMAGE AND STATUS-->
                                 <img src="images/campaigns/oceanic-travel.jpg" class="card-img-top campaign-image">
                                 <div class="campaign-header card-header bg-primary px-3 py-2 d-flex justify-content-between">
                                     <p class="campaign-status text-uppercase text-white font-weight-bold my-auto mr-3">Successfully financed</p>
@@ -351,7 +351,7 @@
                                     </div>
                                 </div> <!--END-->         
                                 <div class="footer-button py-4 text-center"><!--BUTTON FOR MORE INFO -->
-                                    <a class="btn btn-secondary text-uppercase my-1 py-2 px-4" href="#" role="button">View details</a>
+                                    <a class="btn btn-secondary text-uppercase my-1 py-2 px-4" href="single-campaign.php" role="button">View details</a>
                                 </div> <!--END-->
                             </div>
                         </div>
@@ -359,7 +359,7 @@
                     <!--CAMPAIGN-->
                     <div class="col-12 col-md-6">
                         <div class="campaign card mb-4">  
-                            <a href="#"><!--CAMPAIGN IMAGE AND STATUS-->
+                            <a href="single-campaign.php"><!--CAMPAIGN IMAGE AND STATUS-->
                                 <img src="images/campaigns/medix.jpg" class="card-img-top campaign-image">
                                 <div class="campaign-header card-header bg-primary px-3 py-2 d-flex justify-content-between">
                                     <p class="campaign-status text-uppercase text-white font-weight-bold my-auto mr-3"><span class="h4"> 1 </span> months remaining</p>
@@ -392,14 +392,14 @@
                             </div>  
                             <div class="card-footer p-0"><!-- CAMPAIGN ADDITIONAL INFO, CELLS WITH ICONS AND BUTTON FOR MORE INFO -->        
                                 <div class="footer-button py-4 text-center"><!--BUTTON FOR MORE INFO -->
-                                    <a class="btn btn-success text-uppercase my-1 py-2 px-4" href="#" role="button">View details</a>
+                                    <a class="btn btn-success text-uppercase my-1 py-2 px-4" href="single-campaign.php" role="button">View details</a>
                                 </div> <!--END-->
                             </div>
                         </div>
                     </div> <!--END CAMPAIGN--> 
                 </div>
                 <div class="d-flex">
-                    <button class="btn btn-success py-2 px-3 mx-auto">Load More</button>
+                    <a class="btn btn-success py-2 px-3 mx-auto" role="button" href="campaigns.php">Load More</a>
                 </div>
             </div>
             
@@ -407,7 +407,7 @@
                 <h2 class="text-secondary mt-3">News</h2>
                 <hr>
                 <div class="news-single card p-2 mb-4">
-                    <a href="#" class="news-image d-block">
+                    <a href="single-news.php" class="news-image d-block">
                         <img src="images/news/house.jpg" class="card-img-top img-fluid">
                     </a>
                     <div class="card-body p-0 text-dark">
@@ -434,7 +434,7 @@
                 </div>
                 <div class="news-single card p-2 mb-4">
                     <div class="card-body p-0 text-dark">
-                        <a href="">
+                        <a href="single-news.php">
                             <h4 class="news-heading card-title mt-3 text-dark">Was ist das meine gotte!?</h4>
                         </a>
                         <div class="date-author d-flex align-items-baseline">

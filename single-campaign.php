@@ -74,7 +74,9 @@
                             <div class="row">
                                 <!--main-->
                                 <div class="col-12 col-lg-8 mb-3">
-                                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/5SVN9x7Uv74" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5SVN9x7Uv74" allowfullscreen></iframe>
+                                    </div>
                                     <h1 class="company-name mb-3">Anoodeling</h1>
                                     <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam urna orci, vestibulum id ante ut, varius molestie arcu. Etiam scelerisque erat accumsan libero egestas ornare. Mauris mattis neque at metus condimentum suscipit. Nullam cursus libero sed diam volutpat semper. Sed sit amet dolor porta, sagittis felis vitae, sagittis lorem. Sed porttitor porttitor dolor, vel fringilla eros maximus id. Nulla semper tempor dapibus. Ut ex ipsum, placerat ut tortor vitae, laoreet lobortis arcu.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam urna orci, vestibulum id ante ut, varius molestie arcu. Etiam scelerisque erat accumsan libero egestas ornare. Mauris mattis neque at metus condimentum suscipit. Nullam cursus libero sed diam volutpat semper. Sed sit amet dolor porta, sagittis felis vitae, sagittis lorem. Sed porttitor porttitor dolor, vel fringilla eros maximus id. Nulla semper tempor dapibus. Ut ex ipsum, placerat ut tortor vitae, laoreet lobortis arcu.</p>
                                     <img class="w-100 mb-3" src="images/single-campaign/Story_image_01.jpg" alt="">
