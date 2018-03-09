@@ -321,8 +321,7 @@
                                 </div> <!--END-->
                                 <!-- SHORT SUMMARY - EXCERT -->
                                 <p class="campaign-excerpt card-text mt-3">Roll on, deep and dark blue ocean, roll. Ten thousand fleets sweep over thee in vain. Man marks the earth with ruin, but his control stops with the shore. Repudiandae consequatur
-                                    doloremque error culpa quasi itaque?</p> <!--END-->
-                                <hr>       
+                                    doloremque error culpa quasi itaque?</p> <!--END-->     
                             </div>  
                             <div class="card-footer p-0"><!-- CAMPAIGN ADDITIONAL INFO, CELLS WITH ICONS AND BUTTON FOR MORE INFO -->
                                 <div class="campaign-failed p-2 d-flex flex-row justify-content-around border-bottom border-muted"><!--THIS SECTION ONLY IF CAMPAIGN FAILS-->
