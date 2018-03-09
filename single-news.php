@@ -7,7 +7,7 @@
     </div>
     <div class="container">
         <div class="d-flex">
-            <div class="avatar"><img src="images/single-news/profile-img-default.png" class="rounded-circle" alt=""></div>
+            <div class="avatar"><img src="images/profile-img-default.png" class="rounded-circle" alt=""></div>
             <div class="pl-3">
                 <p class="text-success">Posted by</p>
                 <p class="text-muted">adminuser</p>
