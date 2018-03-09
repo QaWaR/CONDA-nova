@@ -314,8 +314,8 @@
                 <div class="row">
                     <div class="col-12 col-md-6 d-flex align-items-center mb-4">
                         <div class="align-self-start"><img src="images/set-up-projects/1.jpg" alt=""></div>
-                        <h5 class="mb-0 pl-3">
-                            <button class="btn btn-link text-success font-weight-bold m-0 p-0" data-toggle="collapse" data-target="#step1" aria-expanded="true" aria-controls="collapseOne">Projekt einreichen<i class="fas fa-plus text-success ml-2"></i></button>
+                        <h5 class="mb-0 pl-3 align-self-start">
+                            <button class="btn btn-link text-success font-weight-bold m-0 p-0 align-self-start" data-toggle="collapse" data-target="#step1" aria-expanded="true" aria-controls="collapseOne">Projekt einreichen<i class="fas fa-plus text-success ml-2"></i></button>
                             <div id="step1" class="collapse">
                                 <ul>
                                     <li class="mb-2">Füllen Sie das <a href="#" class="text-success">Formular</a> aus.</li>
@@ -327,7 +327,7 @@
                     </div>
                     <div class="col-12 col-md-6 d-flex align-items-center mb-4">
                         <div class="align-self-start"><img src="images/set-up-projects/2.jpg" alt=""></div>
-                        <h5 class="mb-0 pl-3">
+                        <h5 class="mb-0 pl-3 align-self-start">
                             <button class="btn btn-link text-success font-weight-bold m-0 p-0" data-toggle="collapse" data-target="#step2" aria-expanded="true" aria-controls="collapseOne">Projekt einreichen<i class="fas fa-plus text-success ml-2"></i></button>
                             <div id="step2" class="collapse">
                                 <ul>
@@ -343,7 +343,7 @@
                     </div>
                     <div class="col-12 col-md-6 d-flex align-items-center mb-4">
                         <div class="align-self-start"><img src="images/set-up-projects/3.jpg" alt=""></div>
-                        <h5 class="mb-0 pl-3">
+                        <h5 class="mb-0 pl-3 align-self-start">
                             <button class="btn btn-link text-success font-weight-bold m-0 p-0" data-toggle="collapse" data-target="#step3" aria-expanded="true" aria-controls="collapseOne">Projekt einreichen<i class="fas fa-plus text-success ml-2"></i></button>
                             <div id="step3" class="collapse">
                                 <ul>
@@ -357,7 +357,7 @@
                     </div>
                     <div class="col-12 col-md-6 d-flex align-items-center mb-4">
                         <div class="align-self-start"><img src="images/set-up-projects/4.jpg" alt=""></div>
-                        <h5 class="mb-0 pl-3">
+                        <h5 class="mb-0 pl-3 align-self-start">
                             <button class="btn btn-link text-success font-weight-bold m-0 p-0" data-toggle="collapse" data-target="#step4" aria-expanded="true" aria-controls="collapseOne">Projekt einreichen<i class="fas fa-plus text-success ml-2"></i></button>
                             <div id="step4" class="collapse">
                                 <ul>
