@@ -1,5 +1,14 @@
 <?php include "header.php";?>
 <main>
+    <!--crowdinvesting cover-->
+    <section class="cover py-5 mb-4 bg-info">
+        <div class="container">
+            <h2 class="text-bottom">Investieren Sie in die Zukunft</h2>
+            <p class="text-bottom">CONDA Crowdinvesting ist Ihre Möglichkeit sich direkt an Unternehmen der nächsten Generation zu beteiligen.</p>
+            <button class="btn btn-danger py-3 px-2 rounded-0">Projekte entedecken</button>
+        </div>
+    </section>
+    <!--about us image-->
     <section class="container">
         <div class="our-mission py-2 mb-4">
             <div class="row">
@@ -17,6 +26,7 @@
             </div>
         </div>
     </section>
+    <!--about us headers-->
     <section class="container">
         <div class="what-we-do mb-5">
             <h1 class="mb-3">Unsere Grundsätze</h1>
@@ -27,289 +37,203 @@
                 <p class="m-0">Wir legen dabei ganz besonders viel Wert auf den persönlichen Kontakt und die regionale Nähe. Sei es zu den Unternehmern,
                 zu unseren Investoren, unseren Partnern oder selbstverständlich unserem internationalen Team.</p>
             </div>
-            <div class="regionale mb-4">
-                <p class="font-weight-bold m-0">Regionale Nähe sowie Investitionen über die Grenzen hinaus..</p>
-                <p>Auf CONDA haben Sie die Möglichkeit, über die Grenzen hinaus, in europäische Unternehmen zu investieren. Wir arbeiten daran,
-                unser Netzwerk stetig zu erweitern.</p>
-                <p>Uns ist jedoch auch die Nähe sehr wichtig. Aus diesem Grund, haben Investoren die Möglichkeit, sich an Crowdinvesting-Projekten
-                in ihrer Region zu beteiligen. Damit unterstützen sie einerseits den eigenen Wirtschaftsstandort und haben andererseits die
-                Möglichkeit, nah am Unternehmen und damit mitten im Geschehen zu sein.</p>
-                <p class="mb-0">Auf der anderen Seite profitieren die Unternehmer durch unsere regionalen Partner, mit denen sie in persönlichen Kontakt
-                treten können. Dies wiederum ermöglicht es uns, individuell auf unsere Kunden einzugehen und sie während der gesamten Crowdinvesting-Kampagne
-                bestmöglich begleiten zu können.</p>
-            </div>
-            <div class="expertise mb-5">
-                <p class="font-weight-bold m-0">Expertise, Team und Erfahrung.</p>
-                <p>Durch unsere hoch-qualifizierten Partner haben wir eine breite Expertise in den verschiedensten Branchen und Märkten. So
-                erreichen wir höchste Qualität bei unseren Crowdinvesting-Projekten. Dieser Prozess beginnt bereits bei der umfassenden und
-                konsequenten Selektion der besten Ideen, die wir zusammen mit unserem Advisory Board auswählen.</p>
-                <p class="m-0">Unseren Kunden bieten wir professionellen Service sowie kompetente Beratung, um die bestmögliche Basis für den Erfolg ihres
-                Unternehmens zu schaffen. Dabei spielt unser breites Partnernetzwerk sowie die CONDA-Community eine bedeutende Rolle.</p>
-            </div>
             <h2 class="quote text-center text-success mb-4">Für uns sind Ideen die Basis. Aber es sind die Teams und ihr Engagement, die Visionen realisieren!</h2>
         </div>
     </section>
+    <!--about us team members-->
     <section class="container">
-        <div class="our-team mb-4 py-2">
-            <div class="head-team mb-5">
-                <h1 class="mb-5">Das Grunder-Team</h1>
-                <h2 class="mb-4">Wer hinter der Idee von CONDA steckt</h3>
-                <div class="media p-2 mb-4">
-                    <img src="images/aboutus/paul.png" class="rounded-circle">
-                    <div class="media-body ml-3">
-                        <p class="mb-1 font-weight-bold h5">Paul Pöltner</p>
-                        <p class="text-capitalize text-muted m-0">Managing Partner Finance & Business Development</p>
-                        <div class="accordion bg-white">
-                            <div class="card bg-white border-0">
-                                <div class="card-header bg-white border-0 p-0" id="headingTwo">
-                                    <div class="p-0 text-left" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
-                                        role="button">
-                                        <p class="p-0 mt-2 text-success font-weight-bold">Mehr über Paul...
-                                            <i class="fas fa-plus text-success ml-2"></i>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                                    <div class="card-body p-0 text-dark">
-                                        <p>Ein Tausendsassa, wie er im Buch steht. Paul studierte Software Engineering und Internet Computing sowie Informatikmanagement
-                                        an der Technischen Universität Wien, außerdem Betriebswirtschaftslehre an der Wirtschaftsuniversität Wien. 2001 gründete
-                                        er ein IT-Dienstleistungsunternehmen, welches er mehrere Jahre erfolgreich führte und 2008 verkaufte. Im Anschluss daran
-                                        startete Paul seine Karriere bei TPA Horwath als Berufsanwärter Steuerberatung. Als Co-Gründer und Geschäftsführer ist Paul
-                                        „the brain behind“ CONDA.</p>
-                                    </div>
+        <div class="head-team mb-5">
+            <h1 class="mb-5">Das Grunder-Team</h1>
+            <h2 class="mb-4">Wer hinter der Idee von CONDA steckt</h3>
+            <div class="media p-2 mb-4">
+                <img src="images/aboutus/paul.png" class="rounded-circle">
+                <div class="media-body ml-3">
+                    <p class="mb-1 font-weight-bold h5">Paul Pöltner</p>
+                    <p class="text-capitalize text-muted m-0">Managing Partner Finance & Business Development</p>
+                    <div class="accordion bg-white">
+                        <div class="card bg-white border-0">
+                            <div class="card-header bg-white border-0 p-0" id="headingTwo">
+                                <div class="p-0 text-left" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+                                    role="button">
+                                    <p class="p-0 mt-2 text-success font-weight-bold">Mehr über Paul...
+                                        <i class="fas fa-plus text-success ml-2"></i>
+                                    </p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="media p-2 mb-4">
-                    <img src="images/aboutus/daniel.png" class="rounded-circle">
-                    <div class="media-body ml-3">
-                        <p class="mb-1 font-weight-bold h5">Daniel Horak</p>
-                        <p class="text-capitalize text-muted m-0">Managing Partner Sales & Marketing</p>
-                        <div class="accordion bg-white">
-                            <div class="card bg-white border-0">
-                                <div class="card-header bg-white border-0 p-0" id="headingOne">
-                                    <div class="p-0 text-left" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
-                                        role="button">
-                                        <p class="p-0 mt-2 text-success font-weight-bold">Mehr über Paul...
-                                            <i class="fas fa-plus text-success ml-2"></i>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                                    <div class="card-body p-0 text-dark">
-                                        <p>Ein Tausendsassa, wie er im Buch steht. Paul studierte Software Engineering und Internet Computing
-                                            sowie Informatikmanagement an der Technischen Universität Wien, außerdem Betriebswirtschaftslehre
-                                            an der Wirtschaftsuniversität Wien. 2001 gründete er ein IT-Dienstleistungsunternehmen, welches
-                                            er mehrere Jahre erfolgreich führte und 2008 verkaufte. Im Anschluss daran startete Paul seine
-                                            Karriere bei TPA Horwath als Berufsanwärter Steuerberatung. Als Co-Gründer und Geschäftsführer
-                                            ist Paul „the brain behind“ CONDA.</p>
-                                    </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body p-0 text-dark">
+                                    <p>Ein Tausendsassa, wie er im Buch steht. Paul studierte Software Engineering und Internet Computing sowie Informatikmanagement
+                                    an der Technischen Universität Wien, außerdem Betriebswirtschaftslehre an der Wirtschaftsuniversität Wien. 2001 gründete
+                                    er ein IT-Dienstleistungsunternehmen, welches er mehrere Jahre erfolgreich führte und 2008 verkaufte. Im Anschluss daran
+                                    startete Paul seine Karriere bei TPA Horwath als Berufsanwärter Steuerberatung. Als Co-Gründer und Geschäftsführer ist Paul
+                                    „the brain behind“ CONDA.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="Office mb-4">
-                <h2 class="mb-4">Das CONDA-Team Österreich</h2>
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <div class="media p-2 mb-4">
-                            <img src="images/aboutus/katarina.png" class="rounded-circle">
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">KATHARINA EHRENFELLNER</p>
-                                <p class="text-capitalize text-muted m-0">Chief Executive Officer</p>
-                            </div>
-                        </div>
-                        <div class="media p-2 mb-4">
-                            <img src="images/aboutus/hannah.png" class="rounded-circle">
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">HANNAH STURM</p>
-                                <p class="text-capitalize text-muted m-0">Head of Campaign Management</p>
-                            </div>
-                        </div>
-                        <div class="media p-2 mb-4">
-                            <img src="images/aboutus/lara.png" class="rounded-circle">
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">LARA SCHEIBNER</p>
-                                <p class="text-capitalize text-muted m-0">Marketing Assistant</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="media p-2 mb-4">
-                            <img src="images/aboutus/hannes.png" class="rounded-circle">
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">HANNES REITHUBER</p>
-                                <p class="text-capitalize text-muted m-0">Business Analyst</p>
-                            </div>
-                        </div>
-                        <div class="media p-2 mb-4">
-                            <img src="images/aboutus/maria.png" class="rounded-circle">
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">MARIA KOPP</p>
-                                <p class="text-capitalize text-muted m-0">Investor Relations Manager</p>
-                                <div class="accordion bg-white">
-                                    <div class="card bg-white border-0">
-                                        <div class="card-header bg-white border-0 p-0" id="headingThree">
-                                            <div class="p-0 text-left" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
-                                                role="button">
-                                                <p class="p-0 mt-2 text-success font-weight-bold">See more 
-                                                    <i class="fas fa-plus text-success ml-2"></i>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                                            <div class="card-body p-0 text-dark">
-                                                <p>Ein Tausendsassa, wie er im Buch steht. Paul studierte Software Engineering und Internet Computing sowie
-                                                    Informatikmanagement an der Technischen Universität Wien, außerdem Betriebswirtschaftslehre an der Wirtschaftsuniversität
-                                                    Wien. 2001 gründete er ein IT-Dienstleistungsunternehmen, welches er mehrere Jahre erfolgreich führte
-                                                    und 2008 verkaufte. Im Anschluss daran startete Paul seine Karriere bei TPA Horwath als Berufsanwärter
-                                                    Steuerberatung. Als Co-Gründer und Geschäftsführer ist Paul „the brain behind“ CONDA.</p>
-                                            </div>
-                                        </div>
-                                    </div>
+            <div class="media p-2 mb-4">
+                <img src="images/aboutus/daniel.png" class="rounded-circle">
+                <div class="media-body ml-3">
+                    <p class="mb-1 font-weight-bold h5">Daniel Horak</p>
+                    <p class="text-capitalize text-muted m-0">Managing Partner Sales & Marketing</p>
+                    <div class="accordion bg-white">
+                        <div class="card bg-white border-0">
+                            <div class="card-header bg-white border-0 p-0" id="headingOne">
+                                <div class="p-0 text-left" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
+                                    role="button">
+                                    <p class="p-0 mt-2 text-success font-weight-bold">Mehr über Paul...
+                                        <i class="fas fa-plus text-success ml-2"></i>
+                                    </p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="media p-2 mb-4">
-                            <img src="images/aboutus/daniel2.png" class="rounded-circle">
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">DANIEL PÖMMER</p>
-                                <p class="text-capitalize text-muted m-0">Payment Service Manager</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="partners mb-4">
-                <h2 class="mb-4">Our partners in the federal states</h2>
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <div class="media p-2 mb-4">
-                            <div class="bg-primary rounded-circle d-inline-block py-3 px-3 text-capitalize text-white">
-                                <h1 class="m-0 text-uppercase" >UO</h1>
-                            </div>
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">UDO GEORGES OKSAKOWSKI, VORARLBERG</p>
-                                <p class="text-capitalize text-muted m-0">Udo.Oksakowski@conda.at</p>
-                            </div>
-                        </div>
-                        <div class="media p-2 mb-4">
-                            <div class="bg-primary rounded-circle d-inline-block py-3 px-3 text-capitalize text-white">
-                                <h1 class="m-0 text-uppercase" >WI</h1>
-                            </div>
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">WALTER ISCHIA, TYROL</p>
-                                <p class="text-capitalize text-muted m-0">Tirol@conda.at</p>
-                            </div>
-                        </div>
-                        <div class="media p-2 mb-4">
-                            <div class="bg-primary rounded-circle d-inline-block py-3 px-3 text-capitalize text-white">
-                                <h1 class="m-0 text-uppercase" >WM</h1>
-                            </div>
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">WERNER MAIERHOFER, SALZBURG</p>
-                                <p class="text-capitalize text-muted m-0">Salzburg@conda.at</p>
-                            </div>
-                        </div>
-                        <div class="media p-2 mb-4">
-                            <div class="bg-primary rounded-circle d-inline-block py-3 px-3 text-capitalize text-white">
-                                <h1 class="m-0 text-uppercase" >HS</h1>
-                            </div>
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">HERBERT SAMHABER, UPPER AUSTRIA</p>
-                                <p class="text-capitalize text-muted m-0">Oberösterreich@conda.at</p>
-                            </div>
-                        </div>
-                        <div class="media p-2 mb-4">
-                            <div class="bg-primary rounded-circle d-inline-block py-3 px-3 text-capitalize text-white">
-                                <h1 class="m-0 text-uppercase" >HW</h1>
-                            </div>
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">HANS WALDHERR, VIENNA</p>
-                                <p class="text-capitalize text-muted m-0">Skale.io Venture Development hans@skale.io</p>
-                            </div>
-                        </div>
-                        <div class="media p-2 mb-4">
-                            <div class="bg-primary rounded-circle d-inline-block py-3 px-3 text-capitalize text-white">
-                                <h1 class="m-0 text-uppercase" >rk</h1>
-                            </div>
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">RENÉ KLAMPFER, VIENNA</p>
-                                <p class="text-capitalize text-muted m-0">Mentoring & Coaching, Bilanzbuchhaltung r.klampfer@rene-klampfer.at</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="media p-2 mb-4">
-                            <div class="bg-primary rounded-circle d-inline-block py-3 px-3 text-capitalize text-white">
-                                <h1 class="m-0 text-uppercase">hs</h1>
-                            </div>
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">HERIBERT STRASSER, STYRIA</p>
-                                <p class="text-capitalize text-muted m-0">Steiermark@conda.at</p>
-                            </div>
-                        </div>
-                        <div class="media p-2 mb-4">
-                            <div class="bg-primary rounded-circle d-inline-block py-3 px-3 text-capitalize text-white">
-                                <h1 class="m-0 text-uppercase">ag</h1>
-                            </div>
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">ANTON GRONES, TYROL</p>
-                                <p class="text-capitalize text-muted m-0">Tirol@conda.at</p>
-                            </div>
-                        </div>
-                        <div class="media p-2 mb-4">
-                            <div class="bg-primary rounded-circle d-inline-block py-3 px-3 text-capitalize text-white">
-                                <h1 class="m-0 text-uppercase">ms</h1>
-                            </div>
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">MICHAEL SAMHABER, UPPER AUSTRIA</p>
-                                <p class="text-capitalize text-muted m-0">Oberösterreich@conda.at</p>
-                            </div>
-                        </div>
-                        <div class="media p-2 mb-4">
-                            <div class="bg-primary rounded-circle d-inline-block py-3 px-3 text-capitalize text-white">
-                                <h1 class="m-0 text-uppercase">ar</h1>
-                            </div>
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">ALEXANDER RAPATZ, VIENNA</p>
-                                <p class="text-capitalize text-muted m-0">Investment Manager Venionaire Capital alexander.rapatz@venionaire.com</p>
-                            </div>
-                        </div>
-                        <div class="media p-2 mb-4">
-                            <div class="bg-primary rounded-circle d-inline-block py-3 px-3 text-capitalize text-white">
-                                <h1 class="m-0 text-uppercase">wb</h1>
-                            </div>
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">WOLFGANG BARTHOLNER, VIENNA</p>
-                                <p class="text-capitalize text-muted m-0">wb-bc Business Consuling wolfgang.bartholner@wb-bc.at</p>
-                            </div>
-                        </div>
-                        <div class="media p-2 mb-4">
-                            <div class="bg-primary rounded-circle d-inline-block py-3 px-3 text-capitalize text-white">
-                                <h1 class="m-0 text-uppercase">wm</h1>
-                            </div>
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-1 font-weight-bold text-muted h5">WALTRAUD MARTIUS, SALZBURG</p>
-                                <p class="text-capitalize text-muted m-0">SYNCON International Franchise Consultants waltraud.martius@syncon.at</p>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body p-0 text-dark">
+                                    <p>Ein Tausendsassa, wie er im Buch steht. Paul studierte Software Engineering und Internet Computing
+                                        sowie Informatikmanagement an der Technischen Universität Wien, außerdem Betriebswirtschaftslehre
+                                        an der Wirtschaftsuniversität Wien. 2001 gründete er ein IT-Dienstleistungsunternehmen, welches
+                                        er mehrere Jahre erfolgreich führte und 2008 verkaufte. Im Anschluss daran startete Paul seine
+                                        Karriere bei TPA Horwath als Berufsanwärter Steuerberatung. Als Co-Gründer und Geschäftsführer
+                                        ist Paul „the brain behind“ CONDA.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="cover py-5 mb-4 bg-info">
-        <div class="container">
-            <h2 class="text-bottom">Investieren Sie in die Zukunft</h2>
-            <p class="text-bottom">CONDA Crowdinvesting ist Ihre Möglichkeit sich direkt an Unternehmen der nächsten Generation zu beteiligen.</p>
-            <button class="btn btn-danger py-3 px-2 rounded-0">Projekte entedecken</button>
+        <div class="Office mb-4">
+            <h2 class="mb-4">Das CONDA-Team Österreich</h2>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="media p-2 mb-4">
+                        <img src="images/aboutus/katarina.png" class="rounded-circle">
+                        <div class="media-body py-2 ml-3">
+                            <p class="mb-1 font-weight-bold text-muted h5">KATHARINA EHRENFELLNER</p>
+                            <p class="text-capitalize text-muted m-0">Chief Executive Officer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="media p-2 mb-4">
+                        <img src="images/aboutus/hannah.png" class="rounded-circle">
+                        <div class="media-body py-2 ml-3">
+                            <p class="mb-1 font-weight-bold text-muted h5">HANNAH STURM</p>
+                            <p class="text-capitalize text-muted m-0">Head of Campaign Management</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="media p-2 mb-4">
+                        <img src="images/aboutus/lara.png" class="rounded-circle">
+                        <div class="media-body py-2 ml-3">
+                            <p class="mb-1 font-weight-bold text-muted h5">LARA SCHEIBNER</p>
+                            <p class="text-capitalize text-muted m-0">Marketing Assistant</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="media p-2 mb-4">
+                        <img src="images/aboutus/hannes.png" class="rounded-circle">
+                        <div class="media-body py-2 ml-3">
+                            <p class="mb-1 font-weight-bold text-muted h5">HANNES REITHUBER</p>
+                            <p class="text-capitalize text-muted m-0">Business Analyst</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="media p-2 mb-4">
+                        <img src="images/aboutus/maria.png" class="rounded-circle">
+                        <div class="media-body py-2 ml-3">
+                            <p class="mb-1 font-weight-bold text-muted h5">MARIA KOPP</p>
+                            <p class="text-capitalize text-muted m-0">Investor Relations Manager</p>
+                            <div class="accordion bg-white">
+                                <div class="card bg-white border-0">
+                                    <div class="card-header bg-white border-0 p-0" id="headingThree">
+                                        <div class="p-0 text-left" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                                            role="button">
+                                            <p class="p-0 mt-2 text-success font-weight-bold">See more 
+                                                <i class="fas fa-plus text-success ml-2"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                        <div class="card-body p-0 text-dark">
+                                            <p>Ein Tausendsassa, wie er im Buch steht. Paul studierte Software Engineering und Internet Computing sowie
+                                                Informatikmanagement an der Technischen Universität Wien, außerdem Betriebswirtschaftslehre an der Wirtschaftsuniversität
+                                                Wien. 2001 gründete er ein IT-Dienstleistungsunternehmen, welches er mehrere Jahre erfolgreich führte
+                                                und 2008 verkaufte. Im Anschluss daran startete Paul seine Karriere bei TPA Horwath als Berufsanwärter
+                                                Steuerberatung. Als Co-Gründer und Geschäftsführer ist Paul „the brain behind“ CONDA.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="media p-2 mb-4">
+                        <img src="images/aboutus/daniel2.png" class="rounded-circle">
+                        <div class="media-body py-2 ml-3">
+                            <p class="mb-1 font-weight-bold text-muted h5">DANIEL PÖMMER</p>
+                            <p class="text-capitalize text-muted m-0">Payment Service Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="partners mb-4">
+            <h2 class="mb-4">Our partners in the federal states</h2>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="media p-2 mb-4">
+                        <div class="bg-primary rounded-circle d-inline-block py-3 px-3 text-capitalize text-white">
+                            <h1 class="m-0 text-uppercase" >UO</h1>
+                        </div>
+                        <div class="media-body py-2 ml-3">
+                            <p class="mb-1 font-weight-bold text-muted h5">UDO GEORGES OKSAKOWSKI, VORARLBERG</p>
+                            <p class="text-capitalize text-muted m-0">Udo.Oksakowski@conda.at</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="media p-2 mb-4">
+                        <div class="bg-primary rounded-circle d-inline-block py-3 px-3 text-capitalize text-white">
+                            <h1 class="m-0 text-uppercase" >WI</h1>
+                        </div>
+                        <div class="media-body py-2 ml-3">
+                            <p class="mb-1 font-weight-bold text-muted h5">WALTER ISCHIA, TYROL</p>
+                            <p class="text-capitalize text-muted m-0">Tirol@conda.at</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="media p-2 mb-4">
+                        <div class="bg-primary rounded-circle d-inline-block py-3 px-3 text-capitalize text-white">
+                            <h1 class="m-0 text-uppercase" >WM</h1>
+                        </div>
+                        <div class="media-body py-2 ml-3">
+                            <p class="mb-1 font-weight-bold text-muted h5">WERNER MAIERHOFER, SALZBURG</p>
+                            <p class="text-capitalize text-muted m-0">Salzburg@conda.at</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="media p-2 mb-4">
+                        <div class="bg-primary rounded-circle d-inline-block py-3 px-3 text-capitalize text-white">
+                            <h1 class="m-0 text-uppercase" >HS</h1>
+                        </div>
+                        <div class="media-body py-2 ml-3">
+                            <p class="mb-1 font-weight-bold text-muted h5">HERBERT SAMHABER, UPPER AUSTRIA</p>
+                            <p class="text-capitalize text-muted m-0">Oberösterreich@conda.at</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    <!--crowdinvesting headings-->
     <section class="container">
         <div class="principes mb-5">
             <h1 class="text-capitalize mb-4">Das Prinzip von Crowdinvesting</h1>
@@ -319,6 +243,9 @@
                 auf CONDA online und Sie haben die Möglichkeit bereits ab 100 Euro in das Projekt zu investieren.</p>
             </div>
         </div>
+    </section>
+    <!--crowdinvesting ticks-->
+    <section class="container">
         <div class="advantages mb-5">
             <h1 class="mb-5">Ihre Vorteile auf einen Blick</h1>
             <div class="text-check-wrapper mb-5 d-flex flex-nowrap align-items-center">
@@ -331,111 +258,54 @@
             </div>
             <button class="btn btn-success btn-lg p-3 rounded-0">Projekte entedecken</button>
         </div>
+    </section>
+    <!--crowdinvesting accordions-->
+    <section class="container">
         <div class="more-to-know mb-5">
-            <h1 class="mb-4">Die häufigsten Fragen zu Crowdinvesting</h1>
-            <div class="accordion info bg-white">
-                <div class="card bg-white border-0">
-                    <div class="card-header bg-white border-0 p-0" id="headingTwo">
-                        <div class="p-0 text-left" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
-                            role="button">
-                            <p class="p-0 mt-2 text-success font-weight-bold">Was kostet mich die Nutzung von CONDA Crowdinvesting?
-                                <i class="fas fa-plus text-success ml-2"></i>
-                            </p>
-                        </div>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                        <div class="card-body p-0 text-dark">
-                            <p>Die Anmeldung und die Nutzung unserer Plattform sind für Sie vollkommen kostenfrei. Etwaige Bankspesen und Gebühren bei Überweisung
-                            des Investitionsbetrages aus dem Ausland, sind durch den Investor zu tragen.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion info bg-white">
-                <div class="card bg-white border-0">
-                    <div class="card-header bg-white border-0 p-0" id="headingOne">
-                        <div class="p-0 text-left" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
-                            role="button">
-                            <p class="p-0 mt-2 text-success font-weight-bold">Was bekomme ich für meine Investition?
-                                <i class="fas fa-plus text-success ml-2"></i>
-                            </p>
-                        </div>
-                    </div>
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                        <div class="card-body p-0 text-dark">
-                            <p>Sie erwerben durch Ihre Investition das Recht auf zukünftige Ausschüttungen. <a href="" class="text-success">Beim partiarischen Darlehen oder Nachrangdarlehen</a>
-                            ist das eine jährliche Verzinsung des investierten Kapitals sowie eine Beteiligung am Unternehmenswert über die Laufzeit.
-                            Beim <a href="" class="text-success">Substanzgenussrecht profitieren</a> Sie von den jährlichen Gewinnausschüttungen und vom Unternehmenswert. Weiters erhalten
-                            Sie als Investor Specials wie zum Beispiel Vergünstigungen, Geschenke, Sondergenehmigungen, etc., vom jeweiligen Unternehmen.
-                            Die Details, wie die Höhe Ihrer Rückzahlungen, Ihrer Basiszinsen sowie der Unternehmenswertbeteiligung (Wertsteigerungsbonus),
-                            entnehmen Sie bitte der jeweiligen Projektseite.</p>
-                        </div>
+            <h1 class="mb-4">Die häufigsten Fragen von Unternehmern</h1>
+            <div class="accordion">
+                <a href="#accordionOne" class="p-0 text-left" data-toggle="collapse" aria-expanded="false" aria-controls="accordionOne">
+                    <p class="p-0 mt-2 text-success font-weight-bold">Was sind die Vorteile einer Finanzierung bei CONDA? <i class="fas fa-plus text-success ml-2"></i> </p>
+                </a>
+                <div id="accordionOne" class="collapse">
+                    <div class="card-body p-0 text-dark">
+                        <p>Durch eine Crowdinvesting-Kampagne auf CONDA erhalten Sie von vielen kleinen Investoren Risikokapital, das Ihnen den Ausbau Ihres Unternehmens sowie weitere Finanzierungen (z.B. Bank-Kredit, Förderung etc.) ermöglichen kann. Sie haben jedoch noch eine ganze Reihe an weiteren Vorteilen:</p>
+                        <p class="m-0"><b>Crowdinvesting als Marketingtool</b></p>
+                        <p>Neben dem Kapital, können Sie eine Crowdinvesting-Kampagne auch als sehr effektives Marketinginstrument einsetzen. Durch die Kampagne haben Sie zum Beispiel die Möglichkeit, eine große Reichweite und damit sehr viel Aufmerksamkeit für Ihr Projekt, zu erzielen. Wir unterstützen Sie, wenn gewünscht, selbstverständlich durch gezielte Kommunikationsmaßnahmen (Pressearbeit, Veranstaltungen, Social Media Kampagnen etc.). Dadurch erhöhen Sie die Bekanntheit Ihres Unternehmens und natürlich Ihres Produktes enorm.</p>
+                        <p class="m-0"><b>Feedback der Community</b></p>
+                        <p>Sie haben die Chance, in direkten Kontakt mit der CONDA-Community zu treten, wertvolles Feedback einzuholen und in Interaktion mit potentiellen Kunden zu treten.</p>
+                        <p class="m-0"><b>Investoren sind mehr als Kunden</b></p>
+                        <p>Ein weiterer bedeutender Punkt, sich für eine Crowdinvesting-Kampagne zu entscheiden: mit jedem Investor gewinnen Sie nicht nur zusätzliches Kapital, sondern auch loyale Kunden und im besten Fall sogar Markenbotschafter für Ihr Unternehmen. Denn natürlich liegt es auch im Interesse jedes einzelnen Investors, dass Ihr Unternehmen ein Riesenerfolg wird.</p>
+                        <p class="m-0"><b>Auf die richtigen Kontakte kommt es an</b></p>
+                        <p>Selbstverständlich profitieren Sie auch vom breiten CONDA-Netzwerk, zu dem wir unsere Partner, unsere Mentoren sowie unser Advisory Board zählen. Wie Sie bestimmt wissen, bringen die richtigen Kontakte einen entscheidenden Marktvorteil und können wesentlich zum Erfolg Ihres Unternehmens beitragen. Wir möchten Sie auch in diesen Punkten bestmöglich unterstützen und teilen sowohl unser Know-how, als auch die langjährige Branchenerfahrungen mit Ihnen.</p>
+                        <p class="m-0"><b>Transparente Kosten</b></p>
+                        <p>Schlussendlich bieten wir Ihnen ein attraktives Kostenpaket an, das die Größe Ihres Unternehmens und die gewünschte Finanzierungssumme berücksichtigt.</p>
                     </div>
                 </div>
             </div>
-            <p class="my-3 text-muted">Sie haben noch Fragen? Sehen Sie sich bitte die Antworten auf die häufigste gestellten Fragen, unter Hilfe an.</p>
-        </div>
-    </section>
-    <section class="subscribe py-5 bg-light">
-        <div class="container">
-            <h1 class="text-center mx-3 mb-5">Wir halten Sie am Laufenden</h1>
-            <p class="h4 mb-5 mx-4 text-center">Melden Sie sich gleich zum CONDA-Newsletter an und verpassen Sie keine Investitionschance.</p>
-            <div class="input-group d-flex mx-auto w-75 mb-2">
-                <input type="email" class="form-control" placeholder="Ihre E-Mail">
-                <span class="input-group-btn">
-                    <button class="btn btn-success text-uppercase p-3 rounded-0" type="button">Anmelden</button>
-                </span>
-            </div>
-        </div>
-    </section>
-    <section class="investors-say py-5">
-        <div class="container">
-            <h2 class="text-center text-sm-center text-md-left mb-3">Das sagen Investoren</h2>
-            <div id="carouselExampleSLidesOnly" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active content-wrapper">
-                        <div class="image-comment-wrapper py-3 px-5 text-center">
-                            <img src="images/investors/michael.jpg" class="mb-4 rounded-circle">
-                            <p class="h4 text-uppercase mb-4">Michael Altrichter</p>
-                            <p class="lead text-muted px-5">"Crowdinvest ist seit geraumer Zeit immer stärker im Kommen, da es sich für viele Geschäftsmodelle,
-                                vor allem im B2C Bereich, hervorragend anbietet. Es freut mich wirklich sehr, dass es mit CONDA
-                                bei uns ein derart engagiertes Team gibt, das dieses Thema so stark fördert und in die Breite
-                                trägt!"</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item content-wrapper">
-                        <div class="image-comment-wrapper py-3 px-5 text-center">
-                            <img src="images/investors/bernd.jpg" class="mb-4 rounded-circle">
-                            <p class="h4 text-uppercase mb-4">Bernd Lutzka</p>
-                            <p class="lead text-muted px-5">"Für Business Angels stellt sich stetes die Frage nach Erfolgspotentialen von Start Ups. Es gibt
-                                hier zwar keine signifikanten Muster oder einfache Kochrezepte, aber ein erkennbares Kundenproblem
-                                und eine machbare Lösung sind die Basis für jedes Geschäftskonzept. Wenn dann auch noch ein williges
-                                und fähiges Team die Lösung umsetzt, sollte sich ein halbwegs risikofreudiger Investor rasch
-                                entscheiden, denn auch bei Business Angels herrscht Wettbewerb um die besten Projekte!"</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item content-wrapper">
-                        <div class="image-comment-wrapper py-3 px-5 text-center">
-                            <img src="images/investors/niko.jpg" class="mb-4 rounded-circle">
-                            <p class="h4 text-uppercase mb-4">Niko Alm</p>
-                            <p class="lead text-muted px-5">"Privates Kapital muss arbeiten können. Das macht CONDA möglich und zeigt damit, wie Wirtschaft und
-                                Finanzierung in Zukunft (auch) funktionieren werden: im eigenverantwortlichen Zusammenwirken
-                                von Investoren und Unternehmen."</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item content-wrapper">
-                        <div class="image-comment-wrapper py-3 px-5 text-center">
-                            <img src="images/investors/marcus.jpg" class="mb-4 rounded-circle">
-                            <p class="h4 text-uppercase mb-4">Marcus Ceh</p>
-                            <p class="lead text-muted px-5">"CONDA hat ein umfassendes Experten und Partnernetzwerk und ist daher für mich die sicherste, professionellste
-                                und kompetenteste Crowdinvesting-Plattform mit den besten Business-Ideen und sehr hohen langfristigen
-                                Rendite-Chancen."</p>
-                        </div>
+            <div class="accordion">
+                <a href="#accordionTwo" class="p-0 text-left" data-toggle="collapse" aria-expanded="false" aria-controls="accordionTwo">
+                    <p class="p-0 mt-2 text-success font-weight-bold">Welche Voraussetzungen benötige ich für eine CONDA Crowdinvesting-Kampagne? <i class="fas fa-plus text-success ml-2"></i></p>
+                </a>
+                <div id="accordionTwo" class="collapse">
+                    <div class="card-body p-0 text-dark">
+                        <p>Für eine Finanzierung mittels CONDA Crowdinvesting muss Ihr Unternehmen auf jeden Fall gewinnorientiert sein und sollte einen leicht zu kommunizierenden Innovationscharakter aufweisen. Ob Ihr Projekt für eine Kampagne geeignet ist, erfahren Sie, indem Sie die folgenden Fragen für sich positiv beantworten können:</p>
+                        <ul>
+                            <li>Habe ich ein interessantes Produkt oder eine Innovation, deren Nutzen ich leicht erkennbar und verständlich kommunizieren kann?</li>
+                            <li>Ist mein Geschäftsmodell – auch für Investoren – wirtschaftlich attraktiv?</li>
+                            <li>Habe ich oder kann ich die Machbarkeit eines Markteintrittes überprüfen (Proof of Concept)?</li>
+                            <li>Ist mein Finanzierungsbedarf größer als EUR 100.000?</li>
+                            <li>Stehen mir genügend Ressourcen (Zeit, ein motiviertes Team etc.) zur Verfügung, um eine Crowdinvesting-Kampagne umzusetzen?</li>
+                        </ul>
+                        <p>Die Gründung einer GmbH (bzw. UG) kann, sofern noch keine besteht, während der Planung Ihrer Crowdinvesting-Kampagne erfolgen, muss jedoch spätestens zum Beginn der Zeichnungsfrist auf unserer Plattform, abgeschlossen sein.</p>
+                        <p>Um Ihr Projekt bei uns zu finanzieren, benötigen Sie außerdem einen Businessplan sowie einen Finanzplan. Diese Dokumente können Sie am Ende des  Formulars  hochladen. Alle weiteren Informationen und Daten (z.B. Unternehmensvideo, Fotos, etc.) die für Investoren wichtig sind, können im Laufe der Kampagnen-Planung erstellt werden. Selbstverständlich können wir Ihnen auch dabei behilflich sein.</p>
                     </div>
                 </div>
             </div>
+            <p class="my-3 text-muted">Sie haben noch Fragen? Vielleicht finden Sie die Antworten gleich schnell und einfach unter HILFE.</p>
         </div>
     </section>
+    <!--the 4 principles-->
     <section class="mb-5">
         <div class="container">
             <h1 class="mb-5">In 4 Schritten zum Erfolg</h1>
@@ -502,6 +372,69 @@
             </div>
         </div>
     </section>
+    <!--crowdinvesting what investor's say-->
+    <section class="investors-say py-5">
+        <div class="container">
+            <h2 class="text-center text-sm-center text-md-left mb-3">Das sagen Investoren</h2>
+            <div id="carouselExampleSLidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active content-wrapper">
+                        <div class="image-comment-wrapper py-3 px-5 text-center">
+                            <img src="images/investors/michael.jpg" class="mb-4 rounded-circle">
+                            <p class="h4 text-uppercase mb-4">Michael Altrichter</p>
+                            <p class="lead text-muted px-5">"Crowdinvest ist seit geraumer Zeit immer stärker im Kommen, da es sich für viele Geschäftsmodelle,
+                                vor allem im B2C Bereich, hervorragend anbietet. Es freut mich wirklich sehr, dass es mit CONDA
+                                bei uns ein derart engagiertes Team gibt, das dieses Thema so stark fördert und in die Breite
+                                trägt!"</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item content-wrapper">
+                        <div class="image-comment-wrapper py-3 px-5 text-center">
+                            <img src="images/investors/bernd.jpg" class="mb-4 rounded-circle">
+                            <p class="h4 text-uppercase mb-4">Bernd Lutzka</p>
+                            <p class="lead text-muted px-5">"Für Business Angels stellt sich stetes die Frage nach Erfolgspotentialen von Start Ups. Es gibt
+                                hier zwar keine signifikanten Muster oder einfache Kochrezepte, aber ein erkennbares Kundenproblem
+                                und eine machbare Lösung sind die Basis für jedes Geschäftskonzept. Wenn dann auch noch ein williges
+                                und fähiges Team die Lösung umsetzt, sollte sich ein halbwegs risikofreudiger Investor rasch
+                                entscheiden, denn auch bei Business Angels herrscht Wettbewerb um die besten Projekte!"</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item content-wrapper">
+                        <div class="image-comment-wrapper py-3 px-5 text-center">
+                            <img src="images/investors/niko.jpg" class="mb-4 rounded-circle">
+                            <p class="h4 text-uppercase mb-4">Niko Alm</p>
+                            <p class="lead text-muted px-5">"Privates Kapital muss arbeiten können. Das macht CONDA möglich und zeigt damit, wie Wirtschaft und
+                                Finanzierung in Zukunft (auch) funktionieren werden: im eigenverantwortlichen Zusammenwirken
+                                von Investoren und Unternehmen."</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item content-wrapper">
+                        <div class="image-comment-wrapper py-3 px-5 text-center">
+                            <img src="images/investors/marcus.jpg" class="mb-4 rounded-circle">
+                            <p class="h4 text-uppercase mb-4">Marcus Ceh</p>
+                            <p class="lead text-muted px-5">"CONDA hat ein umfassendes Experten und Partnernetzwerk und ist daher für mich die sicherste, professionellste
+                                und kompetenteste Crowdinvesting-Plattform mit den besten Business-Ideen und sehr hohen langfristigen
+                                Rendite-Chancen."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--crowdinvesting subscribe-->
+    <section class="subscribe py-5 bg-light">
+        <div class="container">
+            <h1 class="text-center mx-3 mb-5">Wir halten Sie am Laufenden</h1>
+            <p class="h4 mb-5 mx-4 text-center">Melden Sie sich gleich zum CONDA-Newsletter an und verpassen Sie keine Investitionschance.</p>
+            <div class="input-group d-flex mx-auto w-75 mb-2">
+                <input type="email" class="form-control" placeholder="Ihre E-Mail">
+                <span class="input-group-btn">
+                    <button class="btn btn-success text-uppercase p-3 rounded-0" type="button">Anmelden</button>
+                </span>
+            </div>
+        </div>
+    </section>
+    <!--brochure download-->
     <section>
         <div class="d-flex justify-content-center align-items-center mb-5">
             <button type="button" class="btn btn-success">Download</button>
