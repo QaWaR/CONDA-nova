@@ -68,6 +68,9 @@
                     </div>
                 </div>
             </section>
+            <div class="copyright-section bg-info text-white text-center py-2 border-top border-white">
+                <p class="m-0">Urheberrecht © 2017. | Erstellt mit <i class="fas fa-heart text-danger m-0"></i> bei CONDA</p>
+            </div>
             <script src="assets/jquery/jquery.min.js"></script>
             <script src="js/popper.min.js"></script>
             <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
