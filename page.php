@@ -105,6 +105,18 @@
                         </div>
                     </div>
                 </div>
+                <!--hannes-office-->
+                <div class="col-12 col-md-6">
+                    <div class="media p-2 mb-4">
+                        <div class="d-flex align-items-center">
+                            <img src="images/aboutus/hannes.png" class="rounded-circle avatar align-self-start">
+                            <div class="media-body py-2 ml-3">
+                                <p class="mb-0 font-weight-bold text-muted h5">HANNES REITHUBER</p>
+                                <p class="text-capitalize text-muted m-0">Business Analyst</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!--hannah-office-->
                 <div class="col-12 col-md-6">
                     <div class="media p-2 mb-4">
@@ -113,30 +125,6 @@
                             <div class="media-body py-2 ml-3">
                                 <p class="mb-0 font-weight-bold text-muted h5">HANNAH STURM</p>
                                 <p class="text-capitalize text-muted m-0">Head of Campaign Management</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--lara-office-->
-                <div class="col-12 col-md-6">
-                    <div class="media p-2 mb-4">
-                        <div class="d-flex align-items-center">
-                            <img src="images/aboutus/lara.png" class="rounded-circle avatar align-self-start">
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-0 font-weight-bold text-muted h5">LARA SCHEIBNER</p>
-                                <p class="text-capitalize text-muted m-0">Marketing Assistant</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--hannah-office-->
-                <div class="col-12 col-md-6">
-                    <div class="media p-2 mb-4">
-                        <div class="d-flex align-items-center">
-                            <img src="images/aboutus/hannes.png" class="rounded-circle avatar align-self-start">
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-0 font-weight-bold text-muted h5">HANNES REITHUBER</p>
-                                <p class="text-capitalize text-muted m-0">Business Analyst</p>
                             </div>
                         </div>
                     </div>
@@ -161,6 +149,18 @@
                         </div>
                     </div>
                 </div>
+                <!--lara-office-->
+                <div class="col-12 col-md-6">
+                    <div class="media p-2 mb-4">
+                        <div class="d-flex align-items-center">
+                            <img src="images/aboutus/lara.png" class="rounded-circle avatar align-self-start">
+                            <div class="media-body py-2 ml-3">
+                                <p class="mb-0 font-weight-bold text-muted h5">LARA SCHEIBNER</p>
+                                <p class="text-capitalize text-muted m-0">Marketing Assistant</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!--daniel-office-->
                 <div class="col-12 col-md-6">
                     <div class="media p-2 mb-4">
@@ -178,6 +178,7 @@
         <div class="partners mb-4">
             <h2 class="mb-4">Our partners in the federal states</h2>
             <div class="row">
+                <!--udo-->
                 <div class="col-12 col-md-6">
                     <div class="media p-2 mb-4">
                         <div class="d-flex align-items-center">
@@ -191,6 +192,21 @@
                         </div>
                     </div>
                 </div>
+                <!--heribert-->
+                <div class="col-12 col-md-6">
+                    <div class="media p-2 mb-4">
+                        <div class="d-flex align-items-center">
+                            <div class="bg-primary rounded-circle d-inline-block text-capitalize text-white avatar">
+                                <h1 class="m-0 text-uppercase" >HS</h1>
+                            </div>
+                            <div class="media-body py-2 ml-3">
+                                <p class="mb-0 font-weight-bold text-muted h5">HERBERT SAMHABER, UPPER AUSTRIA</p>
+                                <p class="text-capitalize text-muted m-0">Oberösterreich@conda.at</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--walter-->
                 <div class="col-12 col-md-6">
                     <div class="media p-2 mb-4">
                         <div class="d-flex align-items-center">
@@ -208,24 +224,11 @@
                     <div class="media p-2 mb-4">
                         <div class="d-flex align-items-center">
                             <div class="bg-primary rounded-circle d-inline-block text-capitalize text-white avatar">
-                                <h1 class="m-0 text-uppercase" >WM</h1>
+                                <h1 class="m-0 text-uppercase" >AG</h1>
                             </div>
                             <div class="media-body py-2 ml-3">
-                                <p class="mb-0 font-weight-bold text-muted h5">WERNER MAIERHOFER, SALZBURG</p>
-                                <p class="text-capitalize text-muted m-0">Salzburg@conda.at</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="media p-2 mb-4">
-                        <div class="d-flex align-items-center">
-                            <div class="bg-primary rounded-circle d-inline-block text-capitalize text-white avatar">
-                                <h1 class="m-0 text-uppercase" >HS</h1>
-                            </div>
-                            <div class="media-body py-2 ml-3">
-                                <p class="mb-0 font-weight-bold text-muted h5">HERBERT SAMHABER, UPPER AUSTRIA</p>
-                                <p class="text-capitalize text-muted m-0">Oberösterreich@conda.at</p>
+                                <p class="mb-0 font-weight-bold text-muted h5">ANTON GRONES, TYROL</p>
+                                <p class="text-capitalize text-muted m-0">Tirol@conda.at</p>
                             </div>
                         </div>
                     </div>
